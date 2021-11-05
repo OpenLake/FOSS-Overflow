@@ -1,5 +1,10 @@
+/** @type {import('tailwindcss/tailwind-config').TailwindConfig} */
 module.exports = {
-	purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+	mode: 'jit',
+	purge: [
+		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
+		'./components/**/*.{js,ts,jsx,tsx,mdx}',
+	],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {},
@@ -7,5 +12,5 @@ module.exports = {
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 };

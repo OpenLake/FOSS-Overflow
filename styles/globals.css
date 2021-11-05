@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+max-w-p {
+	max-width: 80ch;
+}
