@@ -3,37 +3,24 @@ import {
 	VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Star } from '@material-ui/icons';
-import { makeStyles } from '@material-ui/core';
+import { StarIcon } from '@heroicons/react/outline';
 import { timelineData } from '../content/timeline';
 
-const useStyles = makeStyles(theme => ({
-	timelineCustom: {
-		'&::before': {
-			background: theme.palette.text.primary,
-		},
-		'& .vertical-timeline-element-icon': {
-			color: '#000',
-			boxShadow: theme.shadows[2],
-		},
-	},
-}));
-
 export function Timeline() {
-	const classes = useStyles();
 	return (
 		<>
 			<main className="container m-auto max-w-screen-md py-8">
-				<VerticalTimeline lineColor="#000">
-					{timelineData.map(({ date, title, description, icon }) => (
+				<VerticalTimeline lineColor="black">
+					{timelineData.map(({ date, title, description }, idx) => (
 						<VerticalTimelineElement
-							className="vertical-timeline-element--work"
-							iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-							icon={<Star />}
+							key={idx}
+							iconClassName="bg-blue-600 text-white shadow-md"
+							textClassName="shadow-md"
+							icon={<StarIcon />}
 						>
-							<h3 className="vertical-timeline-element-title">{title}</h3>
-							<h4 className="vertical-timeline-element-subtitle">{date}</h4>
-							<p>{description}</p>
+							<h3 className="text-xl">{title}</h3>
+							<h4 className="text-md">{date}</h4>
+							<p className="text-md font-normal">{description}</p>
 						</VerticalTimelineElement>
 					))}
 				</VerticalTimeline>
