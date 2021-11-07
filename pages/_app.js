@@ -5,10 +5,10 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>OpenLake Winter of Code</title>
+				<title>FOSSIL</title>
 				<meta
 					name="description"
-					content="OpenLake Winter of Code helps students understand the paradigm of Open Source contribution and gives them real world software development experience."
+					content="FOSSIL helps students understand the paradigm of Open Source contribution and gives them real world software development experience."
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
