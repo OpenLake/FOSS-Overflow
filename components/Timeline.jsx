@@ -13,7 +13,7 @@ export function Timeline() {
 				<VerticalTimelineElement
 					key={idx}
 					iconClassName="bg-blue-600 text-white shadow-md"
-					textClassName="shadow-md"
+					textClassName="shadow-md rounded-lg"
 					icon={<StarIcon />}
 				>
 					<h3 className="text-xl">{title}</h3>
