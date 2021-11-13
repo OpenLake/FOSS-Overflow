@@ -1,26 +1,40 @@
 export const timelineData = [
 	{
-		title: 'Program Announced',
-		date: '10th November 2021',
+		title: 'Application Period Starts',
+		date: '22 Nov, 2021',
 		description:
-			'The program is announced to the public on the 10th of November 2021. The program will be held at the University of Edinburgh, Edinburgh, Scotland.',
+			'Example description text. Example description text. Example description text.',
 	},
 	{
-		title: 'Program Starts',
-		date: '11th November 2021',
-		description:
-			'The program starts on the 11th of November 2021. The program will be held at the University of Edinburgh, Edinburgh, Scotland.',
+		title: 'Application Period Ends',
+		date: '3 Dec, 2021',
 	},
 	{
-		title: 'Program Ends',
-		date: '12th November 2021',
-		description:
-			'The program ends on the 12th of November 2021. The program will be held at the University of Edinburgh, Edinburgh, Scotland.',
+		title: "Students' Projects Announced",
+		date: '5 Dec, 2021',
 	},
 	{
-		title: 'GSoc 2021',
-		date: '12th November 2021',
-		description:
-			'The program ends on the 12th of November 2021. The program will be held at the University of Edinburgh, Edinburgh, Scotland.',
+		title: 'Coding Period Starts',
+		date: '6 Dec, 2021',
+	},
+	{
+		title: 'Mid Evaluations',
+		date: '19 Dec, 2021',
+	},
+	{
+		title: 'Coding Period Ends',
+		date: '2 Jan, 2022',
+	},
+	{
+		title: 'Students submit code and evaluations',
+		date: '6-8 Jan, 2022',
+	},
+	{
+		title: 'Mentor submits evaluations',
+		date: '9 Jan, 2022',
+	},
+	{
+		title: 'Results Announced',
+		date: '10 Jan, 2022',
 	},
 ];

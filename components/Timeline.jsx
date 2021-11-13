@@ -18,7 +18,7 @@ export function Timeline() {
 				>
 					<h3 className="text-xl">{title}</h3>
 					<h4 className="text-md">{date}</h4>
-					<p className="text-md font-normal">{description}</p>
+					{description && <p className="text-md font-normal">{description}</p>}
 				</VerticalTimelineElement>
 			))}
 		</VerticalTimeline>

@@ -7,7 +7,7 @@ class MyDocument extends Document {
 				<Head>
 					<meta
 						name="description"
-						content="FOSSIL helps students understand the paradigm of Open Source contribution and gives them real world software development experience."
+						content="FOSS Overflow helps students understand the paradigm of Open Source contribution and gives them real world software development experience."
 					/>
 					<link rel="icon" href="/favicon.ico" />
 					<link
