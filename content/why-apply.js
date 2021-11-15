@@ -1,30 +1,38 @@
-import { UserGroupIcon } from '@heroicons/react/outline';
+import {
+	BadgeCheckIcon,
+	CurrencyDollarIcon,
+	DesktopComputerIcon,
+	GlobeIcon,
+	TerminalIcon,
+	UserGroupIcon,
+} from '@heroicons/react/outline';
 
 export const whyApplyData = [
 	{
 		title: 'Connections',
-		icon: UserGroupIcon,
+		icon: GlobeIcon,
 		description:
-			'We are a community of students, professionals, and enthusiasts who are passionate about open source.',
+			'Make new like minded connections who are enthusiastic about open source.',
 	},
 	{
 		title: 'Perks',
-		icon: UserGroupIcon,
-		description: 'We offer stipends, certificates, goodies, prizes, and more.',
+		icon: CurrencyDollarIcon,
+		description:
+			'You receive a stipend of ₹5000 and some awesome goodies and certificates.',
 	},
 	{
 		title: 'Mentorship',
-		icon: UserGroupIcon,
-		description: 'We offer mentorship to our members.',
+		icon: TerminalIcon,
+		description: 'Learn from mentors using code reviews & pair programming.',
 	},
 	{
 		title: 'Preparedness for GSoC',
-		icon: UserGroupIcon,
+		icon: BadgeCheckIcon,
 		description: 'We prepare our members for the Google Summer of Code.',
 	},
 	{
 		title: 'Real-life Projects',
-		icon: UserGroupIcon,
+		icon: DesktopComputerIcon,
 		description: 'We offer real-life projects to our members.',
 	},
 	{

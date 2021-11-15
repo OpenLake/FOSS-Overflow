@@ -1,14 +1,19 @@
+import Head from 'next/head';
+import Image from 'next/image';
+import { CheckIcon } from '@heroicons/react/outline';
+
 import { Timeline } from '../components/Timeline';
 import { Card } from '../components/Card';
-import Image from 'next/image';
 import logoURL from '../public/logo.png';
-import { UserGroupIcon } from '@heroicons/react/outline';
 import { whyApplyData } from '../content/why-apply';
+import { eligibilityData } from '../content/eligibility';
 
 export default function Index() {
 	return (
 		<>
-			<title>FOSS Overflow</title>
+			<Head>
+				<title>FOSS Overflow</title>
+			</Head>
 
 			<div className="min-h-screen flex flex-col justify-center text-center container m-auto max-w-prose px-4">
 				<h1 className="text-4xl md:text-6xl mb-8 font-title">
@@ -41,15 +46,13 @@ export default function Index() {
 					<h2>Why should I apply?</h2>
 				</div>
 
-				<ul className="grid md:grid-cols-2 gap-10 list-none max-w-prose mx-auto mt-8 mb-16 px-4 text-base lg:text-xl">
+				<dl className="grid md:grid-cols-2 gap-10 list-none max-w-prose mx-auto mt-8 mb-16 px-4 text-base lg:text-xl">
 					{whyApplyData.map(item => (
-						<li key={item.title}>
-							<Card title={item.title} icon={item.icon}>
-								{item.description}
-							</Card>
-						</li>
+						<Card key={item.title} title={item.title} icon={item.icon}>
+							{item.description}
+						</Card>
 					))}
-				</ul>
+				</dl>
 
 				<div className="prose lg:prose-xl mx-auto px-4">
 					<h2>How to Apply?</h2>
@@ -64,6 +67,24 @@ export default function Index() {
 						strategies to demonstrate that the applicant shall be able to
 						achieve what they are claiming.
 					</p>
+
+					<h2>Eligibility</h2>
+
+					<dl className="grid md:grid-cols-2 gap-10 list-none max-w-prose mx-auto mt-8 mb-16 px-4 text-base lg:text-xl">
+						{eligibilityData.map(item => (
+							<div className="relative" key={item.title}>
+								<dt>
+									<CheckIcon className="absolute h-6 w-6 text-green-600" />
+									<p className="ml-9 text-lg leading-6 font-bold text-black-70">
+										{item.title}
+									</p>
+								</dt>
+								<dd className="mt-2 ml-9 text-base text-black-50">
+									{item.description}
+								</dd>
+							</div>
+						))}
+					</dl>
 
 					<h2>Timeline</h2>
 				</div>
