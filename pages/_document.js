@@ -5,10 +5,7 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					<meta
-						name="description"
-						content="FOSS Overflow helps students understand the paradigm of Open Source contribution and gives them real world software development experience."
-					/>
+					<meta name="theme-color" content="#eff6ff" />
 					<link rel="icon" href="/favicon.ico" />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
