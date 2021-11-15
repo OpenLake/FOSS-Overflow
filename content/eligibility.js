@@ -4,7 +4,7 @@ export const eligibilityData = [
 		description: 'You must be above 18 years of age.',
 	},
 	{
-		title: 'Knowledge',
+		title: 'Git Proficiency',
 		description: 'You should have a basic knowledge of Git and GitHub.',
 	},
 	{
