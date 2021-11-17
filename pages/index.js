@@ -20,9 +20,9 @@ export default function Index() {
 					<Image src={logoURL} alt="FOSS Overflow" />
 				</h1>
 				<p className="text-2xl">
-					A program by OpenLake that helps students understand the paradigm of
-					Open Source contribution and gives them real world software
-					development experience.
+					A program by OpenLake and DSC IIT Bhilai that helps students
+					understand the paradigm of Open Source contribution and gives them
+					real world software development experience.
 				</p>
 			</div>
 
