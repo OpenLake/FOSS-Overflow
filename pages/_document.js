@@ -11,6 +11,14 @@ class MyDocument extends Document {
 						href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
 						rel="stylesheet"
 					/>
+					<script
+						data-host="https://microanalytics.io"
+						data-dnt="false"
+						src="https://microanalytics.io/js/script.js"
+						id="ZwSg9rf6GA"
+						async
+						defer
+					></script>
 				</Head>
 				<body>
 					<Main />
