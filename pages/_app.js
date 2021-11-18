@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:image" content={`${baseURL}/logo.jpg`} />
 				<meta property="og:url" content={baseURL} />
 				<meta property="og:type" content="website" />
-				<meta name="twitter:card" content={description} />
+				<meta name="twitter:card" content="summary" />
 			</Head>
 			<Component {...pageProps} />
 		</>
