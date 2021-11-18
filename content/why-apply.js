@@ -18,7 +18,7 @@ export const whyApplyData = [
 		title: 'Perks',
 		icon: CurrencyDollarIcon,
 		description:
-			'You receive a stipend of ₹5000 and some awesome goodies and certificates.',
+			'You receive a stipend and some awesome goodies and certificates.',
 	},
 	{
 		title: 'Mentorship',

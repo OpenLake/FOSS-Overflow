@@ -19,7 +19,7 @@ export default function Index() {
 				<h1 className="text-4xl md:text-6xl mb-8 font-title">
 					<Image src={logoURL} alt="FOSS Overflow" />
 				</h1>
-				<p className="text-2xl">
+				<p className="text-lg md:text-2xl">
 					A program by OpenLake and DSC IIT Bhilai that helps students
 					understand the paradigm of Open Source contribution and gives them
 					real world software development experience.

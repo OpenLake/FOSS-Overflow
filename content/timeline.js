@@ -2,8 +2,6 @@ export const timelineData = [
 	{
 		title: 'Application Period Starts',
 		date: '22 Nov, 2021',
-		description:
-			'Example description text. Example description text. Example description text.',
 	},
 	{
 		title: 'Application Period Ends',
