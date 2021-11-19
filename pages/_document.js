@@ -6,7 +6,7 @@ class MyDocument extends Document {
 			<Html>
 				<Head>
 					<meta name="theme-color" content="#eff6ff" />
-					<link rel="icon" href="/favicon.ico" />
+					<link rel="icon" href="/icon.png" />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
 						rel="stylesheet"

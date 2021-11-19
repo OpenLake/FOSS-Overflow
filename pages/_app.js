@@ -13,10 +13,11 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:title" content={title} />
 				<meta name="description" content={description} />
 				<meta property="og:description" content={description} />
-				<meta property="og:image" content={`${baseURL}/logo.jpg`} />
+				<meta property="og:image" content={`${baseURL}/icon.jpg`} />
 				<meta property="og:url" content={baseURL} />
 				<meta property="og:type" content="website" />
-				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:image" content={`${baseURL}/logo.jpg`} />
 			</Head>
 			<Component {...pageProps} />
 		</>
