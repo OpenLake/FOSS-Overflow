@@ -16,7 +16,7 @@ export default function Index() {
 				<title>FOSS Overflow</title>
 			</Head>
 
-			<div className="min-h-screen flex flex-col justify-center text-center container m-auto max-w-prose px-4">
+			<div className="py-24 flex flex-col justify-center text-center container m-auto max-w-prose px-4">
 				<h1 className="text-4xl md:text-6xl mb-8 font-title">
 					<Image src={logoURL} alt="FOSS Overflow" />
 				</h1>
@@ -69,7 +69,7 @@ export default function Index() {
 						achieve what they are claiming.
 					</p>
 
-					<Link href="apply" passHref>
+					<Link href="/apply" passHref>
 						<a className="mx-auto w-max block bg-blue-800 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2">
 							Apply
 						</a>

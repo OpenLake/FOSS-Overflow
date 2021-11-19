@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Navbar } from '../components/Navbar';
 import '../styles/globals.css';
 
 const title = 'FOSS Overflow';
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:type" content="website" />
 				<meta name="twitter:card" content="summary" />
 			</Head>
+			<Navbar />
 			<Component {...pageProps} />
 		</>
 	);

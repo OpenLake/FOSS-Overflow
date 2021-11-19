@@ -6,9 +6,7 @@ export default function Apply() {
 			<Head>
 				<title>Apply | FOSS Overflow</title>
 			</Head>
-			<div className="prose lg:prose-xl mx-auto px-4">
-				<h1 className="text-4xl mt-8">Apply</h1>
-
+			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
 				<p>
 					Students should write a proposal for a project they wish to be a part
 					of. Each student may submit upto three proposals. Proposals must
