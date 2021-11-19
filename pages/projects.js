@@ -21,7 +21,7 @@ export default function Projects() {
 			<Head>
 				<title>Projects | FOSS Overflow</title>
 			</Head>
-			<div className="grid md:grid-cols-2 gap-4 list-none max-w-screen-md mx-auto mt-8 mb-16 px-4">
+			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 list-none max-w-screen-lg mx-auto mt-8 mb-16 px-4">
 				{projectData.map(item => (
 					<div
 						href={item.url}
