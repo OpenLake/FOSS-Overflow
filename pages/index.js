@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { CheckIcon } from '@heroicons/react/outline';
 
 import { Timeline } from '../components/Timeline';
@@ -67,6 +68,12 @@ export default function Index() {
 						strategies to demonstrate that the applicant shall be able to
 						achieve what they are claiming.
 					</p>
+
+					<Link href="apply" passHref>
+						<a className="mx-auto w-max block bg-blue-800 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2">
+							Apply
+						</a>
+					</Link>
 
 					<h2>Eligibility</h2>
 
