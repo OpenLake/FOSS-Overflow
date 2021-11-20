@@ -7,19 +7,21 @@ export default function Apply() {
 				<title>Apply | FOSS Overflow</title>
 			</Head>
 			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
+				<h2>How to Apply?</h2>
 				<ul>
 					<li>
-						The participants should write a maximum of 3 proposals for the projects that they wish to be a part of.
+						The participants should write a maximum of 3 proposals for the
+						projects that they wish to be a part of.
 					</li>
 					<li>
-						Proposals must include what the participant wants to implement and how they plan to achieve it.
+						Proposals must include what the participant wants to implement and
+						how they plan to achieve it.
 					</li>
 					<li>
-						The participants are free to discuss with the project mentors
-						or the organizing team while drafting their proposal.
+						The participants are free to discuss with the project mentors or the
+						organizing team while drafting their proposal.
 					</li>
 				</ul>
-
 
 				<iframe
 					className="mx-auto"

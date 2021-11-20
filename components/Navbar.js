@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../public/logo.png';
+import logoIcon from '../public/icon.png';
 import { ActiveLink } from './ActiveLink';
 
 function NavLink({ href, children }) {
@@ -22,9 +23,9 @@ const logoHeight = (logoWidth / logo.width) * logo.height;
 export function Navbar() {
 	return (
 		<nav>
-			<div className="container max-w-screen-md mx-auto px-4 md:flex justify-between py-4">
+			<div className="relative container max-w-screen-md mx-auto px-4 md:flex justify-between py-4">
 				<Link href="/" passHref>
-					<a className="block text-center md:text-left">
+					<a className="text-center md:text-left hidden md:block">
 						<Image
 							src={logo}
 							alt="FOSS Overflow"
@@ -37,6 +38,10 @@ export function Navbar() {
 					<NavLink href="/">Home</NavLink>
 					<NavLink href="/projects">Projects</NavLink>
 					<NavLink href="/apply">Apply</NavLink>
+				</div>
+
+				<div className="absolute top-4 right-4 md:hidden">
+					<Image src={logoIcon} alt="FOSS Overflow" width={40} height={40} />
 				</div>
 			</div>
 		</nav>
