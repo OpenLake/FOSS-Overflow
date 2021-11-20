@@ -7,16 +7,19 @@ export default function Apply() {
 				<title>Apply | FOSS Overflow</title>
 			</Head>
 			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
-				<p>
-					Students should write a proposal for a project they wish to be a part
-					of. Each student may submit upto three proposals. Proposals must
-					include what the student wants to implement and how they plan to
-					achieve it. The students are free to discuss with the project mentors
-					or organizing team while drafting their proposal. Ideal proposals
-					should also include tentative implementation details and strategies to
-					demonstrate that the applicant shall be able to achieve what they are
-					claiming.
-				</p>
+				<ul>
+					<li>
+						The participants should write a maximum of 3 proposals for the projects that they wish to be a part of.
+					</li>
+					<li>
+						Proposals must include what the participant wants to implement and how they plan to achieve it.
+					</li>
+					<li>
+						The participants are free to discuss with the project mentors
+						or the organizing team while drafting their proposal.
+					</li>
+				</ul>
+
 
 				<iframe
 					className="mx-auto"
