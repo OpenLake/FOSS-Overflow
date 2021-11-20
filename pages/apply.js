@@ -7,6 +7,7 @@ export default function Apply() {
 				<title>Apply | FOSS Overflow</title>
 			</Head>
 			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
+				<h4 className="text-gray-800">How to apply?</h4>
 				<ul>
 					<li>
 						The participants should write a maximum of 3 proposals for the projects that they wish to be a part of.
