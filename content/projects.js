@@ -22,4 +22,11 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Leaderboard-Pro',
 		tags: ['web', 'python', 'django'],
 	},
+	{
+		title: 'Coming soon',
+		description: 'Stay tuned for more projects',
+		wiki: 'https://github.com/OpenLake/',
+		github: 'https://github.com/OpenLake/',
+		tags: ['coming', 'soon'],
+	},
 ];
