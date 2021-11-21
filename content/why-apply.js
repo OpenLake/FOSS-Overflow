@@ -18,7 +18,7 @@ export const whyApplyData = [
 		title: 'Perks',
 		icon: CurrencyDollarIcon,
 		description:
-			'You receive a cash award and some awesome goodies and certificates.',
+			'You receive a cash award worth ₹4,000 and some awesome goodies and certificates.',
 	},
 	{
 		title: 'Mentorship',

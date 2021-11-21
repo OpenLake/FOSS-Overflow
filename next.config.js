@@ -1,15 +1,9 @@
-const withMDX = require("@next/mdx")({
-	extension: /\.mdx$/,
-});
-
 /** @type {import("next").NextConfig} */
-const nextConfig = {
+module.exports = {
 	i18n: {
-		defaultLocale: "en",
-		locales: ["en"],
+		defaultLocale: 'en',
+		locales: ['en'],
 	},
 	reactStrictMode: true,
-	pageExtensions: ["js", "jsx", "mdx"],
+	pageExtensions: ['js', 'jsx'],
 };
-
-module.exports = withMDX(nextConfig);
