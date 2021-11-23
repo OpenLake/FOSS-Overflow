@@ -49,7 +49,7 @@ export const projectData = [
 	{
 		title: 'Online Judge',
 		description:
-			'An online judge for programming competetions and assignments. 🧑‍💻📝',
+			'An online judge for programming competitions and assignments. 🧑‍💻📝',
 		tags: ['web', 'python', 'django'],
 	},
 	{
