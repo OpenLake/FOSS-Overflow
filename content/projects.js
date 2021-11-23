@@ -57,4 +57,11 @@ export const projectData = [
 		description:
 			'A smart contacts app that helps hyperconnected people navigate through their day. 📞',
 	},
+	{
+		title: 'Coming soon',
+		description: 'Stay tuned for more projects',
+		wiki: 'https://github.com/OpenLake/',
+		github: 'https://github.com/OpenLake/',
+		tags: ['coming', 'soon'],
+	},
 ];
