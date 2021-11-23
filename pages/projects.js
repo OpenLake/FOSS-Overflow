@@ -37,16 +37,18 @@ export default function Projects() {
 								<ExternalLink href={item.github}>GitHub</ExternalLink>
 							)}
 						</div>
-						<div className="flex gap-2 mt-2">
-							{item.tags.map(tag => (
-								<span
-									key={tag}
-									className="bg-gray-200 text-gray-700 px-2 py-1 rounded-md text-sm"
-								>
-									{tag}
-								</span>
-							))}
-						</div>
+						{item.tags?.length > 0 && (
+							<div className="flex gap-2 mt-2">
+								{item.tags.map(tag => (
+									<span
+										key={tag}
+										className="bg-gray-200 text-gray-700 px-2 py-1 rounded-md text-sm"
+									>
+										{tag}
+									</span>
+								))}
+							</div>
+						)}
 					</div>
 				))}
 			</div>

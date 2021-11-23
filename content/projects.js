@@ -35,19 +35,16 @@ export const projectData = [
 		title: 'Photo Organizer',
 		description:
 			'Share photos📷 smartly where you just upload once and everyone gets their photos seperately 🤳🤖',
-		tags: ['web', 'python', 'django'],
 	},
 	{
 		title: 'Homework Scheduler',
 		description:
 			'Helps teachers decide homework deadlines without increasing load on the student 🧑‍🏫🧑‍🎓',
-		tags: ['web', 'nodejs'],
 	},
 	{
 		title: 'Quizz App',
 		description:
 			'A time bounded quiz app with realtime leaderboards and store of previous quizzes. 🧑‍🏫🧑‍🎓',
-		tags: ['web', 'python', 'django'],
 	},
 	{
 		title: 'Online Judge',
@@ -56,10 +53,8 @@ export const projectData = [
 		tags: ['web', 'python', 'django'],
 	},
 	{
-		title: 'Coming soon',
-		description: 'Stay tuned for more projects',
-		wiki: 'https://github.com/OpenLake/',
-		github: 'https://github.com/OpenLake/',
-		tags: ['coming', 'soon'],
+		title: 'Smart Contacts App',
+		description:
+			'A smart contacts app that helps hyperconnected people navigate through their day. 📞',
 	},
 ];
