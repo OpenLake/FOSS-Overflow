@@ -47,6 +47,11 @@ export const projectData = [
 			'A time bounded quiz app with realtime leaderboards and store of previous quizzes. 🧑‍🏫🧑‍🎓',
 	},
 	{
+		title: 'Live Score App',
+		description: 'A realtime score app for sports🏸 and tournaments🏆.',
+		tags: ['web', 'javascript'],
+	},
+	{
 		title: 'Online Judge',
 		description:
 			'An online judge for programming competitions and assignments. 🧑‍💻📝',
