@@ -20,6 +20,7 @@ export const projectData = [
 		tags: ['web', 'python', 'django'],
 		mentors: {
 			"Shashwat": "https://www.linkedin.com/in/shashwatjaiswal/",
+			"Meghana": "https://www.linkedin.com/in/meghana100/"
 		}
 	},
 	{
@@ -41,8 +42,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['vscode-extension', 'web', 'javascript'],
 		mentors: {
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
-			"Ambar": "https://www.linkedin.com/in/ambar-mutha/"
+			"Ambar": "https://www.linkedin.com/in/ambar-mutha/",
 		}
 	},
 	{
@@ -68,7 +68,9 @@ export const projectData = [
 		description:
 			'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'flexible-tech-stack'],
-		mentors: { "To be decided": "https://www.linkedin.com/in/kshivendu/", }
+		mentors: {
+			"Ambar": "https://www.linkedin.com/in/ambar-mutha/",
+		}
 	},
 	{
 		title: 'Quizz App',
@@ -83,14 +85,14 @@ export const projectData = [
 		title: 'Live Score App',
 		description: 'A realtime score app for sports🏸 and tournaments🏆.',
 		tags: ['web', 'javascript', 'nodejs'],
-		mentors: {"To be decided": "https://www.linkedin.com/in/kshivendu/",}
+		mentors: { "To be decided": "https://www.linkedin.com/in/kshivendu/", }
 	},
 	{
 		title: 'Online Judge',
 		description:
 			'An online judge for programming competitions and assignments. 🧑‍💻📝',
 		tags: ['web', 'flexible-tech-stack'],
-		mentors: {"To be decided": "https://www.linkedin.com/in/kshivendu/",}
+		mentors: { "To be decided": "https://www.linkedin.com/in/kshivendu/", }
 	},
 	{
 		title: 'Smart Contacts App',
@@ -99,6 +101,7 @@ export const projectData = [
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
 			"Shashwat": "https://www.linkedin.com/in/shashwatjaiswal/",
+			"Meghana": "https://www.linkedin.com/in/meghana100/"
 		}
 	},
 	{
