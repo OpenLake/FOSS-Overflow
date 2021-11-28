@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { ExternalLinkIcon } from '@heroicons/react/outline';
 import { projectData } from '../content/projects';
 
-function ExternalLink({ href, children }) {
+function ExternalLink({ href, children, useIcon=true }) {
 	return (
 		<a
 			className="text-blue-500 hover:text-blue-700 flex items-center gap-1"
@@ -10,7 +10,7 @@ function ExternalLink({ href, children }) {
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			{children} <ExternalLinkIcon width="1rem" />
+			{children} {useIcon && <ExternalLinkIcon width="1rem" />}
 		</a>
 	);
 }
@@ -37,6 +37,16 @@ export default function Projects() {
 								<ExternalLink href={item.github}>GitHub</ExternalLink>
 							)}
 						</div>
+						{item.mentors && (
+							<div className="flex gap-2 mt-2">
+								<span className="text-base text-gray-800">Mentors: </span>
+								{Object.keys(item.mentors).map(mentorName => (
+									<ExternalLink href={item.mentors[mentorName]} key={mentorName} useIcon={false}>
+										{mentorName}
+									</ExternalLink>
+								))}
+							</div>
+						)}
 						{item.tags?.length > 0 && (
 							<div className="flex gap-2 mt-2">
 								{item.tags.map(tag => (
