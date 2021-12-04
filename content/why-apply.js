@@ -18,27 +18,27 @@ export const whyApplyData = [
 		title: 'Perks',
 		icon: CurrencyDollarIcon,
 		description:
-			'You receive a cash award worth ₹4,000 and some awesome goodies and certificates.',
+			'Receive a cash award worth ₹4,000, awesome goodies, and certificates.',
 	},
 	{
 		title: 'Mentorship',
 		icon: TerminalIcon,
-		description: 'Learn from mentors using code reviews & pair programming.',
+		description: 'Get mentored by past GSoC students and regular open source contributors.',
 	},
 	{
-		title: 'Preparedness for GSoC',
+		title: 'Preparedness for GSoC 2022',
 		icon: BadgeCheckIcon,
-		description: 'We prepare our members for the Google Summer of Code.',
+		description: 'Get prepared for Google Summer of Code, Linux Foundation Mentorship, and Outreachy',
 	},
 	{
-		title: 'Real-life Projects',
+		title: 'Real-life projects',
 		icon: DesktopComputerIcon,
-		description: 'We offer real-life projects to our members.',
+		description: 'Get to work on projects that will be used by real people and colleges',
 	},
 	{
 		title: 'Collaboration',
 		icon: UserGroupIcon,
 		description:
-			'Join a Pod of fellows that collaborates & goes through the program together.',
+			'Learn to collaborate and build sophisticated software with your mentors.',
 	},
 ];

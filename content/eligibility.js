@@ -10,7 +10,7 @@ export const eligibilityData = [
 	{
 		title: 'Tech Stack',
 		description:
-			'You should have a basic understanding of the tech stacks that are used in the projects.',
+			'You should have a basic understanding of the tech stack that is used in your project.',
 	},
 	{
 		title: 'Time',
