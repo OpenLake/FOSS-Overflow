@@ -46,7 +46,7 @@ export const projectData = [
 		}
 	},
 	{
-		title: 'Photo Organizer',
+		title: 'Photo Sharing Web App',
 		description:
 			'Upload group photos, arrange them by faces using ML and share them with ease. 🤳🤖',
 		tags: ['web', 'ml', 'django'],
@@ -64,6 +64,17 @@ export const projectData = [
 		}
 	},
 	{
+		title: 'Activity Tracker (Mobile App)',
+		description:
+			'A mobile that tracks your mobile usage and location to give you insights into your own behavioral patterns 📱📍',
+		wiki: 'https://github.com/OpenLake/Activity-Tracker/wiki/FOSS-Overflow-%7C-Mobile-App',
+		github: 'https://github.com/OpenLake/Activity-Tracker',
+		tags: ['flutter', 'android', 'iOS'],
+		mentors: {
+			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
+		}
+	},
+	{
 		title: 'Homework Scheduler',
 		description:
 			'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
@@ -73,26 +84,31 @@ export const projectData = [
 		}
 	},
 	{
-		title: 'Quizz App',
+		title: 'Quizz Web App',
 		description:
 			'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'nodejs', 'javascript'],
 		mentors: {
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
+			"Gopal": "https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/",
 		}
 	},
 	{
-		title: 'Live Score App',
-		description: 'A realtime score app for sports🏸 and tournaments🏆.',
-		tags: ['web', 'javascript', 'nodejs'],
-		mentors: { "To be decided": "https://www.linkedin.com/in/kshivendu/", }
+		title: 'Live Score Web App',
+		description: 'A realtime score web app for sports🏸 and tournaments🏆.',
+		tags: ['web', 'nodejs', 'react'],
+		mentors: {
+			"Rishi": "https://www.linkedin.com/in/thefierycoder/",
+		}
 	},
 	{
 		title: 'Online Judge',
 		description:
 			'An online judge for programming competitions and assignments. 🧑‍💻📝',
 		tags: ['web', 'flexible-tech-stack'],
-		mentors: { "To be decided": "https://www.linkedin.com/in/kshivendu/", }
+		mentors: {
+			"Ashita": "https://www.linkedin.com/in/battu-ashita-321199206/",
+			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
+		}
 	},
 	{
 		title: 'Smart Contacts App',
