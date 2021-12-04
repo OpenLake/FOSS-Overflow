@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Apply() {
 	return (
@@ -19,9 +20,17 @@ export default function Apply() {
 					</li>
 					<li>
 						The participants are free to discuss with the project mentors or the
-						organizing team while drafting their proposal.
+						organizing team via Discord while drafting their proposal.
 					</li>
 				</ul>
+
+				<div className="mx-auto max-w-max">
+					<Link href="https://discord.gg/NavkU8fw" passHref>
+						<a className="mx-auto w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5">
+							Join Discord
+						</a>
+					</Link>
+				</div>
 
 				<iframe
 					className="mx-auto"

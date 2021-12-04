@@ -69,7 +69,7 @@ export default function Index() {
 						</li>
 						<li>
 							The participants are free to discuss with the project mentors or the
-							organizing team while drafting their proposal.
+							organizing team via Discord while drafting their proposal.
 						</li>
 					</ul>
 
