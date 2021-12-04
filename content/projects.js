@@ -120,11 +120,4 @@ export const projectData = [
 			"Meghana": "https://www.linkedin.com/in/meghana100/"
 		}
 	},
-	{
-		title: 'Coming soon',
-		description: 'Stay tuned for more projects',
-		wiki: 'https://github.com/OpenLake/',
-		github: 'https://github.com/OpenLake/',
-		tags: ['coming', 'soon'],
-	},
 ];
