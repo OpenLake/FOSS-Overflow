@@ -82,7 +82,7 @@ export default function Index() {
 							</Link>
 						</div>
 						<div>
-							<Link href="https://discord.gg/NavkU8fw" passHref>
+							<Link href="https://discord.gg/RsPv4TAx3X" passHref>
 								<a className="mx-auto w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5">
 									Join Discord
 								</a>

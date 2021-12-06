@@ -5,7 +5,7 @@ export const timelineData = [
 	},
 	{
 		title: 'Application Period Ends',
-		date: '9 Dec, 2021',
+		date: '11 Dec, 2021',
 	},
 	{
 		title: "Students' Projects Announced",
