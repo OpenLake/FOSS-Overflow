@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { ExternalLinkIcon } from '@heroicons/react/outline';
 import { projectData } from '../content/projects';
 
-function ExternalLink({ href, children, useIcon=true }) {
+function ExternalLink({ href, children, useIcon = true }) {
 	return (
 		<a
 			className="text-blue-500 hover:text-blue-700 flex items-center gap-1"
@@ -41,14 +41,18 @@ export default function Projects() {
 							<div className="flex gap-2 mt-2">
 								<span className="text-base text-gray-800">Mentors: </span>
 								{Object.keys(item.mentors).map(mentorName => (
-									<ExternalLink href={item.mentors[mentorName]} key={mentorName} useIcon={false}>
+									<ExternalLink
+										href={item.mentors[mentorName]}
+										key={mentorName}
+										useIcon={false}
+									>
 										{mentorName}
 									</ExternalLink>
 								))}
 							</div>
 						)}
 						{item.tags?.length > 0 && (
-							<div className="flex gap-2 mt-2">
+							<div className="flex flex-wrap gap-2 mt-2">
 								{item.tags.map(tag => (
 									<span
 										key={tag}
