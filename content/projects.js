@@ -29,7 +29,7 @@ export const projectData = [
 			'A platform for college students to share course reviews, notes, and last year’s questions. 🎓📖',
 		wiki: 'https://github.com/OpenLake/Knowlege-Sharing-Platform/wiki/FOSS-Overflow',
 		github: 'https://github.com/OpenLake/Knowlege-Sharing-Platform',
-		tags: ['web', 'python', 'django'],
+		tags: ['React', 'python', 'django', 'mysql', 'aws'],
 		mentors: {
 			"Ashutosh": "https://www.linkedin.com/in/ashutosh-garg-931921183/",
 		}
