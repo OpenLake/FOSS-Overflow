@@ -7,9 +7,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['browser-extension', 'javascript', 'nodejs'],
 		mentors: {
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
-			"Ambar": "https://www.linkedin.com/in/ambar-mutha/"
-		}
+			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+		},
 	},
 	{
 		title: 'Leaderboard Pro',
@@ -19,9 +19,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Leaderboard-Pro',
 		tags: ['web', 'python', 'django'],
 		mentors: {
-			"Shashwat": "https://www.linkedin.com/in/shashwatjaiswal/",
-			"Meghana": "https://www.linkedin.com/in/meghana100/"
-		}
+			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
+			Meghana: 'https://www.linkedin.com/in/meghana100/',
+		},
 	},
 	{
 		title: 'Knowledge Sharing Platform',
@@ -29,10 +29,10 @@ export const projectData = [
 			'A platform for college students to share course reviews, notes, and last year’s questions. 🎓📖',
 		wiki: 'https://github.com/OpenLake/Knowlege-Sharing-Platform/wiki/FOSS-Overflow',
 		github: 'https://github.com/OpenLake/Knowlege-Sharing-Platform',
-		tags: ['React', 'python', 'django', 'mysql', 'aws'],
+		tags: ['react', 'python', 'django', 'mysql', 'aws'],
 		mentors: {
-			"Ashutosh": "https://www.linkedin.com/in/ashutosh-garg-931921183/",
-		}
+			Ashutosh: 'https://www.linkedin.com/in/ashutosh-garg-931921183/',
+		},
 	},
 	{
 		title: 'Activity Tracker (VS Code Extension)',
@@ -42,8 +42,8 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['vscode-extension', 'web', 'javascript'],
 		mentors: {
-			"Ambar": "https://www.linkedin.com/in/ambar-mutha/",
-		}
+			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+		},
 	},
 	{
 		title: 'Photo Sharing Web App',
@@ -51,8 +51,8 @@ export const projectData = [
 			'Upload group photos, arrange them by faces using ML and share them with ease. 🤳🤖',
 		tags: ['web', 'ml', 'django'],
 		mentors: {
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
-		}
+			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+		},
 	},
 	{
 		title: 'WatchParty',
@@ -60,8 +60,8 @@ export const projectData = [
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
 		tags: ['web', 'browser-extension', 'javascript'],
 		mentors: {
-			"Rishi": "https://www.linkedin.com/in/thefierycoder/",
-		}
+			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+		},
 	},
 	{
 		title: 'Activity Tracker (Mobile App)',
@@ -71,8 +71,8 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
-		}
+			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+		},
 	},
 	{
 		title: 'Homework Scheduler',
@@ -80,8 +80,8 @@ export const projectData = [
 			'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'flexible-tech-stack'],
 		mentors: {
-			"Ambar": "https://www.linkedin.com/in/ambar-mutha/",
-		}
+			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+		},
 	},
 	{
 		title: 'Quizz Web App',
@@ -89,16 +89,16 @@ export const projectData = [
 			'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'nodejs', 'javascript'],
 		mentors: {
-			"Gopal": "https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/",
-		}
+			Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
+		},
 	},
 	{
 		title: 'Live Score Web App',
 		description: 'A realtime score web app for sports🏸 and tournaments🏆.',
 		tags: ['web', 'nodejs', 'react'],
 		mentors: {
-			"Rishi": "https://www.linkedin.com/in/thefierycoder/",
-		}
+			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+		},
 	},
 	{
 		title: 'Online Judge',
@@ -106,9 +106,9 @@ export const projectData = [
 			'An online judge for programming competitions and assignments. 🧑‍💻📝',
 		tags: ['web', 'flexible-tech-stack'],
 		mentors: {
-			"Ashita": "https://www.linkedin.com/in/battu-ashita-321199206/",
-			"Shivendu": "https://www.linkedin.com/in/kshivendu/",
-		}
+			Ashita: 'https://www.linkedin.com/in/battu-ashita-321199206/',
+			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+		},
 	},
 	{
 		title: 'Smart Contacts App',
@@ -116,8 +116,8 @@ export const projectData = [
 			'A smart contacts app that helps hyperconnected people navigate through their day. 📞',
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
-			"Shashwat": "https://www.linkedin.com/in/shashwatjaiswal/",
-			"Meghana": "https://www.linkedin.com/in/meghana100/"
-		}
+			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
+			Meghana: 'https://www.linkedin.com/in/meghana100/',
+		},
 	},
 ];
