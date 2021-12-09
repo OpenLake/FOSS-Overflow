@@ -27,10 +27,10 @@ export default function Projects() {
 						href={item.url}
 						target="_blank"
 						key={item.title}
-						className="shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white p-4 rounded-md"
+						className="flex flex-col shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white p-4 rounded-md"
 					>
 						<h2 className="text-lg lg:text-xl mb-2">{item.title}</h2>
-						<p className="text-base text-gray-800">{item.description}</p>
+						<p className="flex-1 text-base text-gray-800">{item.description}</p>
 						<div className="flex gap-3 mt-2">
 							{item.wiki && <ExternalLink href={item.wiki}>Wiki</ExternalLink>}
 							{item.github && (

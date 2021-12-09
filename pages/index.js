@@ -21,9 +21,10 @@ export default function Index() {
 					<Image src={logoURL} alt="FOSS Overflow" />
 				</h1>
 				<p className="text-lg md:text-2xl">
-					FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps students to
-					get started with the world of open source by helping them build real world open sourced projects
-					under guidance of awesome mentors.
+					FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps
+					students to get started with the world of open source by helping them
+					build real world open sourced projects under guidance of awesome
+					mentors.
 				</p>
 			</div>
 
@@ -32,17 +33,19 @@ export default function Index() {
 					<h2>About</h2>
 
 					<p>
-						FOSS Overflow is a month-long festival celebrating open source culture and is organized by
-						Google Developer Student Clubs and OpenLake at IIT Bhilai.
+						FOSS Overflow is a month-long festival celebrating open source
+						culture and is organized by Google Developer Student Clubs and
+						OpenLake at IIT Bhilai.
 					</p>
 					<p>
-						Students are paired up with mentors to work on open sourced projects and amplify
-						their skills and profile in the process while simultaneously bagging
-						cash awards and prizes.
+						Students are paired up with mentors to work on open sourced projects
+						and amplify their skills and profile in the process while
+						simultaneously bagging cash awards and prizes.
 					</p>
 					<p>
-						The program is designed to prepare students for global open source internships like GSoC,
-						LFX, and Outreachy that start shortly after the program is over.
+						The program is designed to prepare students for global open source
+						internships like GSoC, LFX, and Outreachy that start shortly after
+						the program is over.
 					</p>
 
 					<h2>Why should I apply?</h2>
@@ -60,16 +63,16 @@ export default function Index() {
 					<h2>How to Apply?</h2>
 					<ul>
 						<li>
-							The participants should write a maximum of 3 proposals for the projects that they wish to be a part of.
-
+							The participants should write a maximum of 3 proposals for the
+							projects that they wish to be a part of.
 						</li>
 						<li>
 							Proposals must include what the participant wants to implement and
 							how they plan to achieve it.
 						</li>
 						<li>
-							The participants are free to discuss with the project mentors or the
-							organizing team via Discord while drafting their proposal.
+							The participants are free to discuss with the project mentors or
+							the organizing team via Discord while drafting their proposal.
 						</li>
 					</ul>
 
@@ -82,14 +85,16 @@ export default function Index() {
 							</Link>
 						</div>
 						<div>
-							<Link href="https://discord.gg/RsPv4TAx3X" passHref>
-								<a className="mx-auto w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5">
-									Join Discord
-								</a>
-							</Link>
+							<a
+								className="w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5"
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://discord.gg/RsPv4TAx3X"
+							>
+								Join Discord
+							</a>
 						</div>
 					</div>
-
 
 					<h2>Eligibility</h2>
 

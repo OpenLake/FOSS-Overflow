@@ -32,6 +32,7 @@ export const projectData = [
 		tags: ['react', 'python', 'django', 'mysql', 'aws'],
 		mentors: {
 			Ashutosh: 'https://www.linkedin.com/in/ashutosh-garg-931921183/',
+			Shivam: 'https://www.linkedin.com/in/express-hermes/',
 		},
 	},
 	{
@@ -44,6 +45,12 @@ export const projectData = [
 		mentors: {
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
 		},
+	},
+	{
+		title: 'Women Safety App',
+		description:
+			'One app for all women, covers everything from safety to health and more.',
+		tags: ['android', 'kotlin/java'],
 	},
 	{
 		title: 'Photo Sharing Web App',
@@ -108,6 +115,7 @@ export const projectData = [
 		mentors: {
 			Ashita: 'https://www.linkedin.com/in/battu-ashita-321199206/',
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+			Shivam: 'https://www.linkedin.com/in/express-hermes/',
 		},
 	},
 	{
