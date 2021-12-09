@@ -51,6 +51,9 @@ export const projectData = [
 		description:
 			'One app for all women, covers everything from safety to health and more.',
 		tags: ['android', 'kotlin/java'],
+		mentors: {
+			Akshat: 'https://www.linkedin.com/in/akshaaatt',
+		},
 	},
 	{
 		title: 'Photo Sharing Web App',
