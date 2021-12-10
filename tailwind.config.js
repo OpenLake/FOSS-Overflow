@@ -1,21 +1,16 @@
 /** @type {import('tailwindcss/tailwind-config').TailwindConfig} */
 module.exports = {
-	mode: 'jit',
 	important: true,
-	purge: [
-		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
-		'./components/**/*.{js,ts,jsx,tsx,mdx}',
+	content: [
+		'./pages/**/*.{js,ts,jsx,tsx}',
+		'./components/**/*.{js,ts,jsx,tsx}',
 	],
-	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			fontFamily: {
 				sans: ['Inter var', 'sans-serif'],
 			},
 		},
-	},
-	variants: {
-		extend: {},
 	},
 	plugins: [require('@tailwindcss/typography')],
 };
