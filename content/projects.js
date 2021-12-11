@@ -44,6 +44,7 @@ export const projectData = [
 		tags: ['vscode-extension', 'web', 'javascript'],
 		mentors: {
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+			Shikhar: 'https://github.com/shikharvashistha',
 		},
 	},
 	{
@@ -53,6 +54,7 @@ export const projectData = [
 		tags: ['android', 'kotlin/java'],
 		mentors: {
 			Akshat: 'https://www.linkedin.com/in/akshaaatt',
+			Sunit: 'https://www.linkedin.com/in/sunit-roy/',
 		},
 	},
 	{
