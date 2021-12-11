@@ -21,7 +21,7 @@ export const timelineData = [
 	},
 	{
 		title: 'Mid Evaluations',
-		date: '2 Jan, 2021',
+		date: '2 Jan, 2022',
 	},
 	{
 		title: 'Coding Period Ends',
