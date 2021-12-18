@@ -48,10 +48,11 @@ export const projectData = [
 		},
 	},
 	{
-		title: 'Women Safety App',
+		title: 'Sampoorna',
 		description:
 			'One app for all women, covers everything from safety to health and more.',
 		tags: ['android', 'kotlin/java'],
+		github: 'https://github.com/openlake/sampoorna',
 		mentors: {
 			Akshat: 'https://www.linkedin.com/in/akshaaatt',
 			Sunit: 'https://www.linkedin.com/in/sunit-roy/',
@@ -91,6 +92,7 @@ export const projectData = [
 		description:
 			'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'flexible-tech-stack'],
+		github: 'https://github.com/openlake/homework-scheduler',
 		mentors: {
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
 		},
@@ -100,6 +102,7 @@ export const projectData = [
 		description:
 			'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
 		tags: ['web', 'nodejs', 'javascript'],
+		github: 'https://github.com/OpenLake/quiz-app',
 		mentors: {
 			Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
 		},
@@ -117,6 +120,7 @@ export const projectData = [
 		description:
 			'An online judge for programming competitions and assignments. 🧑‍💻📝',
 		tags: ['web', 'flexible-tech-stack'],
+		github: 'https://github.com/OpenLake/online-judge',
 		mentors: {
 			Ashita: 'https://www.linkedin.com/in/battu-ashita-321199206/',
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
