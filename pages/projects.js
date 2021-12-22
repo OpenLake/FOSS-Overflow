@@ -5,13 +5,27 @@ import { projectData } from '../content/projects';
 function ExternalLink({ href, children, useIcon = true }) {
 	return (
 		<a
-			className="text-blue-500 hover:text-blue-700 flex items-center gap-1"
+			className="text-blue-500 hover:text-blue-700 inline-flex items-center gap-1"
 			href={href}
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			{children} {useIcon && <ExternalLinkIcon width="1rem" />}
 		</a>
+	);
+}
+
+function ListOfLinks({ links, children }) {
+	if (!links) return null;
+	return (
+		<div className="flex gap-2 mt-2">
+			<span className="text-base text-gray-800">{children} </span>
+			{Object.keys(links).map(key => (
+				<ExternalLink href={links[key]} key={key} useIcon={false}>
+					{key}
+				</ExternalLink>
+			))}
+		</div>
 	);
 }
 
@@ -37,20 +51,8 @@ export default function Projects() {
 								<ExternalLink href={item.github}>GitHub</ExternalLink>
 							)}
 						</div>
-						{item.mentors && (
-							<div className="flex gap-2 mt-2">
-								<span className="text-base text-gray-800">Mentors: </span>
-								{Object.keys(item.mentors).map(mentorName => (
-									<ExternalLink
-										href={item.mentors[mentorName]}
-										key={mentorName}
-										useIcon={false}
-									>
-										{mentorName}
-									</ExternalLink>
-								))}
-							</div>
-						)}
+						<ListOfLinks links={item.mentors}>Mentors:</ListOfLinks>
+						<ListOfLinks links={item.students}>Students:</ListOfLinks>
 						{item.tags?.length > 0 && (
 							<div className="flex flex-wrap gap-2 mt-2">
 								{item.tags.map(tag => (

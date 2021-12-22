@@ -10,6 +10,9 @@ export const projectData = [
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
 		},
+		students: {
+			Sawan: 'https://github.com/kriptonian1',
+		},
 	},
 	{
 		title: 'Leaderboard Pro',
@@ -21,6 +24,9 @@ export const projectData = [
 		mentors: {
 			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
 			Meghana: 'https://www.linkedin.com/in/meghana100/',
+		},
+		students: {
+			Harsh: 'https://github.com/harshv46',
 		},
 	},
 	{
@@ -34,6 +40,10 @@ export const projectData = [
 			Ashutosh: 'https://www.linkedin.com/in/ashutosh-garg-931921183/',
 			Shivam: 'https://www.linkedin.com/in/express-hermes/',
 		},
+		students: {
+			Ashita: 'https://github.com/battuAshita',
+			Ananya: 'https://github.com/Ananyaiitbhilai',
+		},
 	},
 	{
 		title: 'Activity Tracker (VS Code Extension)',
@@ -46,16 +56,22 @@ export const projectData = [
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
 			Shikhar: 'https://github.com/shikharvashistha',
 		},
+		students: {
+			Ayush: 'https://github.com/Aayushd18',
+		},
 	},
 	{
 		title: 'Sampoorna',
 		description:
 			'One app for all women, covers everything from safety to health and more.',
-		tags: ['android', 'kotlin/java'],
+		tags: ['android', 'kotlin'],
 		github: 'https://github.com/openlake/sampoorna',
 		mentors: {
 			Akshat: 'https://www.linkedin.com/in/akshaaatt',
 			Sunit: 'https://www.linkedin.com/in/sunit-roy/',
+		},
+		students: {
+			Ashutosh: 'https://github.com/yellowHatpro',
 		},
 	},
 	{
@@ -66,6 +82,9 @@ export const projectData = [
 		mentors: {
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
 		},
+		students: {
+			Aneesh: 'https://github.com/Aneesh02',
+		},
 	},
 	{
 		title: 'WatchParty',
@@ -74,6 +93,9 @@ export const projectData = [
 		tags: ['web', 'browser-extension', 'javascript'],
 		mentors: {
 			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+		},
+		students: {
+			Chaitanya: 'https://github.com/chaitanyabisht/',
 		},
 	},
 	{
@@ -86,6 +108,9 @@ export const projectData = [
 		mentors: {
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
 		},
+		students: {
+			Satvik: 'https://github.com/VickyMerzOwn',
+		},
 	},
 	{
 		title: 'Homework Scheduler',
@@ -95,6 +120,9 @@ export const projectData = [
 		github: 'https://github.com/openlake/homework-scheduler',
 		mentors: {
 			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+		},
+		students: {
+			Lalit: 'https://github.com/Lalit3716',
 		},
 	},
 	{
@@ -106,6 +134,9 @@ export const projectData = [
 		mentors: {
 			Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
 		},
+		students: {
+			Lavish: 'https://github.com/lavish123409',
+		},
 	},
 	{
 		title: 'Live Score Web App',
@@ -113,6 +144,9 @@ export const projectData = [
 		tags: ['web', 'nodejs', 'react'],
 		mentors: {
 			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+		},
+		students: {
+			Sakshi: 'https://github.com/Sakshisaraswat23',
 		},
 	},
 	{
@@ -126,15 +160,8 @@ export const projectData = [
 			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
 			Shivam: 'https://www.linkedin.com/in/express-hermes/',
 		},
-	},
-	{
-		title: 'Smart Contacts App',
-		description:
-			'A smart contacts app that helps hyperconnected people navigate through their day. 📞',
-		tags: ['flutter', 'android', 'iOS'],
-		mentors: {
-			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
-			Meghana: 'https://www.linkedin.com/in/meghana100/',
+		students: {
+			Shubham: 'https://github.com/22shubh22/',
 		},
 	},
 ];
