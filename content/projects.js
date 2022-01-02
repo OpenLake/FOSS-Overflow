@@ -66,6 +66,7 @@ export const projectData = [
 		tags: ['android', 'kotlin'],
 		github: 'https://github.com/openlake/sampoorna',
 		mentors: {
+			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
 			Akshat: 'https://www.linkedin.com/in/akshaaatt',
 			Sunit: 'https://www.linkedin.com/in/sunit-roy/',
 		},
