@@ -26,7 +26,6 @@ export const projectData = [
 			Meghana: 'https://www.linkedin.com/in/meghana100/',
 		},
 		students: {
-			Harsh: 'https://github.com/harshv46',
 		},
 	},
 	{
@@ -72,6 +71,7 @@ export const projectData = [
 		},
 		students: {
 			Ashutosh: 'https://github.com/yellowHatpro',
+			Aastha: 'https://github.com/aastha01chauhan',
 		},
 	},
 	{
