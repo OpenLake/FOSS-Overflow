@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import { getAllPosts, getPostBySlug } from '../../lib/api';
-import { displayDate } from '../../lib/displayDate';
-import { markdownToHtml } from '../../lib/markdownToHtml';
+import { getAllPosts, getPostBySlug } from 'lib/api';
+import { displayDate } from 'lib/displayDate';
+import { markdownToHtml } from 'lib/markdownToHtml';
 
 export async function getStaticProps({ params }) {
 	const post = getPostBySlug(params.slug, [

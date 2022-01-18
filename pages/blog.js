@@ -23,7 +23,11 @@ export default function Blog({ allPosts }) {
 				<ul>
 					{allPosts.map(post => (
 						<li key={post.slug}>
-							<Link href="/blog/[slug]" as={`/blog/${post.slug}`} passHref>
+							<Link
+								href="/blog/2021/[slug]"
+								as={`/blog/2021/${post.slug}`}
+								passHref
+							>
 								<a className="block shadow-sm bg-white p-4 rounded-lg text-xl">
 									{post.title}
 									<div className="text-gray-500 text-base">
