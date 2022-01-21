@@ -1,9 +1,10 @@
 ---
-title: Knowledge Sharing Platform
-author: Ananya
+Title: Knowledge Sharing Platform
+Author: Ananya
 date: '2022-01-21'
 ---
 
+## Idea about the project
 Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course. Moreover, students can also get relevant course resources from the students who already opted for the course. This platform can also act as a general guidance portal.
 I chose this project because of the following reason, I myself sometimes contact multiple people on Chat platforms to get feedback about a course and its material/resources. Crowd-sourcing of materials and feedback would make it easy to organize resources at one place. It would be more reliable, save one’s time and avoid unnecessary bothering. Finding this project solves a real-life problem and relatable too, I was motivated for the project throughout.
 
