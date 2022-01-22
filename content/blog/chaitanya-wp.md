@@ -36,11 +36,9 @@ Then the server sends this information to all the users in the room via socket c
 # Screenshots
 
 ### When you join a room
-<img src="https://i.imgur.com/JhaNQKH.png">
-
+![Join](https://i.imgur.com/JhaNQKH.png)
 ### Chat feature
-<img src="https://i.imgur.com/OmdJWgT.png">
-
+![Chat](https://i.imgur.com/OmdJWgT.png)
 # Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NTYMR429MjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
