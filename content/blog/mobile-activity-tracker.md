@@ -50,3 +50,5 @@ This is the first Open Source Software I have contributed to and proudly used. I
 * Build a frontend for mobile that calls the API to retrieve the usage-stats and present them in a meaningful and visually pleasing manner.
 * Attempt to make recommendations on tasks to be performed based on the data collected
 * Implement a feature where parents can monitor their child's activity from their dashboard.
+
+All that being said, I would like to thank the organising team at OpenLake for conducting such an important programme.
