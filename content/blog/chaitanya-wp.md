@@ -8,7 +8,7 @@ date: '2022-01-21'
 WatchParty is a chrome extension that aims to connect friends and families who live miles apart by watching Movies or TV shows together. The host shares a link to the intended viewers and when they open the link they all see the same content at the same time. 
 
 # Tech Stack
-- A Node.js server hosted on Heroku [https://watchpartyserver.herokuapp.com/](https://watchpartyserver.herokuapp.com/)
+- A Node.js server hosted on Heroku [(https://watchpartyserver.herokuapp.com/)](https://watchpartyserver.herokuapp.com/)
 - A chrome extension on the frontend which connects to the server
 - Socket.IO library is used for making all the socket connections between client and the server
 - Bootstrap CSS for all the UI elements
