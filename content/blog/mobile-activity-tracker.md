@@ -1,7 +1,6 @@
 ---
 Title : Activity Tracker - Mobile App
 Author : Satvik Vemuganti
-Mentor : Kumar Shivendu
 Date : '2022-01-22'
 ---
 
