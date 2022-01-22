@@ -1,10 +1,7 @@
 ---
-
-Title: WatchParty
-Author: Chaitanya Bisht
-Mentors : Rishi Purwar, Kumar Shivendu
-Date: 22-01-2022
-
+title: My Experience at FOSS Overflow
+author: Chaitanay Bisht
+date: '2022-01-21'
 ---
 # Watch Party
 
