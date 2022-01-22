@@ -5,15 +5,15 @@ date: '2022-01-21'
 ---
 
 
-</br>
+
 
 This blog is about my experience at [FOSS Overflow](https://fossoverflow.dev/) and working on [Activity Tracker](https://github.com/OpenLake/Activity-Tracker)
 
-</br>
+
 
 ## What is FOSS Overflow?
 
-</br>
+
 
 <div align="center">
 
@@ -23,20 +23,20 @@ This blog is about my experience at [FOSS Overflow](https://fossoverflow.dev/) a
 
 FOSS Overflow is a month-long event celebrating open source culture and is organized by Google Developer Student Clubs and OpenLake at IIT Bhilai. The program is designed to prepare students for global open source internships like GSoC, LFX, and Outreachy.
 
-</br>
+
 
 ## Who am I ?
 
 
 I am [Sawan Bhattacharya](https://github.com/kriptonian1), a 1st year undergrad at Narula Institute of Technology, Kolkata. I'm an open-source and cyber security enthusiast. A pure geek 👨‍💻 who loves to learn new technologies.
 
-</br>
+
 
 ## What is my project?
 
 In this year's [Foss Overflow 2021](https://fossoverflow.dev/), my project was to work on a browser extension for [Activity Tracker](https://github.com/OpenLake/Activity-Tracker) that tracks your browsing history and gives you insights into your browsing habits 🕵️‍♂️ 🌐. Purpose of this whole Activity Track project is to give users insight into there daily digital habits.
 
-</br>
+
 
 ## How was my experience?
 
@@ -46,7 +46,7 @@ Thanks to my mentors @KShivendu and @supercoww for guiding and supporting me thr
 
 I really want this amazing open-source event to achieve great success, this have really motivated me to participate in more open-source projects and events.
 
-</br>
+
 
 ## What did I learn?
 
