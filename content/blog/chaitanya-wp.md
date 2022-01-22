@@ -16,9 +16,33 @@ WatchParty is a chrome extension that aims to connect friends and families who l
 - Socket.IO library is used for making all the socket connections between client and the server
 - Bootstrap CSS for all the UI elements
 
+# How it works
+
+A Node.js server handles all the web socket requests and manages the users in a room, basically it acts as a medium of communication between two clients. All users in the room are handled on the server side and the chat messages are relayed to all the users in the room, the server does not store any chat messages.
+
 The chrome extension forms a socket connection with the server and that socket connection remains alive even if the extension popup is closed.
 
-The Node.js server simply acts as a medium of communication between two clients. All users in the room are handled on the server side and the chat messages are relayed to all the users in the room, the server does not store any chat messages.
+The first user to join the room is automatically made the host. The host is the one whose video timestamps are synchronized to all other users. When other users join the room after opening the video link, the video is automatically synced to the host, and as the host seeks the video the changes are updated for other users in the room.
+
+There is also a chat feature in the extension which allows users in the room to interact with each other.
+
+### How the video is synced
+
+There are mainly two scripts being talked about here: The content script is responsible for interacting with the DOM elements on the current tab. The background script on the other hand is responsible for maintaining background tasks such as establishing the socket connection and handling chat messages.
+
+The content script has event listners for button clicks for the play/pause button and the progress bar and as soon as the host seeks video the event listeners notify the background script that a change has been made.
+
+Then the background script calls a function to fetch the video timestamps and the play/pause state, and then this timestamp information is then sent to the server via the socket connection
+
+Then the server sends this information to all the users in the room via socket connections and the extension running for other users changes the timestamp of the video accordingly.
+
+# Screenshots
+
+### When you join a room
+<img src="https://i.imgur.com/JhaNQKH.png">
+
+### Chat feature
+<img src="https://i.imgur.com/OmdJWgT.png">
 
 # Demonstration
 
