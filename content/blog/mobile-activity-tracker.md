@@ -1,7 +1,7 @@
 ---
-Title : Activity Tracker - Mobile App
-Author : Satvik Vemuganti
-Date : '2022-01-22'
+title : Activity Tracker - Mobile App
+author : Satvik Vemuganti
+date : '2022-01-22'
 ---
 
 ## Introduction
