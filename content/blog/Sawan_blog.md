@@ -17,7 +17,7 @@ This blog is about my experience at [FOSS Overflow](https://fossoverflow.dev/) a
 
 <div align="center">
 
-<img title="FOSS Overflow" src="https://fossoverflow.dev/nextimg/%2F_next%2Fstatic%2Fmedia%2Flogo.4bd48c29.png/828/75?url=%2F_next%2Fstatic%2Fmedia%2Flogo.4bd48c29.png&w=828&q=75" width=400/>
+![Alt text](https://fossoverflow.dev/nextimg/%2F_next%2Fstatic%2Fmedia%2Flogo.4bd48c29.png/828/75?url=%2F_next%2Fstatic%2Fmedia%2Flogo.4bd48c29.png&w=828&q=75)
 
 </div>
 
