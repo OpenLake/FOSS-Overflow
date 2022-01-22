@@ -1,6 +1,6 @@
 ---
 title: My Experience at FOSS Overflow
-author: Chaitanay Bisht
+author: Chaitanya Bisht
 date: '2022-01-21'
 ---
 # Watch Party
