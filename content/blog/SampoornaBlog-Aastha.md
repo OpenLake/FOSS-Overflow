@@ -16,8 +16,10 @@ This is my first Android Project and I learned Android during this program only.
 ## Experience
 
 ---
-In my initial days, I learned java as my first programming language. I was majorly active in problem-solving, competitive programming and building personal projects. This was my first meaningful collaboration in an open-source project. I applied for this program because Project Sampoorna caught my attention. I could relate to the concept, thus even though I didn’t work on android before, I was ready to not only apply to work in it with some new ideas but also learn android from scratch to implement it all by myself. I had been contributing to open-source programs before but never really understood how impactful open source contribution can be. Most of them emphasized learning git separately or just merging PRs aimlessly in the name of OS contribution.
-I was lucky enough to have an amazing duo of Mentors, [@Sunit](https://github.com/SunitRoy2703) Sir and [@Akshat](https://github.com/akshaaatt) Sir, who were always there to solve doubts. We used to be in constant touch over the official discord channel and their support never made me feel like I have been thrown at the dead-end which usually happens. In a month, I began from zero and currently, I am working on implementing notifications which feels super amazing. Through this program, I have gained enough confidence to continue contributing to open source programs and with android too!
+In my initial days, I learned java as my first programming language. I was majorly active in problem-solving, competitive programming and building personal projects. This was my first meaningful collaboration in an open-source project. I applied for this program because Project Sampoorna caught my attention. I could relate to the concept, thus even though I didn’t work on android before, I was ready to not only apply to work in it with some new ideas but also learn android from scratch to implement it all by myself. I had been contributing to open-source programs before but never really understood how impactful open source contribution can be.
+
+I was lucky enough to have an amazing duo of Mentors, [@Sunit](https://github.com/SunitRoy2703) Sir and [@Akshat](https://github.com/akshaaatt) Sir, who were always there to solve doubts. We used to be in constant touch over the official discord channel and their support never made me feel like I have been thrown at the dead-end which usually happens. 
+In a month, I began from zero and currently, I am working on implementing notifications which feels super amazing. Through this program, I have gained enough confidence to continue contributing to open source programs and with android too!
 On top of that, this was a paid program and some cool swags are also being given to all the selected participants! 
 
 
@@ -37,6 +39,6 @@ On top of that, this was a paid program and some cool swags are also being given
 
 
 Special thanks to [@Akshat](https://github.com/akshaaatt) Sir,
-[@Sunit](https://github.com/SunitRoy2703) Sir who helped with so much during this program. I truly got to learn a lot from them.
+[@Sunit](https://github.com/SunitRoy2703) Sir who helped so much during this program. I truly got to learn a lot from them.
 
 
