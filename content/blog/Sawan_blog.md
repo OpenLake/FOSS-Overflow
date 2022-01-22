@@ -1,12 +1,9 @@
-<h1 align="center"> My Experience at FOSS Overflow </h1>
+---
+title: My Experience at FOSS Overflow
+author: Sawan Bhattacharya
+date: '2022-01-21'
+---
 
-<div style="text-align: right">
-
-##### by [Sawan Bhattacharya](https://github.com/kriptonian1)
-
-##### 21st January 2021
-
-</div>
 
 </br>
 
