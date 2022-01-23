@@ -1,5 +1,5 @@
 ---
-title: FOSS Overflow: A one-month adventure that transformed me into a better developer
+title: A one-month adventure that transformed me into a better developer
 author: Aneesh Tickoo
 date: '2022-01-21'
 ---
