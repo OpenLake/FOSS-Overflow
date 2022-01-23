@@ -20,7 +20,7 @@ export default function Blog({ allPosts }) {
 			</Head>
 
 			<div className="max-w-screen-md m-auto cursor-pointer">
-				<ul>
+				<ul className="flex flex-col gap-4">
 					{allPosts.map(post => (
 						<li key={post.slug}>
 							<Link
