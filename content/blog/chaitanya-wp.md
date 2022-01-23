@@ -42,7 +42,7 @@ Then the server sends this information to all the users in the room via socket c
 # Demonstration
 [Link to the YouTube video](https://www.youtube.com/watch?v=NTYMR429MjE)
 
-# My experience on FossOverflow
+# My experience on FOSS Overflow
 This is my first comprehensive project on developing a Chrome Extension. Throughout the development of the project I got to learn a lot new things through trial and error. After hours of searching solutions on the internet, asking my mentors for help, I can confidently say that I have learned a lot and still got a lot to learn.
 
 ### Some of the notable things I learned
