@@ -9,7 +9,7 @@ date: '2022-01-22'
 One app for all women, covers everything from safety to health and more. :information_desk_person:
 
 In [Foss Overflow 2021](https://fossoverflow.dev/), I contributed to [Sampoorna](https://github.com/OpenLake/Sampoorna). It's an android app that focuses on women and tries to help them in their daily life. :ok_woman:
-The app can be used in emergency to send a SOS to the saved contacts , another feature being a mensuration tracker that updates the user about her mensuration cycle.
+The app can be used in emergency to send a SOS to the saved contacts , another feature being a menstruation tracker that updates the user about her menstruation cycle.
 I got to work with awesome people ,learn a lot of new things about the FOSS world.
 Working on Sampoorna app , I had to make sure that the app is as useful as possible, robust , and easily extensible.
 All along the program I faced lots and lots of issues , errors , and bugs , but with the kind guidance of the mentors [Akshat Tiwari](https://github.com/akshaaatt) and [Sunit Roy](https://github.com/SunitRoy2703), I was able to fix most of them , and make Sampoorna a better app.
