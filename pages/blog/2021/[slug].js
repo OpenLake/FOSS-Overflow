@@ -44,7 +44,7 @@ export default function Post({ post }) {
 			<Head>
 				<title>{post.title} | FOSS Overflow</title>
 			</Head>
-			<article className="prose lg:prose-xl mx-auto mt-12 px-4">
+			<article className="markdown prose lg:prose-xl mx-auto mt-12 px-4">
 				<h1>{post.title}</h1>
 				<p className="text-gray-700">
 					{post.author && <>by {post.author}</>}

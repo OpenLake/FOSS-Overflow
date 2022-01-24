@@ -9,3 +9,7 @@ body {
 .card {
 	@apply shadow-sm bg-white p-4 rounded-lg;
 }
+
+.markdown img {
+	@apply mx-auto;
+}
