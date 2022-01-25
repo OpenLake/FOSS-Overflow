@@ -1,3 +1,9 @@
+---
+title: Online Judge
+author: Shubham Goyal
+date: '2022-01-22'
+---
+
 # Introduction
 
 Online-Judge is a small replication of platform like SPOJ. Where a piece of code is submitted against a pre existing question. The platform will run the submission against various test cases to decide whether the submission is accepted or not.
