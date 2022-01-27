@@ -21,17 +21,17 @@ Quizz App basically gives three services, which are :
 
 1. **Making A Quiz** : The user can make a quiz using an adequate interface by giving the question, its options , correct answer and time given to solve the question.
 
-![Adding Questions Interface](/blog/QuizzAppBlog/addingQuestionInterface.png 'Adding Quiz Interface')
+![Adding Questions Interface](https://github.com/lavish123409/FOSS-Overflow/blob/dev/content/blog/QuizzAppBlog/addingQuestionInterface.png 'Adding Quiz Interface')
 
 2. **Giving a Quiz** : The user can enter any quiz using the quiz code which is generated when a quiz is made.
 
-![Quiz Interface](/blog/QuizzAppBlog/quizInterface.png 'Quiz Interface')
+![Quiz Interface](https://github.com/lavish123409/FOSS-Overflow/blob/dev/content/blog/QuizzAppBlog/quizInterface.png 'Quiz Interface')
 
 The user can also see the leaderboard, which changes dynamically and shows the real-time results.
 
 3. **Storing Past Quizzes** : Quizz App also displays the quizzes attempted by the user in past.
 
-![Past Quizzes](/blog/QuizzAppBlog/homePage.png 'Past Quizzes')
+![Past Quizzes](https://github.com/lavish123409/FOSS-Overflow/blob/dev/content/blog/QuizzAppBlog/homePage.png 'Past Quizzes')
 
 The Quizz App also have following features :
 
