@@ -44,6 +44,6 @@ The Quizz App also have following features :
 
 **FOSS Overflow** has helped me in gaining a lot of knowledge about Web Development. By the means of this event, I have made any project by striving and searching on the internet and not by bluntly copying any YouTube tutorial.
 
-While working on this project, I encountred some nasty errors and bugs which made me question my knowledge and persuaded me to work more hard. But still most of the errors were solved by [@Gopal](https://github.com/Gopal-Dahale) and [@KShivendu](https://github.com/KShivendu) who helped me a lot throughout this journey. I learned many things from them like debugging the errors, improving the code structure , time management etc. from them which has highly refined my skills.
+While working on this project, I encountred some nasty errors and bugs which made me question my knowledge and persuaded me to work more hard. But still most of the errors were solved by [@Gopal](https://github.com/Gopal-Dahale) and [@KShivendu](https://github.com/KShivendu) who helped me a lot throughout this journey. I learned many things from them like debugging the errors, improving the code structure , time management etc. which has highly refined my skills.
 
 At last FOSS Overflow is a great opportunity to get such a prestiguous platform and a supportive team of contributors and helpers, to showcase and hone your skills.
