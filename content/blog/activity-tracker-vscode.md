@@ -1,5 +1,5 @@
 ﻿---
-title: Learning with Practise (My Experience at FOSS Overflow)
+title: Learning with Practice (My Experience at FOSS Overflow)
 author: Aayush Deshmukh
 date: '2022-01-21'
 ---
