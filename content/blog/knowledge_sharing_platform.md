@@ -21,7 +21,7 @@ Right from the time I started drafting my proposal to the completion of the even
 ## Achievements
 I have worked on the frontend part of the project. Some of my major achievements for the project are:
 - Getting a better understanding of django and react concepts.
-- Creating a responsive UI that is user-friendly. The design is as follows: ![](/blog/ksp-ui.png) 
+- Creating a responsive UI that is user-friendly. The design is as follows: ![](blog/ksp-ui.png) 
 - Implementing a search feature to filter notes, previous year papers and feedbacks.
 - Creating forms to add new resources.
 - Learning how to deploy django-react applications on heroku. You can view the deployed project [here](https://knowledgesharingplatform.herokuapp.com/).
