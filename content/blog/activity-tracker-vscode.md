@@ -35,6 +35,6 @@ During this project I also got to learn Figma for UI design. My first design for
 
 The event allowed me to meet new people and together fix errors in code, design UI, etc. Overall a good experience sharing knowledge.
 
-Special thanks to my mentors [Ambar Mutha](https://github.com/supercoww), [Kumar Shivendu](https://github.com/KShivendu), and Shikhar Vashistha who were there to help me with my doubts and clear the errors in code making it more clean and efficient.
+Special thanks to my mentors [Ambar Mutha](https://github.com/ambarvm), [Kumar Shivendu](https://github.com/KShivendu), and Shikhar Vashistha who were there to help me with my doubts and clear the errors in code making it more clean and efficient.
 
 I am [Aayush Deshmukh](https://github.com/Aayushd18), a third-year student at IIT Bhilai. I love contributing to open-source projects. I congratulate FOSS Overflow for its inaugural event and I hope that it grows bigger.
