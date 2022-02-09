@@ -28,7 +28,7 @@ In this year's [Foss Overflow 2021](https://fossoverflow.dev/), my project was t
 
 This is my first time participating in an open source program, participating in FOSS Overflow was an amazing experience, get to know a lots of amazing people working on some cool projects. I have go to learn a lot from my mentors and my fellow mentees.
 
-Thanks to my mentors @KShivendu and @supercoww for guiding and supporting me throughout the project, it was really an amazing experience working with you guys, and a special thanks to my fellow mentee @Aayushd18 for being there when needed.
+Thanks to my mentors @KShivendu and @ambarvm for guiding and supporting me throughout the project, it was really an amazing experience working with you guys, and a special thanks to my fellow mentee @Aayushd18 for being there when needed.
 
 I really want this amazing open-source event to achieve great success, this have really motivated me to participate in more open-source projects and events.
 

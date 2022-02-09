@@ -35,4 +35,4 @@ and much more...
 I have been working on this project a lot since the start and I am free happy with the results. We managed to achieve what we had hoped to achieve.
 It was a great experience for me. I met many new people and learned a lot through this project. I am glad to be a part of this project. I hope to work not only on this project but also on other open source projects in the future. It was really a great experience! 🤗.
 
-Special thanks to [@Ambar](https://github.com/supercoww) Bhaiya who always helped me out with the project and I learn a lot from him and I also thank whole Foss Overflow team for their support.
+Special thanks to [@Ambar](https://github.com/ambarvm) Bhaiya who always helped me out with the project and I learn a lot from him and I also thank whole Foss Overflow team for their support.
