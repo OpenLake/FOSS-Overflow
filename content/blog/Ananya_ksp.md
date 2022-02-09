@@ -16,7 +16,7 @@ I chose this project because of the following reason, I myself sometimes contact
 
 Discussing the work I did during the period, I mainly worked on designing the whole backend of the project and I also helped in designing and adding some frontend components. I used django restframework, and designed the models, used axios to communicate with backend and coded APIs for "GET" and "POST" requests. <br>
 
-## 📉 How Fossoverflow helped in my overall development
+## 📈 How Fossoverflow helped in my overall development
 
 Fossoverflow helped me learn more closely about Time Management skill. One of the major challenge in fossoverflow was to divide the time between academics and the project. Since my academics and project were going parallely I learnt to handle the pressure and time. In the span of this one month, I learnt about the team spirit,coordination and communicated with mentors, discuss about the bugs and errors.<br>
 
