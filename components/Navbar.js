@@ -38,7 +38,7 @@ export function Navbar() {
 					<NavLink href="/">Home</NavLink>
 					<NavLink href="/projects">Projects</NavLink>
 					<NavLink href="/apply">Apply</NavLink>
-					<NavLink href="/blog">Blog</NavLink>
+					<NavLink href="/blog">Archives</NavLink>
 				</div>
 
 				<div className="absolute top-4 right-4 md:hidden">
