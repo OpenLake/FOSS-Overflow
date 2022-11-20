@@ -7,11 +7,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['browser-extension', 'javascript', 'nodejs'],
 		mentors: {
-			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
-			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+			Satvik: 'https://github.com/VickyMerzOwn/',
 		},
 		students: {
-			Sawan: 'https://github.com/kriptonian1',
 		},
 	},
 	{
@@ -22,8 +20,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Leaderboard-Pro',
 		tags: ['web', 'python', 'django'],
 		mentors: {
-			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
-			Meghana: 'https://www.linkedin.com/in/meghana100/',
+			Harshith: 'https://github.com/Harshith-19/',
 		},
 		students: {
 		},
@@ -36,12 +33,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Knowlege-Sharing-Platform',
 		tags: ['react', 'python', 'django', 'mysql', 'aws'],
 		mentors: {
-			Ashutosh: 'https://www.linkedin.com/in/ashutosh-garg-931921183/',
-			Shivam: 'https://www.linkedin.com/in/express-hermes/',
+			Ananya: 'https://github.com/Ananyaiitbhilai',
 		},
 		students: {
-			Ashita: 'https://github.com/battuAshita',
-			Ananya: 'https://github.com/Ananyaiitbhilai',
 		},
 	},
 	{
@@ -52,11 +46,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['vscode-extension', 'web', 'javascript'],
 		mentors: {
-			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
-			Shikhar: 'https://github.com/shikharvashistha',
+			Satvik: 'https://github.com/VickyMerzOwn/',
 		},
 		students: {
-			Ayush: 'https://github.com/Aayushd18',
 		},
 	},
 	{
@@ -66,13 +58,9 @@ export const projectData = [
 		tags: ['android', 'kotlin'],
 		github: 'https://github.com/openlake/sampoorna',
 		mentors: {
-			Shashwat: 'https://www.linkedin.com/in/shashwatjaiswal/',
-			Akshat: 'https://www.linkedin.com/in/akshaaatt',
-			Sunit: 'https://www.linkedin.com/in/sunit-roy/',
+			Ashutosh: 'https://github.com/yellowHatpro',
 		},
 		students: {
-			Ashutosh: 'https://github.com/yellowHatpro',
-			Aastha: 'https://github.com/aastha01chauhan',
 		},
 	},
 	{
@@ -81,10 +69,9 @@ export const projectData = [
 			'Upload group photos, arrange them by faces using ML and share them with ease. 🤳🤖',
 		tags: ['web', 'ml', 'django'],
 		mentors: {
-			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+			Aneesh: 'https://github.com/Aneesh02',
 		},
 		students: {
-			Aneesh: 'https://github.com/Aneesh02',
 		},
 	},
 	{
@@ -93,10 +80,9 @@ export const projectData = [
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
 		tags: ['web', 'browser-extension', 'javascript'],
 		mentors: {
-			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+			Chaitanya: 'https://github.com/chaitanyabisht/',
 		},
 		students: {
-			Chaitanya: 'https://github.com/chaitanyabisht/',
 		},
 	},
 	{
@@ -107,62 +93,61 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
-			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
-		},
-		students: {
 			Satvik: 'https://github.com/VickyMerzOwn',
 		},
-	},
-	{
-		title: 'Homework Scheduler',
-		description:
-			'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
-		tags: ['web', 'flexible-tech-stack'],
-		github: 'https://github.com/openlake/homework-scheduler',
-		mentors: {
-			Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
-		},
 		students: {
-			Lalit: 'https://github.com/Lalit3716',
 		},
 	},
-	{
-		title: 'Quizz Web App',
-		description:
-			'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
-		tags: ['web', 'nodejs', 'javascript'],
-		github: 'https://github.com/OpenLake/quiz-app',
-		mentors: {
-			Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
-		},
-		students: {
-			Lavish: 'https://github.com/lavish123409',
-		},
-	},
-	{
-		title: 'Live Score Web App',
-		description: 'A realtime score web app for sports🏸 and tournaments🏆.',
-		tags: ['web', 'nodejs', 'react'],
-		mentors: {
-			Rishi: 'https://www.linkedin.com/in/thefierycoder/',
-		},
-		students: {
-			Sakshi: 'https://github.com/Sakshisaraswat23',
-		},
-	},
-	{
-		title: 'Online Judge',
-		description:
-			'An online judge for programming competitions and assignments. 🧑‍💻📝',
-		tags: ['web', 'flexible-tech-stack'],
-		github: 'https://github.com/OpenLake/online-judge',
-		mentors: {
-			Ashita: 'https://www.linkedin.com/in/battu-ashita-321199206/',
-			Shivendu: 'https://www.linkedin.com/in/kshivendu/',
-			Shivam: 'https://www.linkedin.com/in/express-hermes/',
-		},
-		students: {
-			Shubham: 'https://github.com/22shubh22/',
-		},
-	},
+	// {
+	// 	title: 'Homework Scheduler',
+	// 	description:
+	// 		'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
+	// 	tags: ['web', 'flexible-tech-stack'],
+	// 	github: 'https://github.com/openlake/homework-scheduler',
+	// 	mentors: {
+	// 		Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
+	// 	},
+	// 	students: {
+	// 		Lalit: 'https://github.com/Lalit3716',
+	// 	},
+	// },
+	// {
+	// 	title: 'Quizz Web App',
+	// 	description:
+	// 		'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
+	// 	tags: ['web', 'nodejs', 'javascript'],
+	// 	github: 'https://github.com/OpenLake/quiz-app',
+	// 	mentors: {
+	// 		Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
+	// 	},
+	// 	students: {
+	// 		Lavish: 'https://github.com/lavish123409',
+	// 	},
+	// },
+	// {
+	// 	title: 'Live Score Web App',
+	// 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
+	// 	tags: ['web', 'nodejs', 'react'],
+	// 	mentors: {
+	// 		Rishi: 'https://www.linkedin.com/in/thefierycoder/',
+	// 	},
+	// 	students: {
+	// 		Sakshi: 'https://github.com/Sakshisaraswat23',
+	// 	},
+	// },
+	// {
+	// 	title: 'Online Judge',
+	// 	description:
+	// 		'An online judge for programming competitions and assignments. 🧑‍💻📝',
+	// 	tags: ['web', 'flexible-tech-stack'],
+	// 	github: 'https://github.com/OpenLake/online-judge',
+	// 	mentors: {
+	// 		Ashita: 'https://www.linkedin.com/in/battu-ashita-321199206/',
+	// 		Shivendu: 'https://www.linkedin.com/in/kshivendu/',
+	// 		Shivam: 'https://www.linkedin.com/in/express-hermes/',
+	// 	},
+	// 	students: {
+	// 		Shubham: 'https://github.com/22shubh22/',
+	// 	},
+	// },
 ];
