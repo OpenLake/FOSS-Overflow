@@ -18,7 +18,7 @@ export const whyApplyData = [
 		title: 'Perks',
 		icon: CurrencyDollarIcon,
 		description:
-			'Receive a cash award worth ₹4,000, awesome goodies, and certificates.',
+			'Receive a cash award worth ₹10,000, awesome goodies, and certificates.',
 	},
 	{
 		title: 'Mentorship',
@@ -26,7 +26,7 @@ export const whyApplyData = [
 		description: 'Get mentored by past GSoC students and regular open source contributors.',
 	},
 	{
-		title: 'Preparedness for GSoC 2022',
+		title: 'Preparedness for GSoC 2023',
 		icon: BadgeCheckIcon,
 		description: 'Get prepared for Google Summer of Code, Linux Foundation Mentorship, and Outreachy',
 	},
