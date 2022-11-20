@@ -37,7 +37,7 @@ export default function Apply() {
 
 				<iframe
 					className="mx-auto"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSfI3O9Tqs4b1IA5PaVWGTTtw5GEvzuitEw8Xmq5Yme-wEDRLQ/viewform?embedded=true"
+					src="https://forms.gle/pTchaYRXHK3Q8nGeA?"
 					width="100%"
 					height="1780"
 				>

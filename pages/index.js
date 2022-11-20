@@ -38,7 +38,7 @@ export default function Index() {
 						OpenLake at IIT Bhilai.
 					</p>
 					<p>
-						Students are paired up with mentors to work on open sourced projects
+							Students are paired up with mentors to work on open sourced projects
 						and amplify their skills and profile in the process while
 						simultaneously bagging cash awards and prizes.
 					</p>
@@ -120,7 +120,7 @@ export default function Index() {
 
 			<div className="container m-auto max-w-screen-md py-8 overflow-x-hidden">
 				<Timeline />
-			</div>
+			</div>	
 		</>
 	);
 }
