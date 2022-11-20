@@ -24,10 +24,6 @@ export const timelineData = [
 		date: '16 Jan, 2023',
 	},
 	{
-		title: 'Students submit code and evaluations',
-		date: '20-22 Jan, 2023',
-	},
-	{
 		title: 'Mentor submits evaluations',
 		date: '16-18 Jan, 2023',
 	},
