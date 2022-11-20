@@ -64,7 +64,7 @@ export default function sponshorship() {
 
 				<div className="py-10">
 					<h1 className="text-4xl md:text-3xl mb-8 font-title font-bold">
-						Filip Bech
+						Filip Bech-Larsen
 					</h1>
 					<Image
 						width={350}
