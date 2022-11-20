@@ -28,7 +28,7 @@ export default function sponshorship() {
 						Science and Engineering. From 2007 to June 2019, he was the Lexis
 						Nexis Ohio Eminent Scholar, director of the Ohio Center of
 						Excellence in Knowledge-enabled Computing, and a Professor of
-						Computer Science at Wright State University. Sheth's work has been
+						Computer Science at Wright State University. Sheth&#39;s work has been
 						cited by over 48,800 publications.He has an h-index of 114, which
 						puts him among the top 100 computer scientists with the highest
 						h-index. Prior to founding the Kno.e.sis Center, he served as the
@@ -56,7 +56,7 @@ export default function sponshorship() {
 						security problems. Now an associate professor in the Department of
 						Computer Science and Engineering at NYU Tandon, he has introduced a
 						number of new software products and system protocols as head of the
-						school's Secure Systems Laboratory. Recognizing the practical impact
+						school&#39;s Secure Systems Laboratory. Recognizing the practical impact
 						of his work, Popular Science selected Cappos as one of its Brilliant
 						10 in 2013, naming him as one of 10 brilliant scientists under 40.
 					</p>
@@ -76,10 +76,10 @@ export default function sponshorship() {
 					<p className="text-lg md:text-2xl">
 						Filip, a technology enthusiast by heart, has been working with the
 						web for more than 10 years. He is currently the CTO of Umbraco CMS.
-						Previously, he's served as the CTO of Colibo, the Head of Technology
+						Previously, he&#39;s served as the CTO of Colibo, the Head of Technology
 						at IMPACT, and as a senior and lead developer at Skybrud.dk (now
-						Limbo) and Wildside A/S respectively. Since 2016 he's been a part of
-						the Google Developers Experts Program. He's deeply passionate
+						Limbo) and Wildside A/S respectively. Since 2016 he&#39;s been a part of
+						the Google Developers Experts Program. He&#39;s deeply passionate
 						towards talking about Software Development and has delivered more
 						than 60+ sessions to date. He writes blogs and speaks at conferences
 						and user-groups and also organises a local user- group - AarhusJS.
