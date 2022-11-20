@@ -9,19 +9,15 @@ export const timelineData = [
 	},
 	{
 		title: "Students' Projects Announced",
-		date: '14 Dec, 2022',
-	},
-	{
-		title: 'Project Planning and Community Bonding Period',
-		date: '14-18 Dec, 2022',
+		date: '15 Dec, 2022',
 	},
 	{
 		title: 'Coding Period Starts',
-		date: '20 Dec, 2022',
+		date: '16 Dec, 2022',
 	},
 	{
 		title: 'Mid Evaluations',
-		date: '2 Jan, 2023',
+		date: '31 Dec to 2 Jan, 2023',
 	},
 	{
 		title: 'Coding Period Ends',
@@ -33,10 +29,10 @@ export const timelineData = [
 	},
 	{
 		title: 'Mentor submits evaluations',
-		date: '23 Jan, 2023',
+		date: '16-18 Jan, 2023',
 	},
 	{
 		title: 'Results Announced',
-		date: '24 Jan, 2022',
+		date: '19 Jan, 2023',
 	},
 ];

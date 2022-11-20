@@ -121,6 +121,21 @@ export default function Index() {
 			<div className="container m-auto max-w-screen-md py-8 overflow-x-hidden">
 				<Timeline />
 			</div>
+			<div id="con" className="w-100 py-24 flex flex-col justify-center text-center container m-auto max-w-prose px-4">
+			<h1 className="text-4xl md:text-3xl mb-8 font-title font-bold">
+						Feel free to reach us at:
+						</h1>
+			<h1 className="text-4xl md:text-3xl mb-8 font-title font-light">
+			openlake@iitbhilai.ac.in<br/>
+						dsc@iitbhilai.ac.in<br/>
+						+91 701 396 2027<br/>
+						+91 958 877 6897
+			</h1>
+						
+
+			
+			</div>
+			
 		</>
 	);
 }
