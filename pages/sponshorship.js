@@ -38,22 +38,23 @@ export default function sponshorship() {
 					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
                     🛡️ Silver Sponsors 🛡️
 					</h1>
-                    <Image
-						width={300}
-						height={100}
-						className="py-2"
-						src={logoURL}
-						alt="sbi"
-					/>
+                   <h6>
+                        Inviting Sponsors!
+                    </h6>
 				</div>
 				</div>
                 <div className="py-10">
 					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
 					🥉 Bronze Sponsors 🥉
 					</h1>
-                    <h6>
-                        Inviting Sponsors!
-                    </h6>
+                    
+		     <Image
+						width={300}
+						height={100}
+						className="py-2"
+						src={logoURL2}
+						alt="logy"
+					/>
 				</div>
 			</div>
 		</>
