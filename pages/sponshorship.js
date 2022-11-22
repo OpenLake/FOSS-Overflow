@@ -42,7 +42,6 @@ export default function sponshorship() {
                         Inviting Sponsors!
                     </h6>
 				</div>
-				</div>
                 <div className="py-10">
 					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
 					🥉 Bronze Sponsors 🥉
