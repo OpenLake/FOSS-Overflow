@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import logoURL from '../public/sbi.png';
 import logoURL1 from '../public/sci.jpeg';
+import logoURL2 from '../public/logy.png';
 export default function sponshorship() {
 	return (
 		<>
@@ -37,7 +38,7 @@ export default function sponshorship() {
 					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
                     🛡️ Silver Sponsors 🛡️
 					</h1>
-                    <h6>
+                   <h6>
                         Inviting Sponsors!
                     </h6>
 				</div>
@@ -45,9 +46,14 @@ export default function sponshorship() {
 					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
 					🥉 Bronze Sponsors 🥉
 					</h1>
-                    <h6>
-                        Inviting Sponsors!
-                    </h6>
+                    
+		     <Image
+						width={300}
+						height={200}
+						className="py-2"
+						src={logoURL2}
+						alt="logy"
+					/>
 				</div>
 			</div>
 		</>
