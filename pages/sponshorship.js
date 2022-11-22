@@ -49,7 +49,7 @@ export default function sponshorship() {
                     
 		     <Image
 						width={300}
-						height={100}
+						height={200}
 						className="py-2"
 						src={logoURL2}
 						alt="logy"
