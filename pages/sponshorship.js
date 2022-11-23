@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logoURL from '../public/sbi.png';
 import logoURL1 from '../public/sci.jpeg';
 import logoURL2 from '../public/logy.png';
+import logoURL3 from '../public/aspire.png';
 export default function sponshorship() {
 	return (
 		<>
@@ -49,9 +50,22 @@ export default function sponshorship() {
                     
 		     <Image
 						width={300}
-						height={200}
+						height={300}
 						className="py-2"
 						src={logoURL2}
+						alt="logy"
+					/>
+				</div>
+				<div className="py-10">
+					<h1 className="text-4xl md:text-4xl mb-8 font-title font-bold">
+					 Community Partners
+					</h1>
+                    
+		     <Image
+						width={300}
+						height={200}
+						className="py-2"
+						src={logoURL3}
 						alt="logy"
 					/>
 				</div>
