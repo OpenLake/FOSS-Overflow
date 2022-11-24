@@ -8,7 +8,7 @@ export default function sponshorship() {
 			<Head>
 				<title>Speakers | FOSS Overflow</title>
 			</Head>
-			<div className="w-100 py-12 flex flex-row justify-center text-center container m-auto max-w-prose ">
+			<div className="w-100 py-12 flex flex-col justify-center text-center container m-auto max-w-prose md:flex-row md:w-150 ">
 				<div className="px-40">
 					<h1 className="text-4xl md:text-3xl mb-8 font-title font-bold">
 						Ananya Hooda
