@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import logoURL from '../public/ana.png';
+import logoURL from '../public/ana1.png';
 import logoURL1 from '../public/sat.png';
 export default function sponshorship() {
 	return (
