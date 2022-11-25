@@ -41,7 +41,7 @@ export function Navbar() {
 					<NavLink href="/blog">Archives</NavLink>
 					<NavLink href="/sponshorship">Sponsors</NavLink>
 					<NavLink href="/speakers">Speakers</NavLink>
-					<NavLink href="/contact">Contact</NavLink>
+	
 				</div>
 
 				<div className="absolute top-4 right-4 md:hidden">
