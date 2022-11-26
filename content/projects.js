@@ -122,7 +122,7 @@ export const projectData = [
 			
 			
 		},
-			mentors:{Maanas: "https://www.linkedin.com/in/maanas-talwar"},
+		
 		students: {
 			},
 	},
