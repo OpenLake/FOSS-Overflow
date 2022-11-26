@@ -118,10 +118,11 @@ export const projectData = [
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',
 			Nishant: "https://www.linkedin.com/in/andoriya-nishant", 
-			Noman: "https://www.linkedin.com/in/noman--khan",
-			Maanas: "https://www.linkedin.com/in/maanas-talwar"
+			Noman: "https://www.linkedin.com/in/noman--khan", 
+			
 			
 		},
+			mentors:{Maanas: "https://www.linkedin.com/in/maanas-talwar"},
 		students: {
 			},
 	},
