@@ -9,6 +9,9 @@ export const projectData = [
 		tags: ['web', 'python', 'django'],
 		mentors: {
 			Harshith: 'https://github.com/Harshith-19/',
+			Yogesh: "https://www.linkedin.com/in/yogeshai",
+			Arya: "https://www.linkedin.com/in/aryasoni/"
+			
 		},
 		students: {
 		},
@@ -23,6 +26,9 @@ export const projectData = [
 		mentors: {
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Anshuman: 'https://www.linkedin.com/in/anshuman-dhiman-06a7341ab',
+			Yogesh: "https://www.linkedin.com/in/yogeshai",
+			Harshith: 'https://github.com/Harshith-19/',
+			
 		},
 		students: {
 		},
@@ -59,9 +65,10 @@ export const projectData = [
 		wiki: 'https://github.com/OpenLake/Smart-Insti-App/wiki',
 		github: 'https://github.com/OpenLake/Smart-Insti-App',
 		mentors: {
-			Ananya: 'https://www.linkedin.com/in/04ananya/',
+		
 			Chaitanya :'https://www.linkedin.com/in/cbisht',
 			Maanas: "https://www.linkedin.com/in/maanas-talwar",
+		        Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Satvik: "http://linkedin.com/in/satvik-vemuganti"
 		},
 		students: {
@@ -73,12 +80,29 @@ export const projectData = [
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
 		tags: ['web', 'browser-extension', 'javascript'],
 		mentors: {
+			
+			Nitin: "www.linkedin.com/in/nitinkumar2023",
 			Chaitanya: 'https://github.com/chaitanyabisht/',
 			Shobhit : "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6"
 		},
 		students: {
 		},
 	},
+	{
+		title: 'Find your Cluster',
+ 		description:
+ 			'Find common interests among your peers and build a healthy community 🏫🧍‍♂️',
+ 		wiki: 'https://github.com/OpenLake/Find-your-Cluster/wiki',
+ 		github: 'https://github.com/OpenLake/Find-your-Cluster',
+ 		tags: ['flutter/reactjs', 'python', 'flask', 'ML'],
+ 		mentors: {
+ 			Maanas: "https://www.linkedin.com/in/maanas-talwar",
+			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',	
+			Ananya: 'https://www.linkedin.com/in/04ananya/',
+ 		},
+ 		students: {
+ 		},
+ 	},
 	{
 		title: 'Activity Tracker (Mobile App)',
 		description:
@@ -87,7 +111,9 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
+			Noman: 'https://www.linkedin.com/in/noman--khan/',
 			Nishant: 'https://www.linkedin.com/in/andoriya-nishant',
+			Satvik: "https://www.linkedin.com/in/satvik-vemuganti"
 		},
 		students: {
 		},
@@ -100,8 +126,12 @@ export const projectData = [
 		wiki: 'https://github.com/OpenLake/Speech-Analyser/wiki',
 		github: 'https://github.com/openlake/Speech-Analyser',
 		mentors: {
+			Chouchen :'https://www.linkedin.com/in/chouchen-wassim-3b4aa621a/',
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
-			Chouchen :'https://www.linkedin.com/in/chouchen-wassim-3b4aa621a/'
+			Yogesh: "https://www.linkedin.com/in/yogeshai",
+			Arya: "https://www.linkedin.com/in/aryasoni/"
+			
+			
 		},
 		students: {
 		},
@@ -115,10 +145,12 @@ export const projectData = [
 		wiki: 'https://github.com/OpenLake/Not-a-Mess/wiki/FOSS-Overflow',
 		github: 'https://github.com/OpenLake/Not-a-Mess',
 		mentors: {
+			
+			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',	
+			Noman: "https://www.linkedin.com/in/noman--khan",
+			Maanas: "https://www.linkedin.com/in/maanas-talwar",
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
-			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',
-			Nishant: "https://www.linkedin.com/in/andoriya-nishant", 
-			Noman: "https://www.linkedin.com/in/noman--khan", 
+			
 			
 			
 		},
@@ -136,7 +168,8 @@ export const projectData = [
 		tags: ['Core Javascript', 'ReactJS', 'NextJS', 'Typescript', 'NodeJS', 'MongoDB', 'ExpressJS', 'Redux', 'Docker', 'AWS EC2' ],
 		mentors: {
 			Arya: 'https://www.linkedin.com/in/aryasoni/',
-			Adarsh: 'https://www.linkedin.com/in/adarsh-anand-iitgoa'
+			Adarsh: 'https://www.linkedin.com/in/adarsh-anand-iitgoa',
+			Sudhir: "http://linkedin.com/in/sudhirsharma87"
 			
 		},
 		students: {
@@ -157,6 +190,18 @@ export const projectData = [
 		
 	},
 	{
+		title: 'Live Score Web App',
+	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
+	tags: [],
+		mentors: {
+			Nishant: 'https://www.linkedin.com/in/andoriya-nishant/', 
+			Sakshi: 'https://www.linkedin.com/in/sakshi-saraswat-ba3937169/',
+		},
+		students: {
+			
+		},
+	},
+	{
 		title: 'File Sharing App',
 		description:
 			'File Sharing Application between different devices ( with p2p technology )',
@@ -169,7 +214,19 @@ export const projectData = [
 		students: {
 		},
 	},
-	
+		{
+		title: 'Remote Voting Blockchain',
+		description:
+			'Hyperledger Fabric (Blockchain) implementation of electronic (remote) voting.',
+		github: '',
+		tags: ['hyperledger fabric', 'mern stack'],
+		mentors: {
+			Shobhit: "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6",
+			Pratik:'http://linkedin.com/in/pratikspatil024'
+		},
+		students: {
+		},
+	},
 	{
 		title: 'Interview Preparation ',
 		description:
@@ -191,6 +248,18 @@ export const projectData = [
 		tags: [],
 		mentors: {
 			 Sudhir: "http://linkedin.com/in/sudhirsharma87"
+		},
+		students: {
+		},
+	},
+	{
+		title: 'OMRChecker',
+		description:
+			'Read OMRs fast and accurately using a scanner 🖨 or your phone 🤳',
+		github: 'https://github.com/Udayraj123/OMRChecker',
+		tags: [],
+		mentors: {
+			UdayRaj: "https://linkedin.com/udayraj123"
 		},
 		students: {
 		},
