@@ -192,7 +192,7 @@ export const projectData = [
 	{
 		title: 'Live Score Web App',
 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
-	tags: [],
+	tags: ['firebase', 'flutter'],
 		mentors: {
 			Nishant: 'https://www.linkedin.com/in/andoriya-nishant/', 
 			Sakshi: 'https://www.linkedin.com/in/sakshi-saraswat-ba3937169/',
@@ -247,7 +247,7 @@ export const projectData = [
 		description:
 			'Canonforces is the Codeforces Problem of the Day. A game to improve your coding efficiency by solving short programming problems with other people (1 vs 1), at the same time.',
 		github: 'https://github.com/OpenLake/Canonforces',
-		tags: [],
+		tags: ['mern stack'],
 		mentors: {
 			 Sudhir: "http://linkedin.com/in/sudhirsharma87"
 		},
@@ -259,9 +259,9 @@ export const projectData = [
 		description:
 			'Read OMRs fast and accurately using a scanner 🖨 or your phone 🤳',
 		github: 'https://github.com/Udayraj123/OMRChecker',
-		tags: [],
+		tags: ['python', 'opencv'],
 		mentors: {
-			UdayRaj: "https://linkedin.com/udayraj123"
+			Udayraj: "https://linkedin.com/udayraj123"
 		},
 		students: {
 		},
