@@ -34,7 +34,7 @@ export const projectData = [
 		tags: ['react', 'python', 'django/nodejs', 'mysql', 'aws'],
 		mentors: {
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
-			Adarsh: 'https://www.linkedin.com/in/adarsh-anand-iitgoa/',
+			Anshuman: 'https://www.linkedin.com/in/anshuman-dhiman-06a7341ab',
 		},
 		students: {
 		},
@@ -76,6 +76,22 @@ export const projectData = [
 		},
 	},
 	{
+		title: 'Smart Insti App',
+		description:
+			'A one-stop App for all institute related information and updates 📱🏫',
+		tags: ['flutter','firebase'],
+		wiki: 'https://github.com/OpenLake/Smart-Insti-App/wiki',
+		github: 'https://github.com/OpenLake/Smart-Insti-App',
+		mentors: {
+			Ananya: 'https://www.linkedin.com/in/04ananya/',
+			Chaitanya :'https://www.linkedin.com/in/chouchen-wassim-3b4aa621a/',
+			Maanas: "https://www.linkedin.com/in/maanas-talwar",
+			Satvik: "http://linkedin.com/in/satvik-vemuganti"
+		},
+		students: {
+		},
+	},
+	{
 		title: 'WatchParty',
 		description:
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
@@ -100,7 +116,7 @@ export const projectData = [
 		},
 	},
 	{
-		title: 'Speech-Analyser',
+		title: 'Speech Analyser',
 		description:
 			'An App to help you improve your English fluency microphone🎤',
 		tags: ['Python', 'nlp machine learning','Speech Recognition', 'speech processing'],
@@ -114,15 +130,16 @@ export const projectData = [
 		},
 	},
 	{
-		title: 'Not-a-Mess',
+		title: 'Not a Mess',
 		description:
-			'A one-stop App to help you resolve mess related issues and more 🍲',
+			'A one-stop App to help you resolve mess related issues and more 🍱',
 		tags: ['python', 'data visualization', 'data analytics','flutter'],
 		wiki: 'https://github.com/OpenLake/Not-a-Mess/wiki/FOSS-Overflow',
 		github: 'https://github.com/OpenLake/Not-a-Mess',
 		mentors: {
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',
+			Nishant: "https://www.linkedin.com/in/andoriya-nishant"
 		},
 		students: {
 			},
