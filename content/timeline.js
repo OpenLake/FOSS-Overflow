@@ -1,7 +1,7 @@
 export const timelineData = [
 	{
 		title: 'Application Period Starts',
-		date: '24 Nov, 2022',
+		date: '27 Nov, 2022',
 	},
 	{
 		title: 'Application Period Ends',
