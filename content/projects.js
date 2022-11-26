@@ -31,9 +31,10 @@ export const projectData = [
 			'A platform for college students to share course reviews, notes, and last year’s questions. 🎓📖',
 		wiki: 'https://github.com/OpenLake/Knowlege-Sharing-Platform/wiki/FOSS-Overflow',
 		github: 'https://github.com/OpenLake/Knowlege-Sharing-Platform',
-		tags: ['react', 'python', 'django', 'mysql', 'aws'],
+		tags: ['react', 'python', 'django/nodejs', 'mysql', 'aws'],
 		mentors: {
-			Ananya: 'https://github.com/Ananyaiitbhilai',
+			Ananya: 'https://www.linkedin.com/in/04ananya/',
+			Adarsh: 'https://www.linkedin.com/in/adarsh-anand-iitgoa/',
 		},
 		students: {
 		},
@@ -98,32 +99,34 @@ export const projectData = [
 		students: {
 		},
 	},
-	// {
-	// 	title: 'Homework Scheduler',
-	// 	description:
-	// 		'Helps teachers decide homework deadlines by keeping a track of other commitments and assignments of the students. 🧑‍🏫🧑‍🎓',
-	// 	tags: ['web', 'flexible-tech-stack'],
-	// 	github: 'https://github.com/openlake/homework-scheduler',
-	// 	mentors: {
-	// 		Ambar: 'https://www.linkedin.com/in/ambar-mutha/',
-	// 	},
-	// 	students: {
-	// 		Lalit: 'https://github.com/Lalit3716',
-	// 	},
-	// },
-	// {
-	// 	title: 'Quizz Web App',
-	// 	description:
-	// 		'A time bounded quizzing platform with realtime leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
-	// 	tags: ['web', 'nodejs', 'javascript'],
-	// 	github: 'https://github.com/OpenLake/quiz-app',
-	// 	mentors: {
-	// 		Gopal: 'https://www.linkedin.com/in/gopal-ramesh-dahale-7a3087198/',
-	// 	},
-	// 	students: {
-	// 		Lavish: 'https://github.com/lavish123409',
-	// 	},
-	// },
+	{
+		title: 'Speech-Analyser',
+		description:
+			'An App to help you improve your English fluency microphone🎤',
+		tags: ['Python', 'nlp machine learning','Speech Recognition', 'speech processing'],
+		wiki: 'https://github.com/OpenLake/Speech-Analyser/wiki',
+		github: 'https://github.com/openlake/Speech-Analyser',
+		mentors: {
+			Ananya: 'https://www.linkedin.com/in/04ananya/',
+			Chouchen :'https://www.linkedin.com/in/chouchen-wassim-3b4aa621a/'
+		},
+		students: {
+		},
+	},
+	{
+		title: 'Not-a-Mess',
+		description:
+			'A one-stop App to help you resolve mess related issues and more 🍲',
+		tags: ['python', 'data visualization', 'data analytics','flutter'],
+		wiki: 'https://github.com/OpenLake/Not-a-Mess/wiki/FOSS-Overflow',
+		github: 'https://github.com/OpenLake/Not-a-Mess',
+		mentors: {
+			Ananya: 'https://www.linkedin.com/in/04ananya/',
+			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',
+		},
+		students: {
+			},
+	}
 	// {
 	// 	title: 'Live Score Web App',
 	// 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
