@@ -169,6 +169,48 @@ export const projectData = [
 		students: {
 		},
 	},
+	
+	{
+		title: 'Interview Preparation ',
+		description:
+			'Interview Preparation MERN stack app which helps you to land your desired company. App should includes features like ',
+		github: 'https://github.com/OpenLake/Interview-Preparation',
+		tags: ['ReactJS', 'ExpressJS', 'MongoDB(MERN)'],
+		mentors: {
+			 Nisarg: "https://www.linkedin.com/in/nisarg-thakkar-08811a21a", 
+			Shobhit: "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6"
+		},
+		students: {
+		},
+	},
+	
+	{title: 'Activity Tracker (Browser Extension)',
+ 		description:
+ 			'A chrome extension that tracks your browsing history and gives you insights into your browsing habits 🕵️‍♂️🌐',
+ 		wiki: 'https://github.com/OpenLake/Activity-Tracker/wiki/FOSS-Overflow-%7C-Web-Extension',
+ 		github: 'https://github.com/OpenLake/Activity-Tracker',
+ 		tags: ['browser-extension', 'javascript', 'nodejs'],
+ 		mentors: {
+ 			
+ 		},
+ 		students: {
+ 		},
+ 	},
+
+
+ 	{
+ 		title: 'Activity Tracker (VS Code Extension)',
+ 		description:
+ 			'A VS code extension that tracks the amount of time your spend on each of your  projects. 👨‍💻⌛',
+ 		wiki: 'https://github.com/OpenLake/Activity-Tracker/wiki/FOSS-Overflow-%7C-VSCode-Extension',
+ 		github: 'https://github.com/OpenLake/Activity-Tracker',
+ 		tags: ['vscode-extension', 'web', 'javascript'],
+ 		mentors: {
+ 			
+ 		},
+ 		students: {
+ 		},
+ 	},
 	// {
 	// 	title: 'Live Score Web App',
 	// 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
