@@ -122,7 +122,6 @@ export const projectData = [
 			
 			
 		},
-			
 		students: {
 			},
 	},
