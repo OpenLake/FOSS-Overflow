@@ -1,17 +1,5 @@
 export const projectData = [
-	{
-		title: 'Activity Tracker (Browser Extension)',
-		description:
-			'A chrome extension that tracks your browsing history and gives you insights into your browsing habits 🕵️‍♂️🌐',
-		wiki: 'https://github.com/OpenLake/Activity-Tracker/wiki/FOSS-Overflow-%7C-Web-Extension',
-		github: 'https://github.com/OpenLake/Activity-Tracker',
-		tags: ['browser-extension', 'javascript', 'nodejs'],
-		mentors: {
-			Satvik: 'https://github.com/VickyMerzOwn/',
-		},
-		students: {
-		},
-	},
+	
 	{
 		title: 'Leaderboard Pro',
 		description:
@@ -39,19 +27,7 @@ export const projectData = [
 		students: {
 		},
 	},
-	{
-		title: 'Activity Tracker (VS Code Extension)',
-		description:
-			'A VS code extension that tracks the amount of time your spend on each of your  projects. 👨‍💻⌛',
-		wiki: 'https://github.com/OpenLake/Activity-Tracker/wiki/FOSS-Overflow-%7C-VSCode-Extension',
-		github: 'https://github.com/OpenLake/Activity-Tracker',
-		tags: ['vscode-extension', 'web', 'javascript'],
-		mentors: {
-			Satvik: 'https://github.com/VickyMerzOwn/',
-		},
-		students: {
-		},
-	},
+	
 	{
 		title: 'Sampoorna',
 		description:
@@ -84,7 +60,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Smart-Insti-App',
 		mentors: {
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
-			Chaitanya :'https://www.linkedin.com/in/chouchen-wassim-3b4aa621a/',
+			Chaitanya :'https://www.linkedin.com/in/cbisht',
 			Maanas: "https://www.linkedin.com/in/maanas-talwar",
 			Satvik: "http://linkedin.com/in/satvik-vemuganti"
 		},
@@ -98,6 +74,7 @@ export const projectData = [
 		tags: ['web', 'browser-extension', 'javascript'],
 		mentors: {
 			Chaitanya: 'https://github.com/chaitanyabisht/',
+			Shobhit : "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6"
 		},
 		students: {
 		},
@@ -110,7 +87,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Activity-Tracker',
 		tags: ['flutter', 'android', 'iOS'],
 		mentors: {
-			Satvik: 'https://github.com/VickyMerzOwn',
+			Nishant: 'https://www.linkedin.com/in/andoriya-nishant',
 		},
 		students: {
 		},
@@ -129,7 +106,8 @@ export const projectData = [
 		students: {
 		},
 	},
-	{
+
+		{
 		title: 'Not a Mess',
 		description:
 			'A one-stop App to help you resolve mess related issues and more 🍱',
@@ -139,11 +117,58 @@ export const projectData = [
 		mentors: {
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',
-			Nishant: "https://www.linkedin.com/in/andoriya-nishant"
+			Nishant: "https://www.linkedin.com/in/andoriya-nishant", 
+			Noman: "https://www.linkedin.com/in/noman--khan",
+			Maanas: "https://www.linkedin.com/in/maanas-talwar"
+			
 		},
 		students: {
 			},
-	}
+	},
+		
+	
+	{
+		title: 'Codeless Builder',
+		description:
+			'In the current scenario, no-code tools for building websites do exist but most of them are either theme-based or not affordable for common peeps.',
+	
+		github: 'https://github.com/aryasoni98/Codeless-Builder',
+		tags: ['Core Javascript', 'ReactJS', 'NextJS', 'Typescript', 'NodeJS', 'MongoDB', 'ExpressJS', 'Redux', 'Docker', 'AWS EC2' ],
+		mentors: {
+			Arya: 'https://www.linkedin.com/in/aryasoni/',
+			Adarsh: 'https://www.linkedin.com/in/adarsh-anand-iitgoa'
+			
+		},
+		students: {
+		},
+	},
+	{
+		title: 'DocDelivery',
+		description:
+			'A package tracking application, that helps you track yours incoming packages/shipments easily',
+		github: 'https://github.com/shankarpriyank/DocDelivery',
+		tags: ['Kotlin', 'Jetpack Compose', 'Android Development'],
+		mentors: {
+			Priyank: 'https://www.linkedin.com/in/shankarpriyank'
+			
+		},
+		students: {
+		},
+		
+	},
+	{
+		title: 'File Sharing App',
+		description:
+			'File Sharing Application between different devices ( with p2p technology )',
+		github: 'https://github.com/OpenLake/File-Sharing-App',
+		tags: ['GoLang backend', 'Flutter frontend app'],
+		mentors: {
+			Satvik: "http://linkedin.com/in/satvik-vemuganti",
+			Chaitanya :'https://www.linkedin.com/in/cbisht'
+		},
+		students: {
+		},
+	},
 	// {
 	// 	title: 'Live Score Web App',
 	// 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
