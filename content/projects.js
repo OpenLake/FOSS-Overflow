@@ -259,9 +259,9 @@ export const projectData = [
 		description:
 			'Read OMRs fast and accurately using a scanner 🖨 or your phone 🤳',
 		github: 'https://github.com/Udayraj123/OMRChecker',
-		tags: [],
+		tags: ['python', 'opencv'],
 		mentors: {
-			UdayRaj: "https://linkedin.com/udayraj123"
+			Udayraj: "https://linkedin.com/udayraj123"
 		},
 		students: {
 		},
