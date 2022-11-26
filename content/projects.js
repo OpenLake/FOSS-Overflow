@@ -37,7 +37,7 @@ export const projectData = [
 	{
 		title: 'Sampoorna',
 		description:
-			'One app for all women, covers everything from safety to health and more.',
+			'One app for all women, covers everything from safety to health and more 👩💪',
 		tags: ['android', 'kotlin'],
 		github: 'https://github.com/openlake/sampoorna',
 		mentors: {
@@ -121,7 +121,7 @@ export const projectData = [
 	{
 		title: 'Speech Analyser',
 		description:
-			'An App to help you improve your English fluency microphone🎤',
+			'An App to help you improve your English fluency microphone 🎤',
 		tags: ['Python', 'nlp machine learning','Speech Recognition', 'speech processing'],
 		wiki: 'https://github.com/OpenLake/Speech-Analyser/wiki',
 		github: 'https://github.com/openlake/Speech-Analyser',
@@ -162,7 +162,7 @@ export const projectData = [
 	{
 		title: 'Codeless Builder',
 		description:
-			'In the current scenario, no-code tools for building websites do exist but most of them are either theme-based or not affordable for common peeps.',
+			'In the current scenario, no-code tools for building websites do exist but most of them are either theme-based or not affordable for common peeps 💻',
 	
 		github: 'https://github.com/aryasoni98/Codeless-Builder',
 		tags: ['Core Javascript', 'ReactJS', 'NextJS', 'Typescript', 'NodeJS', 'MongoDB', 'ExpressJS', 'Redux', 'Docker', 'AWS EC2' ],
@@ -178,7 +178,7 @@ export const projectData = [
 	{
 		title: 'DocDelivery',
 		description:
-			'A package tracking application, that helps you track yours incoming packages/shipments easily',
+			'A package tracking application, that helps you track yours incoming packages/shipments easily 🚛📦',
 		github: 'https://github.com/shankarpriyank/DocDelivery',
 		tags: ['Kotlin', 'Jetpack Compose', 'Android Development'],
 		mentors: {
@@ -204,7 +204,7 @@ export const projectData = [
 	{
 		title: 'File Sharing App',
 		description:
-			'File Sharing Application between different devices ( with p2p technology )',
+			'File Sharing Application between different devices (with p2p technology) 📁📱',
 		github: 'https://github.com/OpenLake/File-Sharing-App',
 		tags: ['GoLang backend', 'Flutter frontend app'],
 		mentors: {
@@ -217,7 +217,7 @@ export const projectData = [
 		{
 		title: 'Remote Voting Blockchain',
 		description:
-			'Hyperledger Fabric (Blockchain) implementation of electronic (remote) voting.',
+			'Hyperledger Fabric (Blockchain) implementation of electronic (remote) voting 🗳',
 		github: '',
 		tags: ['hyperledger fabric', 'mern stack'],
 		mentors: {
@@ -232,7 +232,7 @@ export const projectData = [
 	{
 		title: 'Interview Preparation ',
 		description:
-			'Interview Preparation MERN stack app which helps you to land your desired company. App should includes features like ',
+			'Interview Preparation MERN stack app which helps you to land your desired company 👨‍💻',
 		github: 'https://github.com/OpenLake/Interview-Preparation',
 		tags: ['ReactJS', 'ExpressJS', 'MongoDB(MERN)'],
 		mentors: {
@@ -245,7 +245,7 @@ export const projectData = [
 	{
 		title: 'Canonforces',
 		description:
-			'Canonforces is the Codeforces Problem of the Day. A game to improve your coding efficiency by solving short programming problems with other people (1 vs 1), at the same time.',
+			'Canonforces is the Codeforces Problem of the Day. A game to improve your coding efficiency by solving short programming problems with other people (1 vs 1), at the same time 👨‍💻👩‍💻',
 		github: 'https://github.com/OpenLake/Canonforces',
 		tags: ['mern stack'],
 		mentors: {
