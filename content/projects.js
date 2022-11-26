@@ -183,6 +183,18 @@ export const projectData = [
 		students: {
 		},
 	},
+	{
+		title: 'Canonforces',
+		description:
+			'Canonforces is the Codeforces Problem of the Day. A game to improve your coding efficiency by solving short programming problems with other people (1 vs 1), at the same time.',
+		github: 'https://github.com/OpenLake/Canonforces',
+		tags: [],
+		mentors: {
+			 Sudhir: "http://linkedin.com/in/sudhirsharma87"
+		},
+		students: {
+		},
+	},
 	
 	{title: 'Activity Tracker (Browser Extension)',
  		description:
