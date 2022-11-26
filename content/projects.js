@@ -221,8 +221,9 @@ export const projectData = [
 		github: '',
 		tags: ['hyperledger fabric', 'mern stack'],
 		mentors: {
+			Pratik:'http://linkedin.com/in/pratikspatil024',
 			Shobhit: "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6",
-			Pratik:'http://linkedin.com/in/pratikspatil024'
+			
 		},
 		students: {
 		},
