@@ -29,7 +29,7 @@ export default function sponshorship() {
 						Nexis Ohio Eminent Scholar, director of the Ohio Center of
 						Excellence in Knowledge-enabled Computing, and a Professor of
 						Computer Science at Wright State University. Sheth&#39;s work has been
-						cited by over 48,800 publications.He has an h-index of 114, which
+						cited by over 54000 publications. He has an h-index of 114, which
 						puts him among the top 100 computer scientists with the highest
 						h-index. Prior to founding the Kno.e.sis Center, he served as the
 						director of the Large Scale Distributed Information Systems Lab at
