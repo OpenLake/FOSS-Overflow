@@ -22,6 +22,9 @@ export default function Apply() {
 						The participants are free to discuss with the project mentors or the
 						organizing team via Discord while drafting their proposal.
 					</li>
+					<li>
+						In case the below embedded form takes time to load, please click on the button "Apply Now"
+					</li>
 				</ul>
 
 				<div className="mx-auto max-w-max">
@@ -34,10 +37,20 @@ export default function Apply() {
 						Join Discord
 					</a>
 				</div>
+		<div className="mx-auto max-w-max">
+					<a
+						className="w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5"
+						target="_blank"
+						rel="noreferrer noopener"
+						href="https://forms.gle/pTchaYRXHK3Q8nGeA?"
+					>
+						Apply Now
+					</a>
+				</div>
 
 				<iframe
 					className="mx-auto"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSdepZ9Bfg1t_CX58DYnYJSaPq26r_5Z-0Pmyli-a1ZVl4TNSA/viewform?usp=sf_link"
+					src="https://forms.gle/pTchaYRXHK3Q8nGeA?"
 					width="100%"
 					height="1780"
 				>
