@@ -23,7 +23,7 @@ export default function Apply() {
 						organizing team via Discord while drafting their proposal.
 					</li>
 					<li>
-						In case the below embedded form takes time to load, please click on the button "Apply Now"
+						In case the below embedded form takes time to load, please click on the button &#39;Apply Now&#39;
 					</li>
 				</ul>
 
