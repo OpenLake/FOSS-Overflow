@@ -79,6 +79,7 @@ export const projectData = [
 		description:
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
 		tags: ['web', 'browser-extension', 'javascript'],
+		github: 'https://github.com/OpenLake/WatchParty'
 		mentors: {
 			
 			Nitin: "www.linkedin.com/in/nitinkumar2023",
