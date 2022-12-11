@@ -193,7 +193,7 @@ export const projectData = [
 		
 	},
 	{
-		title: 'Quiz-App',
+		title: 'QuizLake',
 		description:
 			'A time-bounded quizzing platform with real-time leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
 		wiki: 'https://github.com/OpenLake/Quiz-App/wiki',
