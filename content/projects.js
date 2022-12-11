@@ -80,7 +80,7 @@ export const projectData = [
 		description:
 			'Watch movies with your friends remotely. Interact with them using the chat. 🎥🥳',
 		tags: ['web', 'browser-extension', 'javascript'],
-		github: 'https://github.com/OpenLake/WatchParty'
+		github: 'https://github.com/OpenLake/WatchParty',
 		mentors: {
 			
 			Nitin: "www.linkedin.com/in/nitinkumar2023",
@@ -193,6 +193,21 @@ export const projectData = [
 		
 	},
 	{
+		title: 'Quiz-App',
+		description:
+			'A time-bounded quizzing platform with real-time leaderboards and a store of past quizzes and results. 🧑‍🏫🧑‍🎓',
+		wiki: 'https://github.com/OpenLake/Quiz-App/wiki',
+		github: 'https://github.com/OpenLake/Quiz-App',
+		tags: ['Flutter', 'Firebase'],
+		mentors: {
+			Sarvesh: 'https://www.linkedin.com/in/sarvesh-kumar-414b75206'
+			
+		},
+		students: {
+		},
+		
+	},
+	{
 		title: 'Live Score Web App',
 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
 	tags: ['firebase', 'flutter'],
@@ -212,7 +227,8 @@ export const projectData = [
 		tags: ['GoLang backend', 'Flutter frontend app'],
 		mentors: {
 			Satvik: "http://linkedin.com/in/satvik-vemuganti",
-			Chaitanya :'https://www.linkedin.com/in/cbisht'
+			Chaitanya :'https://www.linkedin.com/in/cbisht',
+			Sarvesh: 'https://www.linkedin.com/in/sarvesh-kumar-414b75206'
 		},
 		students: {
 		},
