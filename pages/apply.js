@@ -42,7 +42,7 @@ export default function Apply() {
 						className="w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5"
 						target="_blank"
 						rel="noreferrer noopener"
-						href="https://forms.gle/pTchaYRXHK3Q8nGeA?"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSeW9uIAmu8XER74sB2httIuFX3xITwVLaaPv0DCoj325x4kAg/viewform?usp=sf_link"
 					>
 						Apply Now
 					</a>
@@ -50,7 +50,7 @@ export default function Apply() {
 
 				<iframe
 					className="mx-auto"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSdepZ9Bfg1t_CX58DYnYJSaPq26r_5Z-0Pmyli-a1ZVl4TNSA/viewform?usp=sf_link"
+					src="https://docs.google.com/forms/d/e/1FAIpQLSeW9uIAmu8XER74sB2httIuFX3xITwVLaaPv0DCoj325x4kAg/viewform?usp=sf_link"
 					width="100%"
 					height="1780"
 				>
