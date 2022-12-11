@@ -5,6 +5,7 @@ import logoURL1 from '../public/sci.jpeg';
 import logoURL2 from '../public/logy.png';
 import logoURL3 from '../public/aspire.png';
 import logoURL4 from '../public/dsc.jpeg';
+import logoURL5 from '../public/cosmo.jpeg';
 export default function sponshorship() {
 	return (
 		<>
@@ -40,6 +41,13 @@ export default function sponshorship() {
 						height={100}
 						className="py-2"
 						src={logoURL}
+						alt="sbi"
+					/>
+					<Image
+						width={300}
+						height={300}
+						className="py-2"
+						src={logoURL5}
 						alt="sbi"
 					/>
 				</div>
