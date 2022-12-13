@@ -8,7 +8,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Leaderboard-Pro',
 		tags: ['web', 'python', 'django'],
 		mentors: {
-			Harshith: 'https://github.com/Harshith-19/',
+			Harshith: 'https://www.linkedin.com/in/harshith-chunduri-a73877135',
 			Yogesh: "https://www.linkedin.com/in/yogeshai",
 			Arya: "https://www.linkedin.com/in/aryasoni/"
 			
@@ -27,7 +27,7 @@ export const projectData = [
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Anshuman: 'https://www.linkedin.com/in/anshuman-dhiman-06a7341ab',
 			Yogesh: "https://www.linkedin.com/in/yogeshai",
-			Harshith: 'https://github.com/Harshith-19/',
+			Harshith: 'https://www.linkedin.com/in/harshith-chunduri-a73877135',
 			
 		},
 		students: {
@@ -51,6 +51,7 @@ export const projectData = [
 		description:
 			'Upload group photos, arrange them by faces using ML and share them with ease. 🤳🤖',
 		tags: ['web', 'ml', 'django'],
+		github: 'https://github.com/OpenLake/Photo-Sharing-App',
 		mentors: {
 			Aneesh: 'https://github.com/Aneesh02',
 		},
@@ -211,6 +212,7 @@ export const projectData = [
 		title: 'Live Score Web App',
 	description: 'A realtime score web app for sports🏸 and tournaments🏆.',
 	tags: ['firebase', 'flutter'],
+	github: 'https://github.com/OpenLake/Live-Score-App',
 		mentors: {
 			Nishant: 'https://www.linkedin.com/in/andoriya-nishant/', 
 			Sakshi: 'https://www.linkedin.com/in/sakshi-saraswat-ba3937169/',
@@ -237,7 +239,7 @@ export const projectData = [
 		title: 'Remote Voting Blockchain',
 		description:
 			'Hyperledger Fabric (Blockchain) implementation of electronic (remote) voting 🗳',
-		github: '',
+		github: 'https://github.com/OpenLake/Remote-Voting-Blockchain',
 		tags: ['hyperledger fabric', 'mern stack'],
 		mentors: {
 			Pratik:'http://linkedin.com/in/pratikspatil024',
