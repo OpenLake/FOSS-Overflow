@@ -83,7 +83,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/WatchParty',
 		mentors: {
 			
-			Nitin: "www.linkedin.com/in/nitinkumar2023",
+			Nitin: "https://www.linkedin.com/in/nitinkumar2023",
 			Chaitanya: 'https://github.com/chaitanyabisht/',
 			Shobhit : "https://www.linkedin.com/in/shobhit-chaurasia-8842531b6"
 		},
