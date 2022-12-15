@@ -1,4 +1,19 @@
 export const projectData = [
+	{
+		title: 'Insti Payment App',
+		description: 'A payment infrastructure to cater to transactional needs within IIT Bhilai, among all institutes🏦📱.',
+		tags: ['fintech', 'supabase', 'firebase','flutter'],
+		github: 'https://github.com/OpenLake/Insti-Pay',
+		mentors: {
+			Riya : "http://linkedin.com/in/riya-dhiman-33894a22b",
+			Satvik: "http://linkedin.com/in/satvik-vemuganti",
+			Ananya: 'https://www.linkedin.com/in/04ananya/'
+			
+		},
+		students: {
+			
+		},
+	},
 	
 	{
 		title: 'Leaderboard Pro',
