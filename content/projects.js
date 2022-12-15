@@ -82,11 +82,11 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/Smart-Insti-App',
 		mentors: {
 		
-			Chaitanya :'https://www.linkedin.com/in/cbisht',
+			Chaitanya :"https://www.linkedin.com/in/cbisht",
 			Maanas: "https://www.linkedin.com/in/maanas-talwar",
 		        Ananya: 'https://www.linkedin.com/in/04ananya/',
 			Satvik: "http://linkedin.com/in/satvik-vemuganti",
-			// Madhur: 'https://www.linkedin.com/in/madhur-jain-37a243218'
+			Madhur: "https://www.linkedin.com/in/madhur-jain-37a243218"
 		},
 		students: {
 		},
@@ -117,7 +117,7 @@ export const projectData = [
  			Maanas: "https://www.linkedin.com/in/maanas-talwar",
 			Apoorv: 'https://www.linkedin.com/in/apoorv-garg-371838143/',	
 			Ananya: 'https://www.linkedin.com/in/04ananya/',
-			// Madhur: 'https://www.linkedin.com/in/madhur-jain-37a243218'
+			Madhur: 'https://www.linkedin.com/in/madhur-jain-37a243218'
  		},
  		students: {
  		},
@@ -310,7 +310,7 @@ export const projectData = [
  		github: 'https://github.com/OpenLake/Activity-Tracker',
  		tags: ['browser-extension', 'javascript', 'nodejs'],
  		mentors: {
-			// Madhur: 'https://www.linkedin.com/in/madhur-jain-37a243218'
+			Madhur: 'https://www.linkedin.com/in/madhur-jain-37a243218'
  		},
  		students: {
  		},
