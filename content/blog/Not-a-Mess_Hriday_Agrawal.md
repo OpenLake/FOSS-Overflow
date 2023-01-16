@@ -1,5 +1,5 @@
 ---
-title: Not-A-Mess: an app for a purpose
+title: "Not-A-Mess: an app for a purpose"
 author: Hriday Agrawal
 date: '2022-01-17'
 ---
