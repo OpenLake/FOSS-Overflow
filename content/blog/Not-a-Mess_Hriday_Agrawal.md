@@ -1,3 +1,9 @@
+---
+title: Not-a-Mess
+author: Hriday Agrawal
+date: '2022-01-17'
+---
+
 # Not-A-Mess: an app for a purpose
 
 ## 👨‍💻 Introduction
