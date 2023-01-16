@@ -1,10 +1,9 @@
 ---
-title: Not-a-Mess
+title: Not-A-Mess: an app for a purpose
 author: Hriday Agrawal
 date: '2022-01-17'
 ---
 
-# Not-A-Mess: an app for a purpose
 
 ## 👨‍💻 Introduction
 As the name suggests, it is related to mess, but which one 🤔...the hostel mess or mismanagement? Well, it is for both!
