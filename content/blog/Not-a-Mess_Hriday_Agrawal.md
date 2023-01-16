@@ -7,6 +7,7 @@ date: '2022-01-17'
 
 ## 👨‍💻 Introduction
 As the name suggests, it is related to mess, but which one 🤔...the hostel mess or mismanagement? Well, it is for both!
+
 It is often witnessed that there needs to be more communication between the maintainers and the students, so we developed [**Not-A-Mess**](https://github.com/OpenLake/Not-a-Mess) app to handle the same. This app utilizes the feedback from the students about the mess' food, which help the maintainers to keep track of all the issues and maintain the food quality served. On the other side, students can keep track of their menu for the day, providing an easy gateway to connect with the maintainers.
 
 ## ⚒️ Features brought to life
@@ -18,22 +19,21 @@ My contribution was the frontend of the application:
 - Improved the User Experience with easy navigation and handy functionality.
 
 ## 💡 My Experience 
-This one-month journey was hilarious! Unlike the project's name, I often messed up with one or the other thing. Well, It was pretty obvious, as Flutter was new to me. [FOSS Overflow 2022](https://fossoverflow.dev/) was more of a rollercoaster ride, though I'd have to say that I can see the difference in my skill level from then and now and the experience with the tech I've been working with for this project. There were often (to be honest, always 😅) times when I was stuck at some or the other feature I was implementing; it is where the communities came to the rescue (especially the Flutter community for me). 
+This one-month journey was hilarious! Unlike the project's name, I often messed up with one or the other thing. Well, It was pretty obvious, as Flutter was new to me. [FOSS Overflow 2022](https://fossoverflow.dev/) was more of a rollercoaster ride, though I'd have to say that I can see the difference in my skill level from then to now and the experience with the tech I've been working with for this project. There were often (to be honest, always 😅) times when I was stuck at some or the other feature I was implementing; it is where the communities came to the rescue (especially the Flutter community for me). 
 
 ![rollercoaster](https://user-images.githubusercontent.com/76818035/212741365-549f61ee-6a4b-4650-b499-431e95a6e200.gif)
 
 
-Overall, it was a great experience learning and building this project. It is motivating for me to work on this project, being a hosteller in my university, and often finding the requirement of such application. I am now confident about participating in programs like GSoC and other famous open-source programs. 
+Overall, it was a great experience learning and building this project. It was motivating for me to work on this project, being a hosteller in my university, and often finding the requirement of such application. 
 
 There are many in this journey who deserve a big thank you from me, besides my mentors [@Apoorv](https://github.com/Apoorvgarg-creator) and [@Noman](https://www.github.com/noman2002), my co-author [@Navya](https://github.com/navyagarwal), and [@Ananya](https://github.com/Ananyaiitbhilai) from the organizing committee.
 
 ## 😁 Technicals I Learnt
 There are several technicals that can't be written here:
 - Learned working with Flutter and Dart on a good level.
-- Responsive development
-- Modules like `fl_charts`, `accordion`, `syncfusion_flutter_charts`, etc.
-- First time worked on Android Studio.
-- Learned how to use a physical device in place of an emulator.
+- Responsive development in Flutter.
+- Modules like fl_charts, accordion, syncfusion_flutter_charts, etc.
+- User experience improvement and extensive debugging.
 
 And much more...
 
