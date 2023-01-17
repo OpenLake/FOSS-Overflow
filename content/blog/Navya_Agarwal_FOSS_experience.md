@@ -18,7 +18,7 @@ It is an app where students can rate mess food and raise any complaints/suggesti
 
 In the initial phase, I worked on the entire UI of the project designed using Figma, and in the process I also outlined the core functionality and architecture of the project.
 
-![image](https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png)
+<img src="https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png" height=400 />
 
 Later on, I worked mainly on the backend, creating RESTful APIs using NodeJS, ExpressJS and MongoDB.
 
@@ -31,7 +31,7 @@ I created the schema and routes (get all, get by id, put, patch, delete, get by 
 
 I also learnt to test all these routes using Postman.
 
-![image](https://user-images.githubusercontent.com/82928853/213014136-5f2cf9cb-e42a-4ba5-8412-c68d31c82b71.png)
+<img src="https://user-images.githubusercontent.com/82928853/213014136-5f2cf9cb-e42a-4ba5-8412-c68d31c82b71.png" height=400 />
 
 
 ### 💸 insti-pay
@@ -45,8 +45,8 @@ However, during the past one month I equipped myself with a working knowledge of
 2. user profile + image avatar functionality
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png" height=200 />
-  <img src="https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png" height=200 />
+  <img src="https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png" height=400 />
+  <img src="https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png" height=400 />
 </p>
 
 
