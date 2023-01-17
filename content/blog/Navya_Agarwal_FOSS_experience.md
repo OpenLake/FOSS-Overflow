@@ -6,6 +6,8 @@ date: '2023-01-18'
 
 ## 💡 Idea behind the project
 
+![IMG_20221210_170932_auto_x2](https://user-images.githubusercontent.com/82928853/213001317-b15f43e0-5557-45f1-90dd-6e7f20c99a91.jpg)
+
 Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course. Moreover, students can also get relevant course resources from the students who already opted for the course. This platform can also act as a general guidance portal.
 
 ## 👩🏻‍💻 My motivation for the project
