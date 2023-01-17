@@ -4,26 +4,63 @@ author: Navya Agarwal
 date: '2023-01-18'
 ---
 
-## 💡 Idea behind the project
+## 👋 Hola!
 
-![IMG_20221210_170932_auto_x2](https://user-images.githubusercontent.com/82928853/213001317-b15f43e0-5557-45f1-90dd-6e7f20c99a91.jpg)
+I am Navya Agarwal, a 2nd year CS student at IGDTUW. I started contributing to projects at FOSS Overflow as soon as I learnt about their upcoming cohort and got selected as a mentee in December!
 
-Knowledge sharing platform application aims to get the students acquainted with the courses, professors, evaluation schemes. The said things can be achieved via gathering course feedback, professor feedback, and previous year grading schemes. This can be done by making a portal (just like a blog site) where people can share their honest reviews without being scrutinized much. Getting reviews from mass makes it easy for one to choose the particular course and get the right information about that course. Moreover, students can also get relevant course resources from the students who already opted for the course. This platform can also act as a general guidance portal.
+## 💻 My Work
 
-## 👩🏻‍💻 My motivation for the project
+Throughout the past month, I juggled two projects "not-a-mess" and "insti-pay". The tech stack that I worked on for both was totally different (and ones that I had never worked on prior), but with the help of some super amazing mentors and fellow mentees, I did all the work I talk about below ~
 
-I chose this project because of the following reason, I myself sometimes contact multiple people on Chat platforms to get feedback about a course and its material/resources. Crowd-sourcing of materials and feedback would make it easy to organize resources at one place. It would be more reliable, save one’s time and avoid unnecessary bothering. Finding this project solves a real-life problem and relatable too, I was motivated for the project throughout.
+### 🍛	not-a-mess
 
-## 🗒 My Work
+It is an app where students can rate mess food and raise any complaints/suggestions. The mess management has a curated dashboard on their end that helps them understand what the students like and dislike, and thus accordingly plan their meals.
 
-Discussing the work I did during the period, I mainly worked on designing the whole backend of the project and I also helped in designing and adding some frontend components. I used django restframework, and designed the models, used axios to communicate with backend and coded APIs for "GET" and "POST" requests. <br>
+In the initial phase, I worked on the entire UI of the project designed using Figma, and in the process I also outlined the core functionality and architecture of the project.
 
-## 📈 How Fossoverflow helped in my overall development
+Later on, I worked mainly on the backend, creating RESTful APIs using NodeJS, ExpressJS and MongoDB.
 
-Fossoverflow helped me learn more closely about Time Management skill. One of the major challenge in fossoverflow was to divide the time between academics and the project. Since my academics and project were going parallely I learnt to handle the pressure and time. In the span of this one month, I learnt about the team spirit,coordination and communicated with mentors, discuss about the bugs and errors.<br>
+I have created the schema and routes (get all, get by id, put, patch, delete, get by specific date ranges) for the following:
 
-I learnt how to overcome the hardships and obstacles on the way and strive by them. When I was not able to integrate both frontend and backend after many tries, I was frustated and on the verge to give up. But then I started to make the frontend from scratch and eventually connected the backend and frontend. That day I came to know about true content in one's effort and work.<br>
+1. Users (name, email, if management)
+2. Ratings (date, user_id, food_id, stars, tags)
+3. Food items (name, ingredients)
+4. Mess Menu (day, meal_time, list_food_items)
 
-Whatsmore is that I came to know about how to use Google efficiently for software development and the concept of 'mvp'. Fossoverflow provided me with awesome mentors who were very helpful and congenial.
+I learnt to test all these routes using Postman also followed good code writing practices.
 
-![Awesome](https://media.giphy.com/media/l0HlMlX4aKMk10hhe/giphy.gif)
+### 💸 insti-pay
+
+This app envisions a simple system of points for every day transactions within a college campus. Every user shall be able to load some amount of money to their account which is linked to their ID card.
+
+Prior to this program I had absolutely no idea about Flutter or Supabase used to build this app. (I had never even run Android Studio & emulator on my computer)
+However, during the past one month I equipped myself with a working knowledge of both and built the reset password functionality and user profile + image avatar functionality for the app.
+
+
+
+Apart from all the technical skills, I have also learnt a lot about resolving small but very annoying and persistent technical issues that come our way. I have also learnt a lot about how open source programs work.
+
+I am very lucky to have amazing mentors, a special shoutout to Apoorv Garg and Riya Dhiman for helping me whenever I was stuck.
+
+
+## 📈 my ~GROWTH~ over the past month
+
+It is really hard to believe that I have come this far in just _one_ month. But to put some of these accomplishments in a tangible list -
+
+Technical skills:
+- Learnt about node.js, express.js, mongodb from zero to the point where I can write RESTful APIs using them
+- Worked on the backend programming for a project for the first time
+- Learnt how to build screens in Flutter
+- Learnt how to create forms in flutter, used packages like image_picker
+- Used supabase for creating backend for Flutter app
+- Learnt about MVC architecture and good code writing practices
+
+Apart from all the technical skills, I also learnt a lot about resolving small but very annoying and persistent technical issues using ✨Stack Overflow✨.
+
+Another small but very meaningful accomplishment to me is that now I use Github and git so much more comfortably, you can wake me up in the middle of the night and I can go through the entire process of forking, cloning, pulling, adding, commiting, pushing without a hiccup!
+
+## 🎀 It's a wrap
+
+There is so much more I wanted to do in these projects apart from all that I did in the given duration. Even though the program is officially over, I think I would continue contributing to these projects and maybe come back to FOSS Overflow next year as well!
+
+Overall, it's been a huge learning experience and a chance to connect and collaborate with some amazing people https://github.com/Apoorvgarg-creator @Apoorvgarg-creator, 
