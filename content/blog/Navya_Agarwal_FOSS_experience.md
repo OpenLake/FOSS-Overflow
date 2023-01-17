@@ -45,8 +45,9 @@ However, during the past one month I equipped myself with a working knowledge of
 2. user profile + image avatar functionality
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png" height=400 />
-  <img src="https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png" height=400 />
+  <img src="https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png" height=500 />
+  
+  <img src="https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png" height=500 />
 </p>
 
 
