@@ -10,13 +10,13 @@ I am Navya Agarwal, a 2nd year CS student at IGDTUW. I started contributing to p
 
 ## 💻 My Work
 
-Throughout the past month, I juggled two projects "not-a-mess" and "insti-pay". The tech stack that I worked on for both was totally different (and ones that I had never worked on prior), but with the help of some super amazing mentors and fellow mentees, I did all the work!
+Throughout the past month, I juggled two projects "not-a-mess" and "insti-pay". The tech stack that I worked on for both was totally different and I had never used it prior, but with the help of some super amazing mentors and fellow mentees, I made it through!
 
 ### 🍛	not-a-mess
 
 It is an app where students can rate mess food and raise any complaints/suggestions. The mess management has a curated dashboard on their end that helps them understand what the students like and dislike, and thus accordingly plan their meals.
 
-In the initial phase, I worked on the entire UI of the project designed using Figma, and in the process I also outlined the core functionality and architecture of the project.
+In the initial phase, I designed the entire UI of the project using Figma, and in the process I also outlined the core functionality and architecture of the project.
 
 <img src="https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png" height=400 />
 
@@ -50,7 +50,7 @@ However, during the past one month I equipped myself with a working knowledge of
 </p>
 
 
-Some very interesting things I used in this project are Magic Links from Supabase to send the reset password link to user and image_picker package for Flutter to upload profile image from camera or gallery.
+Some very interesting things I used in this project are Magic Links from Supabase to send the reset password link to user and image_picker package for Flutter to upload profile image from the phone camera or gallery.
 
 ## 📈 my ~ GROWTH ~ over the past month
 
@@ -72,6 +72,6 @@ Another small but very meaningful accomplishment to me is that now I use Github 
 
 There is so much more I wanted to do in these projects apart from all that I did in the given duration. Even though the program is officially over, I think I would continue contributing to these projects and maybe come back to FOSS Overflow next year as well!
 
-Overall, it's been a huge learning experience and a chance to connect and collaborate with some amazing people [Apoorv Garg](https://github.com/Apoorvgarg-creator), [Riya Dhiman](https://github.com/riya107), [Hriday Agrawal](https://github.com/HridayAg0102), [Achintya Pandey](https://github.com/badger751) and [Ananya Hooda](https://github.com/Ananyaiitbhilai).
+Overall, it's been a huge learning experience and a chance to connect and collaborate with some amazing people -> [Apoorv Garg](https://github.com/Apoorvgarg-creator), [Riya Dhiman](https://github.com/riya107), [Hriday Agrawal](https://github.com/HridayAg0102), [Achintya Pandey](https://github.com/badger751) and [Ananya Hooda](https://github.com/Ananyaiitbhilai).
 
 Cheers!
