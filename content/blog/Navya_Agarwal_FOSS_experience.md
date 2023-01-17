@@ -18,7 +18,7 @@ It is an app where students can rate mess food and raise any complaints/suggesti
 
 In the initial phase, I designed the entire UI of the project using Figma, and in the process I also outlined the core functionality and architecture of the project.
 
-![Figma UI for not-a-mess](https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png")
+![Figma UI for not-a-mess](https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png)
 
 Later on, I worked mainly on the backend, creating RESTful APIs using NodeJS, ExpressJS and MongoDB.
 
