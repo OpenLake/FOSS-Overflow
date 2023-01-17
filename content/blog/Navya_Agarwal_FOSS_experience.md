@@ -42,13 +42,12 @@ Prior to this program I had absolutely no idea about Flutter or Supabase used to
 
 However, during the past one month I equipped myself with a working knowledge of both and built these features for the app: 
 1. reset password functionality
-2. user profile + image avatar functionality
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png" height=500 />
+![App screen for reset password](https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png)
+
+2. user profile + image avatar functionality
   
-  <img src="https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png" height=500 />
-</p>
+![App screen to add user profile data](https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png)
 
 
 Some very interesting things I used in this project are Magic Links from Supabase to send the reset password link to user and image_picker package for Flutter to upload profile image from the phone camera or gallery.
