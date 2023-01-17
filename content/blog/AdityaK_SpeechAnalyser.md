@@ -12,7 +12,7 @@ Speech Analyzer project aims to help people improve their communication skills a
 
 ## How was my experience with FOSSOverflow'22?📈
 Participating in this program greatly increased my confidence as a contributor to the open-source community. It taught me how to approach and solve problems effectively, by breaking them down into key steps. I gained knowledge about various techniques and libraries in the natural language processing domain, and also learned how to build an end-to-end NLP project.
-I was aware that this project would require a significant amount of effort. Despite facing difficulties along the way, my co-contributor [Ananya Srivastav](https://github.com/ana42742) and my mentors [Ananya](https://github.com/Ananyaiitbhilai) and [Wassim Chouchen](https://github.com/wassimchouchen) I was able to complete it.
+I was aware that this project would require a significant amount of effort. Despite facing difficulties along the way, my co-contributor [Ananya Srivastava](https://github.com/ana42742) and my mentors [Ananya](https://github.com/Ananyaiitbhilai) and [Wassim Chouchen](https://github.com/wassimchouchen) I was able to complete it.
 
 This program has assisted me in understanding the open-source development process and community dynamics, gaining experience working on real-world projects with other contributors. Additionally, it has also helped me to build a portfolio of open-source contributions that demonstrate my abilities and improve my communication and collaboration skills, which are essential for working in an open-source community.
 
@@ -30,3 +30,7 @@ I accomplished the following tasks during the project.
 
 ## Challenges Faced 
 During the project I faced a lot of challenges. One was to collect dataset according to the project's requirement. The right data with good quality was an important aspect of this project. I also faced difficulties while building a model that would detect disfluencies. But thanks to my mentors, I was able to clear all the difficulties that I faced during the project, with their guidance and support being instrumental in the projects' success. 
+
+___
+
+Participating in FOSS Overflow is an excellent chance for aspiring open-source contributors to gain insight into the workings of the open-source community, sharpen their skills, and build confidence. Overall, it is a valuable opportunity for individuals looking to get involved in open-source development.
