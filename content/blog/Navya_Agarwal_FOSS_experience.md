@@ -43,7 +43,7 @@ Apart from all the technical skills, I have also learnt a lot about resolving sm
 I am very lucky to have amazing mentors, a special shoutout to Apoorv Garg and Riya Dhiman for helping me whenever I was stuck.
 
 
-## 📈 my ~GROWTH~ over the past month
+## 📈 my ~ GROWTH ~ over the past month
 
 It is really hard to believe that I have come this far in just _one_ month. But to put some of these accomplishments in a tangible list -
 
@@ -63,4 +63,6 @@ Another small but very meaningful accomplishment to me is that now I use Github 
 
 There is so much more I wanted to do in these projects apart from all that I did in the given duration. Even though the program is officially over, I think I would continue contributing to these projects and maybe come back to FOSS Overflow next year as well!
 
-Overall, it's been a huge learning experience and a chance to connect and collaborate with some amazing people https://github.com/Apoorvgarg-creator @Apoorvgarg-creator, 
+Overall, it's been a huge learning experience and a chance to connect and collaborate with some amazing people [Apoorv Garg](https://github.com/Apoorvgarg-creator), [Riya Dhiman](https://github.com/riya107), [Hriday Agrawal](https://github.com/HridayAg0102), [Achintya Pandey](https://github.com/badger751) and [Ananya Hooda](https://github.com/Ananyaiitbhilai).
+
+Cheers!
