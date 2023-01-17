@@ -10,7 +10,7 @@ I am Navya Agarwal, a 2nd year CS student at IGDTUW. I started contributing to p
 
 ## 💻 My Work
 
-Throughout the past month, I juggled two projects "not-a-mess" and "insti-pay". The tech stack that I worked on for both was totally different (and ones that I had never worked on prior), but with the help of some super amazing mentors and fellow mentees, I did all the work I talk about below ~
+Throughout the past month, I juggled two projects "not-a-mess" and "insti-pay". The tech stack that I worked on for both was totally different (and ones that I had never worked on prior), but with the help of some super amazing mentors and fellow mentees, I did all the work!
 
 ### 🍛	not-a-mess
 
@@ -18,30 +18,37 @@ It is an app where students can rate mess food and raise any complaints/suggesti
 
 In the initial phase, I worked on the entire UI of the project designed using Figma, and in the process I also outlined the core functionality and architecture of the project.
 
+![image](https://user-images.githubusercontent.com/82928853/213011998-93ff40ee-66a5-4e03-ae2c-2424ab30c832.png)
+
 Later on, I worked mainly on the backend, creating RESTful APIs using NodeJS, ExpressJS and MongoDB.
 
-I have created the schema and routes (get all, get by id, put, patch, delete, get by specific date ranges) for the following:
+I created the schema and routes (get all, get by id, put, patch, delete, get by specific date ranges) for the following:
 
 1. Users (name, email, if management)
 2. Ratings (date, user_id, food_id, stars, tags)
 3. Food items (name, ingredients)
 4. Mess Menu (day, meal_time, list_food_items)
 
-I learnt to test all these routes using Postman also followed good code writing practices.
+I also learnt to test all these routes using Postman.
+
+![image](https://user-images.githubusercontent.com/82928853/213014136-5f2cf9cb-e42a-4ba5-8412-c68d31c82b71.png)
+
 
 ### 💸 insti-pay
 
 This app envisions a simple system of points for every day transactions within a college campus. Every user shall be able to load some amount of money to their account which is linked to their ID card.
 
-Prior to this program I had absolutely no idea about Flutter or Supabase used to build this app. (I had never even run Android Studio & emulator on my computer)
-However, during the past one month I equipped myself with a working knowledge of both and built the reset password functionality and user profile + image avatar functionality for the app.
+Prior to this program I had absolutely no idea about Flutter or Supabase used to build this app, I had never even run Android Studio & emulator on my computer.
 
+However, during the past one month I equipped myself with a working knowledge of both and built these features for the app: 
+1. reset password functionality
+2. user profile + image avatar functionality
 
+![image](https://user-images.githubusercontent.com/82928853/213016539-2a29feb8-eac9-4e1d-84a1-f912aea1aca9.png)
 
-Apart from all the technical skills, I have also learnt a lot about resolving small but very annoying and persistent technical issues that come our way. I have also learnt a lot about how open source programs work.
+![image](https://user-images.githubusercontent.com/82928853/213014887-56e0f54f-b613-4721-9117-c9f626f38d56.png)
 
-I am very lucky to have amazing mentors, a special shoutout to Apoorv Garg and Riya Dhiman for helping me whenever I was stuck.
-
+Some very interesting things I used in this project are Magic Links from Supabase to send the reset password link to user and image_picker package for Flutter to upload profile image from camera or gallery.
 
 ## 📈 my ~ GROWTH ~ over the past month
 
