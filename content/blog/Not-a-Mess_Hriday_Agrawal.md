@@ -10,7 +10,7 @@ As the name suggests, it is related to mess, but which one 🤔...the hostel mes
 
 It is often witnessed that there needs to be more communication between the maintainers and the students, so we developed [**Not-A-Mess**](https://github.com/OpenLake/Not-a-Mess) app to handle the same. This app utilizes the feedback from the students about the mess' food, which help the maintainers to keep track of all the issues and maintain the food quality served. On the other side, students can keep track of their menu for the day, providing an easy gateway to connect with the maintainers.
 
-## A little about me
+## 🙋‍♂️ A little about me
 Hi there! I am [Hriday Agrawal](https://www.linkedin.com/in/hriday-agrawal/)), junior in Electrical Engineering at Punjab Engineering College, Chandigarh. I am often involved in Open Source contributions and community learning, and thus, I am also the founder and lead of my university's Google Developer Student Club.
 
 ## ⚒️ Features brought to life
