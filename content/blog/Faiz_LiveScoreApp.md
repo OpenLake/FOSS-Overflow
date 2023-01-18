@@ -47,3 +47,7 @@ I learnt a lot of new things in flutter and now I feel more confident in making 
 <img src="https://github.com/FaizFk/Live-Score-App/blob/dev/live_score_flutter_app/Screenshots/admin-screen.jpg?raw=true" width="23%"></img> 
 <img src="https://github.com/FaizFk/Live-Score-App/blob/dev/live_score_flutter_app/Screenshots/score-controller.jpg?raw=true" width="23%"></img>
 </p>
+
+**Apk Link:** [Live Score Apk Download](https://drive.google.com/file/d/15Oe7inzXqqoRK0KAg_L7alOm9GaOZX8C/view?usp=share_link)
+
+**Demo Video:** [Demo Video](https://youtu.be/RqpSwHATNSU)
