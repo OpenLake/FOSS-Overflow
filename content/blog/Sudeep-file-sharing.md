@@ -1,3 +1,10 @@
+
+---
+title: File Sharing App
+author: Sudeep Ranjan Sahoo
+date: '2022-01-19's
+---
+
 # Project Idea 💡
 
 We often have to transfer files between our mobile and desktop devices. But generally we do it with WhatsApp, Telegram or some other application which passes through the internet. We can create a mobile-app for use on our institutes intranet.
