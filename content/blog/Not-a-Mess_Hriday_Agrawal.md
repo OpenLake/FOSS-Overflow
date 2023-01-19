@@ -16,7 +16,7 @@ Hi there! I am [Hriday Agrawal](https://www.linkedin.com/in/hriday-agrawal/), a 
 ## ⚒️ Features brought to life
 My contribution was the frontend of the application:
 - Created an exhaustive **Dashboard** for maintainers for easy analysis.
-- Created an **Issues** feature which can be seen as a chat system between the issues and maintainers.
+- Created an **Issues** feature which can be seen as a chat system between the students and maintainers.
 - Developed the **menu screen** for students to keep track of that day's menu.
 - Screen for authentication/registration.
 - Improved the User Experience with easy navigation and handy functionality.
