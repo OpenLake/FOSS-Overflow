@@ -1,8 +1,7 @@
-
 ---
-title: File Sharing App
-author: Sudeep Ranjan Sahoo
-date: '2022-01-19's
+Title: File Sharing App
+Author: Sudeep Ranjan Sahoo
+Date: '2022-01-19'
 ---
 
 # Project Idea 💡
