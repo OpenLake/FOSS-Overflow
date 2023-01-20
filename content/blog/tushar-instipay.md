@@ -1,4 +1,8 @@
-
+---
+title: My Experience @ FOSS Overflow
+author: Tushar Bansal
+date: '2023-01-18'
+---
 # Project Idea 💡
 
 We do a lot of transsactions within our institutes leading to large number of unneccesary bank transactions. An intra-institute payment ecosystem can solve this problem. 
