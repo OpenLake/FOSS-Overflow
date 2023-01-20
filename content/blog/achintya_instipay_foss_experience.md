@@ -1,7 +1,7 @@
 ---
 title : Appdev@FOSS OVERFLOW
-Author : Achintya Pandey
-Date : '2023-01-17'
+author : Achintya Pandey
+date : '2023-01-17'
 ---
 
 ## 👋 Hello!
