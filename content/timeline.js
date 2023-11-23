@@ -1,34 +1,38 @@
 export const timelineData = [
 	{
 		title: 'Application Period Starts',
-		date: '27 Nov, 2022',
+		date: '1 Dec, 2023',
 	},
 	{
 		title: 'Application Period Ends',
-		date: '13 Dec, 2022',
+		date: '15 Dec, 2023',
 	},
 	{
-		title: "Students' Projects Announced",
-		date: '15 Dec, 2022',
+		title: "Event Inauguration and Annoncement of Selected Mentees",
+		date: '17 Dec, 2023',
+	},
+	{
+		title: "Bonding Period Starts",
+		date: '18 Dec, 2023',
 	},
 	{
 		title: 'Coding Period Starts',
-		date: '16 Dec, 2022',
+		date: '20 Dec, 2023',
 	},
 	{
 		title: 'Mid Evaluations',
-		date: '31 Dec to 2 Jan, 2023',
+		date: '5 Jan, 2024',
+	},
+	{
+		title: 'Mid Evaluations Results',
+		date: '7 Jan, 2024',
 	},
 	{
 		title: 'Coding Period Ends',
-		date: '16 Jan, 2023',
-	},
-	{
-		title: 'Mentor submits evaluations',
-		date: '16-18 Jan, 2023',
+		date: '20 Jan, 2024',
 	},
 	{
 		title: 'Results Announced',
-		date: '19 Jan, 2023',
+		date: '24 Jan, 2024',
 	},
 ];
