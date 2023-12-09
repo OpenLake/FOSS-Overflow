@@ -1,6 +1,6 @@
 export const timelineData = [
 	{
-		title: "Event Inauguration and Annoncement of Selected Mentees",
+		title: "Event Inauguration",
 		date: '16 Dec, 2023',
 	},
 	{
