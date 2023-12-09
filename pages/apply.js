@@ -10,6 +10,9 @@ export default function Apply() {
 			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
 				<h4 className="text-gray-800">How to apply?</h4>
 				<ul>
+				<li className="text-red-800">
+						Important : Application Period for FOSS Overflow hasnt started yet. It will start post inauguration on 16th December. Join the Discord Server for more info.
+					</li>
 					<li>
 						The participants should write a maximum of 3 proposals for the
 						projects that they wish to be a part of.
