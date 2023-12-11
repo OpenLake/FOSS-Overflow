@@ -1,53 +1,60 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import React, { useState } from 'react';
 import logo from '../public/logo.png';
-import logoIcon from '../public/icon.png';
-import { ActiveLink } from './ActiveLink';
+import styles from './css/navbar.module.css'; // Assuming you have a CSS module for styling
 
-function NavLink({ href, children }) {
+function NavLink() {
+	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+	const toggleMobileMenu = () => {
+		setIsMobileMenuOpen(!isMobileMenuOpen);
+	};
+
 	return (
-		<ActiveLink href={href} activeClassName="text-black" passHref>
-			<a
-				href={href}
-				className="text-xl text-blue-500 hover:text-black transition-colors duration-300 block max-w-max mx-auto mt-4 md:mt-0 md:mr-0 md:ml-10"
-			>
-				{children}
-			</a>
-		</ActiveLink>
-	);
-}
-
-const logoWidth = 180;
-const logoHeight = (logoWidth / logo.width) * logo.height;
-
-export function Navbar() {
-	return (
-		<nav>
-			<div className="relative container max-w-screen-md mx-auto px-4 md:flex justify-between py-4">
-				<Link href="/" passHref>
-					<a className="text-center md:text-left hidden md:block">
-						<Image
-							src={logo}
-							alt="FOSS Overflow"
-							width={logoWidth}
-							height={logoHeight}
-						/>
+		<nav className={`${styles.navbar} z-50`}>
+			<div className={styles.navbar__left}>
+				<Link href="/">
+					<a className={styles.navbar__logo}>
+						<Image src={logo} height={60} width={140} alt="Logo Navigation" />
 					</a>
 				</Link>
-				<div className="md:flex items-center">
-					<NavLink href="/">Home</NavLink>
-					<NavLink href="/projects">Projects</NavLink>
-					<NavLink href="/apply">Apply</NavLink>
-					<NavLink href="/blog">Archives</NavLink>
-					<NavLink href="/sponshorship">Sponsors</NavLink>
-					<NavLink href="/speakers">Speakers</NavLink>
-	
+			</div>
+			<div className={styles.navbar__right}>
+				<div
+					className={`${styles.navbar__menu} ${
+						isMobileMenuOpen ? styles.open : ''
+					}`}
+				>
+					<Link href="/projects">
+						<a className={styles.navbar__link}>Projects</a>
+					</Link>
+					<Link href="/apply">
+						<a className={styles.navbar__link}>Apply</a>
+					</Link>
+					<Link href="/blog">
+						<a className={styles.navbar__link}>Archives</a>
+					</Link>
+					<Link href="/sponshorship">
+						<a className={styles.navbar__link}>Sponsors</a>
+					</Link>
+					<Link href="/speakers">
+						<a className={styles.navbar__link}>Speakers</a>
+					</Link>
 				</div>
-
-				<div className="absolute top-4 right-4 md:hidden">
-					<Image src={logoIcon} alt="FOSS Overflow" width={40} height={40} />
+				<div className={styles.navbar__mobilemenu} onClick={toggleMobileMenu}>
+					<div
+						className={`${styles.navbar__hamburger} ${
+							isMobileMenuOpen ? styles.open : ''
+						}`}
+					/>
+					<div className={styles.ham_bar}></div>
+					<div className={styles.ham_bar}></div>
+					<div className={styles.ham_bar}></div>
 				</div>
 			</div>
 		</nav>
 	);
 }
+
+export default NavLink;
