@@ -10,6 +10,9 @@ export default function Apply() {
 			<div className="prose lg:prose-xl mx-auto px-4 mt-8">
 				<h4 className="text-gray-800">How to apply?</h4>
 				<ul>
+				<li className="text-red-800">
+						Important : Application Period for FOSS Overflow hasnt started yet. It will start post inauguration on 16th December. Join the Discord Server for more info.
+					</li>
 					<li>
 						The participants should write a maximum of 3 proposals for the
 						projects that they wish to be a part of.
@@ -32,7 +35,7 @@ export default function Apply() {
 						className="w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5"
 						target="_blank"
 						rel="noreferrer noopener"
-						href="https://discord.gg/RsPv4TAx3X"
+						href="https://discord.gg/bUkG3br637"
 					>
 						Join Discord
 					</a>

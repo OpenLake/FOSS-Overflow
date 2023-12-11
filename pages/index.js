@@ -89,7 +89,7 @@ export default function Index() {
 								className="w-max block bg-blue-700 no-underline text-white text-xl py-4 px-10 rounded-full focus-visible:ring-2 hover:ring-2 ring-blue-800 ring-offset-2 my-5 mx-5"
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://discord.gg/RsPv4TAx3X"
+								href="https://discord.gg/bUkG3br637"
 							>
 								Join Discord
 							</a>
