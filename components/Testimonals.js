@@ -2,9 +2,11 @@ import Slider from 'react-slick';
 import styles from './css/testimonal.module.css';
 import { Avatar } from '@mui/material';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
+import harsh from '../public/harsh.jpeg';
+import speaker2 from '../public/speaker2.jpeg';
+import speaker3 from '../public/speaker3.jpeg';
 
 const PreviousBtn = props => {
-	console.log(props);
 	const { className, onClick } = props;
 	return (
 		<div className={className} onClick={onClick}>
@@ -20,30 +22,48 @@ const NextBtn = props => {
 		</div>
 	);
 };
-const testimonial = () => {
+
+const Testimonial = () => {
 	return (
 		<div
 			className={styles.testimonial}
-			style={{ display: 'flex', justifyContent: 'center', marginTop: 50 }}
+			style={{ display: 'flex', justifyContent: 'center', marginTop: 50 , marginBottom: 25}}
 		>
 			<div style={{ width: '50%', textAlign: 'center' }}>
 				<h1 className="texthead leading-relaxed font-[600] mb-10 ">
 					Message from{' '}
 					<span className="bg-opacity-20 text-[#28A9E2] bg-[#28A9E2] px-1 py-1">
-						Alumni
+						Speakers
 					</span>
 				</h1>
 				<Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
-					<Card img="https://i.ibb.co/dB9kSZy/47217984.jpg" />
-					<Card img="https://i.ibb.co/dB9kSZy/47217984.jpg" />
-					<Card img="https://i.ibb.co/dB9kSZy/47217984.jpg" />
+					<Card
+						img="https://i.ibb.co/dB9kSZy/47217984.jpg"
+						message="In real open source, you have the right to control your own destiny."
+						author="K. Shivendu, Open Soure Engineer @Qdrant"
+					/>
+					<Card
+						img="https://i.ibb.co/KWcfBw0/harsh.jpg"
+						message="Open platforms historically undergo a lot of scrutiny, but there are a lot of advantages to having an open source platform from a security standpoint."
+						author="Harsh Mishra, Open Soure Engineer @LocalStack"
+					/>
+					<Card
+						img="https://i.ibb.co/wWJ0RSc/speaker2.jpg"
+						message="The open source nature of the Internet is both a blessing and a curse, because just as much as we can watch what's happening around the world, we can also be watched."
+						author="Sonal Goyal, Founder @Zingg"
+					/>
+					<Card
+						img="https://i.ibb.co/z2P4k4J/speaker3.jpg"
+						message="Empowerment of individuals is a key part of what makes open source work, since in the end, innovations tend to come from small groups, not from large, structured efforts."
+						author="Chinmay Naik, Founder @One2N"
+					/>
 				</Slider>
 			</div>
 		</div>
 	);
 };
 
-const Card = ({ img }) => {
+const Card = ({ img, message, author }) => {
 	return (
 		<div
 			style={{
@@ -65,19 +85,12 @@ const Card = ({ img }) => {
 					marginBottom: 20,
 				}}
 			/>
-			<p>
-				Closed source is like eating pizza with only crust. It's just not as
-				satisfying, right? Open source is like a pizza with unlimited toppings,
-				where you can customize to your heart's content! 🍕😋 And best of all,
-				with open source, you can have that extra cheese without any extra
-				charge! 🧀🙌
-			</p>
+			<p>{message}</p>
 			<p style={{ fontStyle: 'italic', marginTop: 25 }}>
-				<span style={{ fontWeight: 500, color: '#28A9E2' }}>K Shivendu</span> ,
-				Open Source Engineer @supertokens
+				<span style={{ fontWeight: 500, color: '#28A9E2' }}>{author}</span>
 			</p>
 		</div>
 	);
 };
 
-export default testimonial;
+export default Testimonial;

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import foss from '../public/foss.jpeg';
+import bg1 from '../public/bg1.jpeg';
+import bg2 from '../public/bg2.jpeg';
 
 const Carousel = dynamic(
 	() => import('react-responsive-carousel').then(module => module.Carousel),
@@ -12,7 +14,7 @@ const Carousel = dynamic(
 
 const Image = dynamic(() => import('next/image'), { ssr: false });
 
-const topimages = [foss, foss];
+const topimages = [foss, bg1, bg2];
 
 const useWindowSize = () => {
 	const [windowSize, setWindowSize] = useState({
@@ -55,7 +57,8 @@ const MyCarousel = () => {
 		return () => clearInterval(interval);
 	}, []);
 
-	const imageHeight = windowSize.width < 768 ? 600 : 400; // Adjust the height for smaller screens
+	const imageHeight = windowSize.width < 768 ? 400 : 700; // Adjust the height for smaller screens
+	const imagewidth = windowSize.width < 768 ? 600 : 400; // Adjust the height for smaller screens
 
 	return (
 		<Carousel
@@ -72,7 +75,8 @@ const MyCarousel = () => {
 					<Image
 						src={image}
 						className=""
-						height={imageHeight} // Set the height dynamically based on screen size
+						height={imageHeight}
+						width={windowSize.width}
 						layout="responsive"
 						objectFit="cover"
 					/>

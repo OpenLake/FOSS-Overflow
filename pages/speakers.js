@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import logoURL from '../public/justin.jpeg';
+import harsh from '../public/harsh.jpeg';
+import speaker2 from '../public/speaker2.jpeg';
+import speaker3 from '../public/speaker3.jpeg';
 import mainlogo from '../public/mainlogo.png';
 import foss from '../public/foss.jpeg';
 import { useSnapCarousel } from 'react-snap-carousel';
@@ -10,46 +13,40 @@ import MyCarousel from 'components/Carousel';
 
 const programs = [
 	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'Well get you directly seated and inside for you to enjoy the show.',
+		image: 'https://i.ibb.co/dB9kSZy/47217984.jpg',
+		title: 'Kumar Shivendu',
+		content: [
+			'Building Vector DB at Qdrant.',
+			'Contributing to Software Heritage organization.',
+			'IIT Bhilai Alumni.',
+		].join(' '),
 	},
 	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'Well get you directly seated and inside for you to enjoy the show.',
+		image: harsh,
+		title: 'Harsh Mishra',
+		content: [
+			'GSoC Admin for Moja Global org.',
+			'Internships at HackerRank, Quantsight, et.',
+			'Works remotely for a Swiss open-source startup, Localstack, acclaimed with 50k+ stars on GitHub.',
+		].join(' '),
 	},
 	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'Well get you directly seated and inside for you to enjoy the show.',
+		image: speaker2,
+		title: 'Sonal Goyal',
+		content: [
+			'Founder of Zingg: Open source identity resolution startup.',
+			'Passionate about AI & Data.',
+			'IIT Delhi Alumni.',
+		].join(' '),
 	},
 	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'Well get you directly seated and inside for you to enjoy the show.',
-	},
-	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'Well get you directly seated and inside for you to enjoy the show.',
-	},
-	{
-		date: 'Apr 14',
-		image: logoURL,
-		title: 'Lorem ipsum dolor sit amet consectetur.',
-		content:
-			'We will get you directly seated and inside for you to enjoy the show.',
+		image: speaker3,
+		title: 'Chinmay Naik',
+		content: [
+			'Founder of One2N',
+			'Proficient in Databases, SRE, and Golang.',
+			'Assisted startups in growing from initial stages to Series A and beyond',
+		].join(' '),
 	},
 ];
 
@@ -70,16 +67,16 @@ export default function Sponshorship() {
 					<div className="w-2/3 py-3 md:w-1/4 z-40 border-b-[0.25rem] border-b-[#28A9E2] bg-gradient-to-r from-blue-100 to-blue-200 rounded mx-auto md:mx-2">
 						<div className="md:flex flex-row md:mx-2 mx-1 md:my-4 my-2">
 							<div className="align-middle my-auto items-center">
-								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-3 py-2 md:px-5 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
-									32
+								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-2 py-3 md:px-4 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
+									50+
 								</div>
 							</div>
 							<div>
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
-									Workshops Conducted
+									Mentees Selected
 								</div>
 								<div className="text-gray-700 text-sm md:text-lg font-normal">
-									Sessions conducted by our mentors for the community.
+									Aspiring individuals chosen for mentorship.
 								</div>
 							</div>
 						</div>
@@ -87,17 +84,16 @@ export default function Sponshorship() {
 					<div className="w-2/3 py-3 md:w-1/4 z-40 border-b-[0.25rem] border-b-[#28A9E2] bg-gradient-to-r from-blue-100 to-blue-200 rounded mx-auto md:mx-2">
 						<div className="md:flex flex-row md:mx-2 mx-1 md:my-4 my-2">
 							<div className="align-middle my-auto items-center">
-								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-3 py-2 md:px-5 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
-									16
+								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-3 py-2 md:px-4 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
+									20+
 								</div>
 							</div>
 							<div>
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
-									Hackathons Conducted
+									Mentors Mentored
 								</div>
 								<div className="text-gray-700 text-sm md:text-lg font-normal">
-									Sessions conducted by our <br />
-									mentors for the community.
+									Experienced mentors providing guidance to the community.
 								</div>
 							</div>
 						</div>
@@ -105,30 +101,29 @@ export default function Sponshorship() {
 					<div className="w-2/3 py-3 md:w-1/4 z-40 border-b-[0.25rem] border-b-[#28A9E2] bg-gradient-to-r from-blue-100 to-blue-200 rounded mx-auto md:mx-2">
 						<div className="md:flex flex-row md:mx-2 mx-1 md:my-4 my-2">
 							<div className="align-middle my-auto items-center">
-								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-3 py-2 md:px-5 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
-									16
+								<div className="bg-blue-400 font-semibold rounded-full text-center w-fit px-3 py-2 md:px-4 md:py-4 border align-middle my-auto items-center border-sky-500 mx-auto md:mx-8 ">
+									40+
 								</div>
 							</div>
 							<div>
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
-									Foss Overflow
+									Projects Completed
 								</div>
 								<div className="text-gray-700 text-sm md:text-lg font-normal">
-									India’s largest open source
-									<br />
-									hackathon.
+									Innovative projects successfully undertaken by our community.
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="text-center text-2xl md:text-6xl font-medium md:mt-12 mt-4 font-serif">
 					Meet Our Speakers
 				</div>
-				<div className='flex md:mx-48 justify-evenly items-center align-middle'>
+				<div className="flex md:mx-48 justify-evenly items-center align-middle">
 					<div
 						ref={scrollRef}
-						className="md:mx-48 mt-16 mx-8 md:gap-12 gap-12 md:justify center justify-between"
+						className="md:mx-48 mt-4 md:mt-16 mx-8 md:gap-12 gap-12 md:justify center justify-between"
 						style={{
 							display: 'flex',
 							overflow: 'hidden',
@@ -141,11 +136,13 @@ export default function Sponshorship() {
 									<div className="md:w-[350px] w-[320px]">
 										<Image
 											className="w-full h-[308px] object-cover"
-											src={logoURL}
+											src={program.image}
 											alt=""
+											width={350}
+											height={350}
 										/>
 									</div>
-									<div className="flex w-[320px] md:w-[350px] justify-between px-4 py-2 bg-gradient-to-l from-neutral-900 to-gray-900 rounded">
+									<div className="flex w-[320px] h-[125px] md:w-[350px] align-middle items-center justify-between px-4 py-2 bg-gradient-to-l from-neutral-900 to-gray-900 rounded">
 										<div>
 											<div className="text-white text-sm text-center md:text-lg font-bold">
 												{program.title}
@@ -161,7 +158,7 @@ export default function Sponshorship() {
 					</div>
 					<div>
 						<button
-							className="p-2 z-50 bg-gray-800 text-white rounded-full absolute left-10"
+							className="p-2 z-50 bg-gray-800 text-white rounded-full absolute left-0 md:left-10"
 							style={{ marginLeft: '1rem' }}
 							onClick={() => prev()}
 						>
@@ -183,7 +180,7 @@ export default function Sponshorship() {
 					</div>
 					<div>
 						<button
-							className="p-2 cursor-pointer bg-gray-800 text-white rounded-full absolute right-10"
+							className="p-2 cursor-pointer bg-gray-800 text-white rounded-full absolute right-0 md:right-10"
 							style={{ marginRight: '1rem' }}
 							onClick={() => next()}
 						>
@@ -205,7 +202,7 @@ export default function Sponshorship() {
 					</div>
 				</div>
 
-				<div>
+				<div className="mb-8">
 					<Testimonial />
 				</div>
 			</div>
