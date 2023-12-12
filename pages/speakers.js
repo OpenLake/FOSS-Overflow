@@ -13,15 +13,6 @@ import MyCarousel from 'components/Carousel';
 
 const programs = [
 	{
-		image: 'https://i.ibb.co/dB9kSZy/47217984.jpg',
-		title: 'Kumar Shivendu',
-		content: [
-			'Building Vector DB at Qdrant.',
-			'Contributing to Software Heritage organization.',
-			'IIT Bhilai Alumni.',
-		].join(' '),
-	},
-	{
 		image: harsh,
 		title: 'Harsh Mishra',
 		content: [
@@ -34,7 +25,7 @@ const programs = [
 		image: speaker2,
 		title: 'Sonal Goyal',
 		content: [
-			'Founder of Zingg: Open source identity resolution startup.',
+			'Founder of Zingg.AI, Open source identity resolution startup.',
 			'Passionate about AI & Data.',
 			'IIT Delhi Alumni.',
 		].join(' '),

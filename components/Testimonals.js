@@ -38,11 +38,6 @@ const Testimonial = () => {
 				</h1>
 				<Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
 					<Card
-						img="https://i.ibb.co/dB9kSZy/47217984.jpg"
-						message="In real open source, you have the right to control your own destiny."
-						author="K. Shivendu, Open Soure Engineer @Qdrant"
-					/>
-					<Card
 						img="https://i.ibb.co/KWcfBw0/harsh.jpg"
 						message="Open platforms historically undergo a lot of scrutiny, but there are a lot of advantages to having an open source platform from a security standpoint."
 						author="Harsh Mishra, Open Soure Engineer @LocalStack"
@@ -50,7 +45,7 @@ const Testimonial = () => {
 					<Card
 						img="https://i.ibb.co/wWJ0RSc/speaker2.jpg"
 						message="The open source nature of the Internet is both a blessing and a curse, because just as much as we can watch what's happening around the world, we can also be watched."
-						author="Sonal Goyal, Founder @Zingg"
+						author="Sonal Goyal, Founder @Zingg.AI"
 					/>
 					<Card
 						img="https://i.ibb.co/z2P4k4J/speaker3.jpg"
