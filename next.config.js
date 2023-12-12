@@ -5,5 +5,8 @@ module.exports = {
 		locales: ['en'],
 	},
 	reactStrictMode: true,
+	images: {
+		domains: ['i.ibb.co'],
+	},
 	pageExtensions: ['js', 'jsx'],
 };

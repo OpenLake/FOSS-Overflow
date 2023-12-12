@@ -1,6 +1,8 @@
 import Head from 'next/head';
-import { Navbar } from '../components/Navbar';
+import NavLink from 'components/Navbar';
 import '../styles/globals.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const title = 'FOSS Overflow';
 const description =
@@ -19,7 +21,7 @@ function MyApp({ Component, pageProps }) {
 				<meta property="og:type" content="website" />
 				<meta name="twitter:card" content="summary" />
 			</Head>
-			<Navbar />
+			<NavLink />
 			<Component {...pageProps} />
 		</>
 	);
