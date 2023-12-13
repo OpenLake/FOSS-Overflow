@@ -57,7 +57,7 @@ const MyCarousel = () => {
 		return () => clearInterval(interval);
 	}, []);
 
-	const imageHeight = windowSize.width < 768 ? 400 : 700; // Adjust the height for smaller screens
+	const imageHeight = windowSize.width < 768 ? 400 : 500; // Adjust the height for smaller screens
 	const imagewidth = windowSize.width < 768 ? 600 : 400; // Adjust the height for smaller screens
 
 	return (

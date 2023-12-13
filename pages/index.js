@@ -14,7 +14,9 @@ import fossu from '../public/fossu.png';
 import quinef from '../public/quinef.png';
 import dsc from '../public/dsc.png';
 import openlake from '../public/openlake.png';
-
+import fossclub from '../public/fossclub.png';
+import image from '../public/image.png';
+import imagec from '../public/imagec.png';
 
 const useWindowSize = () => {
 	const [windowSize, setWindowSize] = useState({
@@ -49,8 +51,14 @@ export default function Index() {
 	const windowSize = useWindowSize();
 
 
-	const imageHeight = windowSize.width < 768 ? 50 : 75; // Adjust the height for smaller screens
-	const imagewidth = windowSize.width < 768 ? 50 : 100; 
+	const imageHeightsci = windowSize.width < 768 ? 50 : 130;
+	const imagewidthsci = windowSize.width < 768 ? 50 : 100; 
+
+	const imageHeightorkes = windowSize.width < 768 ? 50 : 130;
+	const imagewidthorkes = windowSize.width < 768 ? 75 : 170;
+	
+	const imghquine = windowSize.width < 768 ? 50 : 24;
+	const imgwquine = windowSize.width < 768 ? 75 : 140;
 	return (
 		<>
 			<Head>
@@ -92,31 +100,51 @@ export default function Index() {
 
 			<div className="bg-blue-100 my-4 text-center py-4 w-full">
 				<div className="text-xl text-gray-600 font-medium my-4">
-					Trusted by over 10+ companies and hundreds of open-source enthusiasts
-					nationwide
+					Powered by numerous startups and embraced by countless open-source enthusiasts nationwide.
 				</div>
 				<div className="flex justify-evenly">
-					{sponsors.map((sponsor, index) => (
-						<Image
-							key={index}
-							src={sponsor}
+						<Image	
+							src={scif}
 							alt="sponsor"
-							width={imagewidth}
-							height={imageHeight}
+							width={imageHeightsci}
+							height={imagewidthsci}
 						/>
-					))}
+						<Image	
+							src={orkes}
+							alt="sponsor"
+							width={imagewidthorkes}
+							height={imageHeightorkes}
+						/>
+						<Image
+							src={image}
+							alt="sponsor"
+							width={imgwquine}
+							height={imghquine}
+						/>
+						<Image
+							src={fossu}
+							alt="sponsor"
+							width={imagewidthsci}
+							height={imageHeightsci}
+						/>
+						<Image
+							src={imagec}
+							alt="sponsor"
+							width={imagewidthsci}
+							height={imageHeightsci}
+					    />
 				</div>
 				<div className="text-xl text-gray-600 font-medium my-4">
 					Community Partners
 				</div>
-				<div className="flex justify-evenly">
+				<div className="flex justify-center gap-8 md:gap-20">
 					{comm.map((sponsor, index) => (
 						<Image
 							key={index}
 							src={sponsor}
 							alt="sponsor"
-							width={imagewidth}
-							height={imageHeight}
+							width={50}
+							height={50}
 						/>
 					))}
 				</div>
