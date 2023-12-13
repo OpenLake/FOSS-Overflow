@@ -2,9 +2,6 @@ import Slider from 'react-slick';
 import styles from './css/testimonal.module.css';
 import { Avatar } from '@mui/material';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
-import harsh from '../public/harsh.jpeg';
-import speaker2 from '../public/speaker2.jpeg';
-import speaker3 from '../public/speaker3.jpeg';
 
 const PreviousBtn = props => {
 	const { className, onClick } = props;
@@ -36,7 +33,7 @@ const Testimonial = () => {
 						Speakers
 					</span>
 				</h1>
-				<Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
+				<Slider autoplay={true} prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
 					<Card
 						img="https://i.ibb.co/KWcfBw0/harsh.jpg"
 						message="Open platforms historically undergo a lot of scrutiny, but there are a lot of advantages to having an open source platform from a security standpoint."

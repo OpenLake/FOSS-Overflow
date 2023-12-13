@@ -47,18 +47,18 @@ const useWindowSize = () => {
 
 export default function Index() {
 	const sponsors = [scif, orkes, fossu, quinef];
-	const comm = [dsc,openlake];
+	const comm = [dsc,openlake,imagec];
 	const windowSize = useWindowSize();
 
 
-	const imageHeightsci = windowSize.width < 768 ? 50 : 130;
-	const imagewidthsci = windowSize.width < 768 ? 50 : 100; 
+	const imageHeightsci = windowSize.width < 768 ? 50 : 65;
+	const imagewidthsci = windowSize.width < 768 ? 50 : 75; 
 
-	const imageHeightorkes = windowSize.width < 768 ? 50 : 130;
-	const imagewidthorkes = windowSize.width < 768 ? 75 : 180;
+	const imageHeightorkes = windowSize.width < 768 ? 50 : 65;
+	const imagewidthorkes = windowSize.width < 768 ? 75 : 140;
 	
 	const imghquine = windowSize.width < 768 ? 50 : 24;
-	const imgwquine = windowSize.width < 768 ? 75 : 140;
+	const imgwquine = windowSize.width < 768 ? 75 : 100;
 	return (
 		<>
 			<Head>
@@ -80,7 +80,7 @@ export default function Index() {
 				<div className="text-xl text-gray-600 font-medium my-4">
 					Powered by numerous startups and embraced by countless open-source enthusiasts nationwide.
 				</div>
-				<div className="flex justify-evenly">
+				<div className="flex my-2 justify-evenly">
 						<Image	
 							src={scif}
 							alt="sponsor"
@@ -105,12 +105,6 @@ export default function Index() {
 							width={imagewidthsci}
 							height={imageHeightsci}
 						/>
-						<Image
-							src={imagec}
-							alt="sponsor"
-							width={imagewidthsci}
-							height={imageHeightsci}
-					    />
 				</div>
 				<div className="text-xl text-gray-600 font-medium my-4">
 					Community Partners
