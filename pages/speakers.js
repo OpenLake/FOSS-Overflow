@@ -66,7 +66,7 @@ export default function Sponshorship() {
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
 									Mentees Selected
 								</div>
-								<div className="text-gray-700 text-sm md:text-lg font-normal">
+								<div className="text-gray-700 text-sm md:text-[1rem] font-normal">
 									Aspiring individuals chosen for mentorship.
 								</div>
 							</div>
@@ -81,9 +81,9 @@ export default function Sponshorship() {
 							</div>
 							<div>
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
-									Mentors Mentored
+									Guiding Mentors
 								</div>
-								<div className="text-gray-700 text-sm md:text-lg font-normal">
+								<div className="text-gray-700 text-sm md:text-[1rem] font-normal">
 									Experienced mentors providing guidance to the community.
 								</div>
 							</div>
@@ -100,7 +100,7 @@ export default function Sponshorship() {
 								<div className="text-black mb-2 text-sm md:text-[18px] font-normal">
 									Projects Completed
 								</div>
-								<div className="text-gray-700 text-sm md:text-lg font-normal">
+								<div className="text-gray-700 text-sm md:text-[1rem] font-normal">
 									Innovative projects successfully undertaken by our community.
 								</div>
 							</div>
