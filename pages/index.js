@@ -55,7 +55,7 @@ export default function Index() {
 	const imagewidthsci = windowSize.width < 768 ? 50 : 100; 
 
 	const imageHeightorkes = windowSize.width < 768 ? 50 : 130;
-	const imagewidthorkes = windowSize.width < 768 ? 75 : 170;
+	const imagewidthorkes = windowSize.width < 768 ? 75 : 180;
 	
 	const imghquine = windowSize.width < 768 ? 50 : 24;
 	const imgwquine = windowSize.width < 768 ? 75 : 140;
@@ -76,28 +76,6 @@ export default function Index() {
 					mentors.
 				</p>
 			</div>
-
-			<div className="prose lg:prose-xl mx-auto px-4">
-				<h2 className="mx-auto text-center px-4">About</h2>
-				<div className="mx-auto text-center px-4">
-					<p>
-						FOSS Overflow is a month-long festival celebrating open source
-						culture and is organized by Google Developer Student Clubs and
-						OpenLake at IIT Bhilai.
-					</p>
-					<p>
-						Students are paired up with mentors to work on open sourced projects
-						and amplify their skills and profile in the process while
-						simultaneously bagging cash awards and prizes.
-					</p>
-					<p>
-						The program is designed to prepare students for global open source
-						internships like GSoC, LFX, and Outreachy that start shortly after
-						the program is over.
-					</p>
-				</div>
-			</div>
-
 			<div className="bg-blue-100 my-4 text-center py-4 w-full">
 				<div className="text-xl text-gray-600 font-medium my-4">
 					Powered by numerous startups and embraced by countless open-source enthusiasts nationwide.
@@ -147,6 +125,27 @@ export default function Index() {
 							height={50}
 						/>
 					))}
+				</div>
+			</div>
+
+			<div className="prose lg:prose-xl mx-auto px-4">
+				<h2 className="mx-auto text-center px-4">About</h2>
+				<div className="mx-auto text-center px-4">
+					<p>
+						FOSS Overflow is a month-long festival celebrating open source
+						culture and is organized by Google Developer Student Clubs and
+						OpenLake at IIT Bhilai.
+					</p>
+					<p>
+						Students are paired up with mentors to work on open sourced projects
+						and amplify their skills and profile in the process while
+						simultaneously bagging cash awards and prizes.
+					</p>
+					<p>
+						The program is designed to prepare students for global open source
+						internships like GSoC, LFX, and Outreachy that start shortly after
+						the program is over.
+					</p>
 				</div>
 			</div>
 			<div className="prose lg:prose-xl mx-auto px-4">
