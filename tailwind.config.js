@@ -11,6 +11,14 @@ module.exports = {
 				sans: ['Inter var', 'sans-serif'],
 			},
 		},
+		extend: {
+			colors: {
+			  blue: {
+				75: '#2563eb',
+			  },
+			}
+		  },
+	  
 	},
 	plugins: [require('@tailwindcss/typography')],
 };
