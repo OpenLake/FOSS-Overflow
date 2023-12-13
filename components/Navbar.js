@@ -35,9 +35,6 @@ function NavLink() {
 					<Link href="/blog">
 						<a className={styles.navbar__link}>Archives</a>
 					</Link>
-					<Link href="/sponshorship">
-						<a className={styles.navbar__link}>Sponsors</a>
-					</Link>
 					<Link href="/speakers">
 						<a className={styles.navbar__link}>Speakers</a>
 					</Link>
