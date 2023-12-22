@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import { ExternalLinkIcon } from '@heroicons/react/outline';
 import { projectData } from '../content/projects';
@@ -30,13 +31,74 @@ function ListOfLinks({ links, children }) {
 }
 
 export default function Projects() {
+	
+	const [searchTerm, setSearchTerm] = useState('');
+	const [selectedFilter, setSelectedFilter] = useState('');
+  
+	const filteredProjects = projectData.filter((item) => {
+	  const titleMatch = item.title.toLowerCase().includes(searchTerm.toLowerCase());
+	  const tagMatch = selectedFilter ? item.tags?.includes(selectedFilter) : true;
+	  return titleMatch && tagMatch;
+	});
+  
+	const handleSearchChange = (e) => {
+	  setSearchTerm(e.target.value);
+	};
+  
+	const handleFilterChange = (e) => {
+	  setSelectedFilter(e.target.value);
+	};
 	return (
 		<>
 			<Head>
 				<title>Projects | FOSS Overflow</title>
 			</Head>
 			<div className="grid md:grid-cols-2 gap-4 list-none max-w-screen-md mx-auto mt-8 mb-16 px-4">
-				{projectData.map(item => (
+				<div className="mb-4 relative">
+					<input
+					type="text"
+					placeholder="Search by title..."
+					value={searchTerm}
+					onChange={handleSearchChange}
+					className="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:border-blue-500 transition-all duration-300"
+					/>
+					{searchTerm && (
+					<button
+						onClick={() => setSearchTerm('')}
+						className="absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 hover:text-gray-700 cursor-pointer"
+					>
+						&#x2715;
+					</button>
+					)}
+				</div>
+				<div className="mb-8 text-center relative">
+					<select
+					value={selectedFilter}
+					onChange={handleFilterChange}
+					className="border border-gray-300 p-2 rounded-md w-full appearance-none focus:outline-none focus:border-blue-500 transition-all duration-300"
+					>
+						<option value="">Filter by Tag</option>
+						<option value="">None</option>
+						<option value="react">React</option>
+						<option value="web">Web</option>
+						<option value="android">Android</option>
+						<option value="nodejs">Node.js</option>
+						<option value="python">Python</option>
+						<option value="django">Django</option>
+						<option value="mysql">MySQL</option>
+						<option value="javascript">Javascript</option>
+					</select>
+					<div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+						<svg
+							className="fill-current h-4 w-4"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+						>
+							<path d="M5 7l5 5 5-5z" />
+						</svg>
+					</div>
+				</div>
+				{filteredProjects.map(item => (
 					<div
 						href={item.url}
 						target="_blank"
