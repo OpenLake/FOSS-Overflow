@@ -22,7 +22,7 @@ export const projectData = [
 		mentors: {
 			Aditya: 'https://www.linkedin.com/in/aditya-vinay-dubey/',
 			Shubham: 'https://www.linkedin.com/in/shubham-daule-6387a0227/',
-			Chaitak: "https://www.linkedin.com/in/yogeshai",
+			Chaitak: "https://www.linkedin.com/in/chaitakgorai/",
 			Aishika: "https://www.linkedin.com/in/aishika-nandi-500485249/"
 		},
 	},
@@ -71,7 +71,7 @@ export const projectData = [
 		github: 'https://github.com/OpenLake/RateMyCourse',
 		mentors: {
 			Chaitanya: 'https://github.com/chaitanyabisht/',
-			Chaitak: "https://www.linkedin.com/in/yogeshai",
+			Chaitak: "https://www.linkedin.com/in/chaitakgorai/",
 			Satvik: "https://www.linkedin.com/in/satvik-vemuganti/"
 		},
 	},
