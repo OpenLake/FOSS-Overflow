@@ -12,7 +12,7 @@ export const timelineData = [
 		date: '30 Dec, 2023',
 	},
 	{
-		title: "Annoncement of Selected Mentees",
+		title: "Announcement of Selected Mentees",
 		date: '1 Jan, 2024',
 	},
 	{
@@ -20,7 +20,7 @@ export const timelineData = [
 		date: '1 Jan, 2024',
 	},
 	{
-		title: 'Bonding Period Starts',
+		title: 'Bonding Period Ends',
 		date: '5 Jan, 2024',
 	},
 	{
