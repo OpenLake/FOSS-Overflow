@@ -23,7 +23,7 @@ The project, hosted on [GitHub](https://github.com/OpenLake/Smart-Insti-App), ha
 
 Watch the demo video of the Smart Insti App:
 
-[![Demo Video]](https://drive.google.com/file/d/1wR1CtIYCQ4ORD_wnjz5gurtt4BFXG51j/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1wR1CtIYCQ4ORD_wnjz5gurtt4BFXG51j/view?usp=sharing)
 
 ## My Experience
 
