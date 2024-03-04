@@ -1,4 +1,7 @@
 ```markdown
+# Project Title : Rate My Course
+# Author : Rishabh Jain
+
 # Project Overview 🚀
 
 Rate My Course is a comprehensive web application designed to empower college students in making informed decisions about their course selections. The platform aggregates reviews and ratings for various courses and instructors, providing valuable insights into the student experience and facilitating discussions among prospective students.
