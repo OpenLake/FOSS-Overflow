@@ -32,26 +32,12 @@ export const projectData = [
 			Kaushik : "https://discord.com/users/e.five23"
 		},
 	},
-	
-	// {
-	// 	title: 'Knowledge Sharing Program',
-	// 	description:
-	// 		'One app for all women, covers everything from safety to health and more 👩💪',
-	// 	tags: ['android', 'kotlin'],
-	// 	github: 'https://github.com/OpenLake/Knowledge-Sharing-Platform',
-	// 	mentors: {
-	// 		// Akshat: 'https://www.linkedin.com/in/akshatji800',
-	// 		// Henil: 'https://in.linkedin.com/in/henilp105'
-
-
-	// 	},
-	// },
 	{
-		title: 'Knowledge Sharing Program',
+		title: 'Knowledge Sharing Platform',
 		description:
 			'A platform for sharing course feedback , professor reviews , and resources , streamlining and guidance for students',
 		tags: ['Nextjs', 'Tailwind', 'postgres' , 'firebase' , 'Node.js'],
-		github: 'https://github.com/OpenLake/WatchParty',
+		github: 'https://github.com/OpenLake/Knowledge-Sharing-Platform',
 		mentors: {
 			
 			// Ashutosh: "https://www.linkedin.com/in/ash-kodes/",
@@ -75,18 +61,6 @@ export const projectData = [
 			Surya : "https://discord.com/users/sai_surya.talla123",
 		},
 	},
-	// {
-	// 	title: 'RateMyProf',
-	// 	description:
-	// 		'A platform aggregating college course and instructor reviews to guide students in course selection.',
-	// 	tags: ['android'],
-	// 	github: 'https://github.com/OpenLake/RateMyCourse',
-	// 	mentors: {
-	// 		Chaitanya: 'https://github.com/chaitanyabisht/',
-	// 		Chaitak: "https://www.linkedin.com/in/chaitakgorai/",
-	// 		Satvik: "https://www.linkedin.com/in/satvik-vemuganti/"
-	// 	},
-	// },
 	{
 		title: 'Student Database COSA',
 		description:
