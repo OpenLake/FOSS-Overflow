@@ -3,6 +3,8 @@ import NavLink from 'components/Navbar';
 import '../styles/globals.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'react-vertical-timeline-component/style.min.css';
 
 const title = 'FOSS Overflow';
 const description =

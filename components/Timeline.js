@@ -2,7 +2,7 @@ import {
 	VerticalTimeline,
 	VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+// import 'react-vertical-timeline-component/style.min.css';
 import { StarIcon } from '@heroicons/react/24/outline';
 import { timelineData } from '../content/timeline';
 

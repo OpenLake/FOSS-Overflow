@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import foss from '../public/foss.jpeg';
 import bg1 from '../public/bg1.jpeg';
 import bg2 from '../public/bg2.jpeg';
