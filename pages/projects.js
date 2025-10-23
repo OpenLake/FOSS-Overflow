@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import { ExternalLinkIcon } from '@heroicons/react/outline';
+// import { ExternalLinkIcon } from '@heroicons/react/24/outline';
 import { projectData } from '../content/projects';
+import { LinkIcon } from '@heroicons/react/24/outline';
 
 function ExternalLink({ href, children, useIcon = true }) {
 	return (
@@ -11,7 +12,7 @@ function ExternalLink({ href, children, useIcon = true }) {
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			{children} {useIcon && <ExternalLinkIcon width="1rem" />}
+			{children} {useIcon && <LinkIcon width="1rem" />}
 		</a>
 	);
 }
@@ -31,22 +32,25 @@ function ListOfLinks({ links, children }) {
 }
 
 export default function Projects() {
-	
 	const [searchTerm, setSearchTerm] = useState('');
 	const [selectedFilter, setSelectedFilter] = useState('');
-  
-	const filteredProjects = projectData.filter((item) => {
-	  const titleMatch = item.title.toLowerCase().includes(searchTerm.toLowerCase());
-	  const tagMatch = selectedFilter ? item.tags?.includes(selectedFilter) : true;
-	  return titleMatch && tagMatch;
+
+	const filteredProjects = projectData.filter(item => {
+		const titleMatch = item.title
+			.toLowerCase()
+			.includes(searchTerm.toLowerCase());
+		const tagMatch = selectedFilter
+			? item.tags?.includes(selectedFilter)
+			: true;
+		return titleMatch && tagMatch;
 	});
-  
-	const handleSearchChange = (e) => {
-	  setSearchTerm(e.target.value);
+
+	const handleSearchChange = e => {
+		setSearchTerm(e.target.value);
 	};
-  
-	const handleFilterChange = (e) => {
-	  setSelectedFilter(e.target.value);
+
+	const handleFilterChange = e => {
+		setSelectedFilter(e.target.value);
 	};
 	return (
 		<>
@@ -56,26 +60,26 @@ export default function Projects() {
 			<div className="grid md:grid-cols-2 gap-4 list-none max-w-screen-md mx-auto mt-8 mb-16 px-4">
 				<div className="mb-4 relative">
 					<input
-					type="text"
-					placeholder="Search by title..."
-					value={searchTerm}
-					onChange={handleSearchChange}
-					className="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:border-blue-500 transition-all duration-300"
+						type="text"
+						placeholder="Search by title..."
+						value={searchTerm}
+						onChange={handleSearchChange}
+						className="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:border-blue-500 transition-all duration-300"
 					/>
 					{searchTerm && (
-					<button
-						onClick={() => setSearchTerm('')}
-						className="absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 hover:text-gray-700 cursor-pointer"
-					>
-						&#x2715;
-					</button>
+						<button
+							onClick={() => setSearchTerm('')}
+							className="absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500 hover:text-gray-700 cursor-pointer"
+						>
+							&#x2715;
+						</button>
 					)}
 				</div>
 				<div className="mb-8 text-center relative">
 					<select
-					value={selectedFilter}
-					onChange={handleFilterChange}
-					className="border border-gray-300 p-2 rounded-md w-full appearance-none focus:outline-none focus:border-blue-500 transition-all duration-300"
+						value={selectedFilter}
+						onChange={handleFilterChange}
+						className="border border-gray-300 p-2 rounded-md w-full appearance-none focus:outline-none focus:border-blue-500 transition-all duration-300"
 					>
 						<option value="">Filter by Tag</option>
 						<option value="">None</option>

@@ -1,16 +1,10 @@
-import {
-	BadgeCheckIcon,
-	CurrencyDollarIcon,
-	DesktopComputerIcon,
-	GlobeIcon,
-	TerminalIcon,
-	UserGroupIcon,
-} from '@heroicons/react/outline';
+import { CheckBadgeIcon, ComputerDesktopIcon, CurrencyDollarIcon, GlobeAltIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+import { Terminal } from '@mui/icons-material';
 
 export const whyApplyData = [
 	{
 		title: 'Connections',
-		icon: GlobeIcon,
+		icon: GlobeAltIcon,
 		description:
 			'Make new like minded connections who are enthusiastic about open source.',
 	},
@@ -22,17 +16,17 @@ export const whyApplyData = [
 	},
 	{
 		title: 'Mentorship',
-		icon: TerminalIcon,
+		icon: Terminal,
 		description: 'Get mentored by past GSoC students and regular open source contributors.',
 	},
 	{
 		title: 'Preparedness for GSoC 2025',
-		icon: BadgeCheckIcon,
+		icon: CheckBadgeIcon,
 		description: 'Get prepared for Google Summer of Code, Linux Foundation Mentorship, and Outreachy',
 	},
 	{
 		title: 'Real-life projects',
-		icon: DesktopComputerIcon,
+		icon: ComputerDesktopIcon,
 		description: 'Get to work on projects that will be used by real people and colleges',
 	},
 	{
