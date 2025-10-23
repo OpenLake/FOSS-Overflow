@@ -48,17 +48,17 @@ export default function Apply() {
 					</a>
 				</div>
 
-				<iframe
-					className="mx-auto"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSeRkV2KCC4Px-7Zd0em0Bv6mFu6Kar9geCbs1HujyudYa-v2A/viewform?embedded=true"
-					width="100%"
-					height="1780"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-				>
-					Loading…
-				</iframe>
+	//			<iframe
+	//				className="mx-auto"
+	//				src="https://docs.google.com/forms/d/e/1FAIpQLSeRkV2KCC4Px-7Zd0em0Bv6mFu6Kar9geCbs1HujyudYa-v2A/viewform?embedded=true"
+	//				width="100%"
+	//				height="1780"
+    //      frameborder="0"
+    //      marginheight="0"
+    //      marginwidth="0"
+	//			>
+	//				Loading…
+	//			</iframe>
 			</div>
 		</>
 	);
