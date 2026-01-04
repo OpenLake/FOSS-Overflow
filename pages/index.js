@@ -193,8 +193,7 @@ export default function Index() {
 				<h2>Timeline</h2>
 			</div>
 			<div className="container m-auto max-w-screen-md py-8 overflow-x-hidden">
-				Timeline to be announced soon.... 
-        {/* <Timeline /> */}
+        	<Timeline />
 			</div>
 		</>
 	);
