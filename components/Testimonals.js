@@ -47,7 +47,7 @@ const Testimonial = () => {
 					<Card
 						img="./gunj_2026.jpg"
 						message="Open platforms historically undergo a lot of scrutiny, but there are a lot of advantages to having an open source platform from a security standpoint."
-						author="Gunj Joshi, Quantum Research @IBM"
+						author="Gunj Joshi, GSoC, Core Contributor @stdlib"
 					/>
 					<Card
 						img="./anand_2026.png"
