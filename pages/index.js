@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CheckIcon } from '@heroicons/react/24/outline';
 import React, { useEffect, useState } from 'react';
-import { Timeline } from '../components/Timeline';
+import dynamic from 'next/dynamic';
 import { Card } from '../components/Card';
 import logoURL from '../public/logo.png';
 import { whyApplyData } from '../content/why-apply';
@@ -11,6 +11,11 @@ import { eligibilityData } from '../content/eligibility';
 import fossu from '../public/fossu.png';
 import openlake from '../public/openlake.png';
 import fossclub from '../public/fossclub.png';
+
+const Timeline = dynamic(
+	() => import('../components/Timeline').then(m => m.Timeline),
+	{ ssr: false }
+);
 
 const useWindowSize = () => {
 	const [windowSize, setWindowSize] = useState({
@@ -193,7 +198,7 @@ export default function Index() {
 				<h2>Timeline</h2>
 			</div>
 			<div className="container m-auto max-w-screen-md py-8 overflow-x-hidden">
-        	<Timeline />
+				<Timeline />
 			</div>
 		</>
 	);

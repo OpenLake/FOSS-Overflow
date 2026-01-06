@@ -1,5 +1,5 @@
 import { CheckBadgeIcon, ComputerDesktopIcon, CurrencyDollarIcon, GlobeAltIcon, UserGroupIcon } from '@heroicons/react/24/outline';
-import { Terminal } from '@mui/icons-material';
+import { CommandLineIcon } from '@heroicons/react/24/outline';
 
 export const whyApplyData = [
 	{
@@ -16,7 +16,7 @@ export const whyApplyData = [
 	},
 	{
 		title: 'Mentorship',
-		icon: Terminal,
+		icon: CommandLineIcon,
 		description: 'Get mentored by past GSoC students and regular open source contributors.',
 	},
 	{
