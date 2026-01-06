@@ -45,14 +45,14 @@ const Testimonial = () => {
 					dots
 				>
 					<Card
-						img="./madhur.jpg"
+						img="./gunj_2026.jpg"
 						message="Open platforms historically undergo a lot of scrutiny, but there are a lot of advantages to having an open source platform from a security standpoint."
-						author="Madhur Jain, Software Engineer @Canonical"
+						author="Gunj Joshi, Quantum Research @IBM"
 					/>
 					<Card
-						img="./Riken.jpg"
+						img="./anand_2026.png"
 						message="The open source nature of the Internet is both a blessing and a curse, because just as much as we can watch what's happening around the world, we can also be watched."
-						author="Riken Shah, Software Engineer @Msquare Labs"
+						author="Anand Panchbhai, Co-Founder & Executive Director Logy.AI"
 					/>
 				</Slider>
 			</div>

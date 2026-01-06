@@ -1,11 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import logoURL from '../public/justin.jpeg';
-import harsh from '../public/madhur.jpg';
-import speaker2 from '../public/Riken.jpg';
-import speaker3 from '../public/speaker3.jpeg';
-import mainlogo from '../public/mainlogo.png';
-import foss from '../public/foss.jpeg';
+import harsh from '../public/gunj_2026.jpg';
+import speaker2 from '../public/anand_2026.png';
 import { useSnapCarousel } from 'react-snap-carousel';
 import React, { useRef, useState, useEffect } from 'react';
 import Testimonial from 'components/Testimonals';
@@ -14,20 +10,20 @@ import MyCarousel from 'components/Carousel';
 const programs = [
 	{
 		image: harsh,
-		title: 'Madhur Jain',
+		title: 'Gunj Joshi',
 		content: [
-			'Software Engineer at Canonical,IIT Bhilai alumni.',
-			'Internships at Pocket FM.',
-			'Open Source Contributor,GSoC`22',
+			'Quantum Research @IBM ',
+			'Speaker @JSNationUS ’24, @FOSSASIA ’25, @JSNation ’25',
+			'GSoC 2024,2025 , Core Contributor @stdlib',
 		].join(' '),
 	},
 	{
 		image: speaker2,
-		title: 'Riken Shah',
+		title: 'Anand Panchbhai',
 		content: [
-			'Software Engineer at Msquare Labs, Mela.',
-			'Internships at CureHat.',
-			'Open Source Contributor',
+			'Co-Founder & Executive Director Logy.AI',
+			'GSoC 2019, IIT Bhilai Alumni',
+			'Mentor & Founder, Openlake IIT Bhilai',
 		].join(' '),
 	},
 ];
