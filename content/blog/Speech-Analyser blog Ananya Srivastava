@@ -1,0 +1,16 @@
+#H1 About the project
+The project that I contributed to as a mentee in FOSS Overflow was Speech Analyser. The aim of this tool is to detect speech disfluencies and help users to improve their English speaking skills. A disfluency could be categorised as stuttering or repetition of words, the usage of "um"s, "ah"s as well grammatical mistakes that are made while speaking.
+
+#H1 Implementation
+I have worked on building a deep learning model that performs disfluency detection. For this I have employed a pipeline architecture that uses several NLP models: for speech-to-text transcription I used NeMo's stt_en_citrinet_1024 model; for disfluency detection we worked on enhancing an already existing by training it with a better dataset and then uploaded it on huggingface; for grammar correction we used the t5-base-grammar-correction model. 
+I have created a huggingface space for the deployment of this model whose link is <https://huggingface.co/spaces/spookyspaghetti/Speech-Analyser>
+
+
+#H1 What I learned during the project
+Regarding the technical side, I gained knowledge of a number of new concepts and expanded my understanding of others. Since I had never before worked with natural language processing, this project undoubtedly helped me gain a thorough understanding of this field, from ideas like audio pre-processing to understanding how tokenization functions. Prior to this, I had only recently started deploying ML apps. Through this training, I have learned how to utilise deploying technologies like Streamlit.
+Additionally, I was able to fully investigate a number of components of constructing an ML app that go beyond developing the model, like Django and using the REST API to deploy your model.
+
+In addition, I learnt how to tackle issues that come up when I take on new duties, which improved my logical abilities. When it comes to deciphering and analysing my faults, whether they were made while designing the website's structure or while troubleshooting implementation difficulties, I have gathered a lot of experience. While talking with my mentors about the problems that developed, I also got insight into how to convey my issues with them in a more effective and straightforward manner.
+
+#H1 My experience
+I was able to connect with many seasoned individuals through this event, including my mentors and peers who supported me in various ways. They not only gave me direction, but they also inspired me to press on when I was about to give up. In addition to the standard courses I'm taking, I also learnt how to manage my time and commit it to this project. Learning about and using new technologies, like huggingface, was an interesting journey. I worked along with a few of my peers, which allowed me to explore more and made studying enjoyable and simple. I now have renewed trust in my ML skills, thanks to Foss Overflow.Finally, I'd want to thank the FOSS overflow team for giving me this chance, which has enabled me to advance both professionally and personally.
