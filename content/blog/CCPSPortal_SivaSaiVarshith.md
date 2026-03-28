@@ -16,14 +16,14 @@ That's what I spent this month building.
 
 # My Contributions 💻
 
-### PR #201 — Filtering, Pagination & Sorting
+## PR `#201` — Filtering, Pagination & Sorting
 [🔗 View PR](https://github.com/OpenLake/Centre-for-Career-Planning-and-Services-Portal/pull/201)
 
 This was my first PR, before the main work even started. While going through the codebase I noticed the job listing API just returned everything — no filters, no pages, nothing. So I raised it and fixed it. Added filtering by job type, company, batch, skill — all through a MongoDB aggregation pipeline. Also added pagination and sorting.
 
 Turns out this became the base that everything else got built on top of.
 
-### PR #205 — The Main Thing
+## PR `#205` — The Main Thing
 [🔗 View PR](https://github.com/OpenLake/Centre-for-Career-Planning-and-Services-Portal/pull/205)
 
 12 commits, 16 files, +579 / −1203 lines. This was the bulk of the work.
