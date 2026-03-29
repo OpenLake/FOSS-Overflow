@@ -1,7 +1,7 @@
-# CCPS Portal
-
-by Adarsh Satyam — 29/3/2026
-
+---
+title: CCPS Portal
+author: Adarsh Satyam
+date: '2026-03-29'
 ---
 
 Hello everyone, I am Adarsh Satyam, a BTech CSE student at IIT Bhilai. I am passionate about Data Structures & Algorithms, Machine Learning, and Full Stack Development. I enjoy building scalable systems, solving real-world problems, and contributing to impactful projects. 🚀  
